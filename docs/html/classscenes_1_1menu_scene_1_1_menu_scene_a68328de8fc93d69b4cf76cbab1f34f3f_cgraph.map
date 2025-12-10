@@ -1,0 +1,6 @@
+<map id="scenes::menuScene::MenuScene::drawPanel" name="scenes::menuScene::MenuScene::drawPanel">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,22,165,62"/>
+<area shape="rect" id="Node000002" href="$namespaceui_1_1widgets.html#abeb4f7d510ee0e86ed2ffd25d6ce809a" title=" " alt="" coords="213,29,368,55"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="165,40,200,42,195,42,165,45"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="256,28,249,21,253,11,267,5,290,3,316,5,330,15,325,14,314,10,290,8,269,10,257,15,255,20,261,30"/>
+</map>

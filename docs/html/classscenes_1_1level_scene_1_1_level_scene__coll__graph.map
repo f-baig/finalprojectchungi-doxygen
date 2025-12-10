@@ -1,0 +1,11 @@
+<map id="scenes::levelScene::LevelScene" name="scenes::levelScene::LevelScene">
+<area shape="rect" id="Node000001" title=" " alt="" coords="88,214,224,254"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,110,64,135"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="60,143,137,212,132,214,58,148"/>
+<area shape="rect" id="Node000003" href="$structscenes_1_1level_scene_1_1_scene_button.html" title=" " alt="" coords="88,102,224,143"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="158,156,158,214,153,212,154,160"/>
+<area shape="rect" id="Node000004" href="$structui_1_1widgets_1_1_u_i_button.html" title=" " alt="" coords="84,5,228,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="157,44,158,102,153,101,155,49"/>
+<area shape="rect" id="Node000005" href="$structscenes_1_1level_scene_1_1_text_field.html" title=" " alt="" coords="248,102,384,143"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="277,151,185,216,183,211,272,152"/>
+</map>

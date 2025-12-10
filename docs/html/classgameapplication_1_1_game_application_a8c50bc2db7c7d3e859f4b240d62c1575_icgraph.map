@@ -1,0 +1,17 @@
+<map id="gameapplication::GameApplication::changeScene" name="gameapplication::GameApplication::changeScene">
+<area shape="rect" id="Node000001" title=" " alt="" coords="546,169,768,210"/>
+<area shape="rect" id="Node000002" href="$classgameapplication_1_1_game_application.html#a852780be45f4185b3a0ceba9c2c9472b" title=" " alt="" coords="276,5,498,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="623,158,568,110,533,84,497,61,470,49,470,44,499,57,536,79,571,106,628,159"/>
+<area shape="rect" id="Node000003" href="$classgameapplication_1_1_game_application.html#a030baad0ceca83ff2a388f42ec4feea2" title=" " alt="" coords="276,71,498,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="592,163,497,127,461,115,460,109,499,122,598,162"/>
+<area shape="rect" id="Node000004" href="$classgameapplication_1_1_game_application.html#ac9f5ddd8352620e14efe04a267f7021d" title=" " alt="" coords="276,136,498,177"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="528,174,499,173,498,167,533,174"/>
+<area shape="rect" id="Node000006" href="$classgameapplication_1_1_game_application.html#a4b2d11668aca1365bf916bba74e779b6" title=" " alt="" coords="276,201,498,242"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="528,205,499,211,498,206,533,204"/>
+<area shape="rect" id="Node000007" href="$classgameapplication_1_1_game_application.html#a4b10a5d48e8afd6777149d804a425d09" title=" " alt="" coords="276,267,498,307"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="596,216,499,256,461,269,460,263,497,251,591,217"/>
+<area shape="rect" id="Node000008" href="$classgameapplication_1_1_game_application.html#a2a616ebd78e10f143939ac71e5b7270e" title=" " alt="" coords="276,332,498,373"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="628,220,570,273,536,299,499,321,471,334,469,329,497,317,533,295,567,269,623,222"/>
+<area shape="rect" id="Node000005" href="$classgameapplication_1_1_game_application.html#abdb694e4217e7ba0bdbca6af8ac51dd2" title=" " alt="" coords="5,136,228,177"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="258,157,229,159,227,154,262,155"/>
+</map>

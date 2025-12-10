@@ -1,0 +1,7 @@
+<map id="scenes::gameplayScene::GameplayScene" name="scenes::gameplayScene::GameplayScene">
+<area shape="rect" id="Node000001" title=" " alt="" coords="15,102,179,143"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,64,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="51,42,88,101,83,102,48,46"/>
+<area shape="rect" id="Node000003" href="$structui_1_1widgets_1_1_u_i_button.html" title=" " alt="" coords="88,5,232,31"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="147,43,111,103,107,100,142,45"/>
+</map>

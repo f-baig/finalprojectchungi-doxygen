@@ -1,0 +1,8 @@
+<map id="levels::LevelCatalog::createCustomLevel" name="levels::LevelCatalog::createCustomLevel">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,22,148,62"/>
+<area shape="rect" id="Node000002" href="$classlevels_1_1_level_catalog.html#ae66e757cb184766157069ae5fa30cacc" title=" " alt="" coords="196,22,335,62"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="148,40,183,42,178,42,148,45"/>
+<area shape="rect" id="Node000003" href="$namespacelevels.html#ae1fa171376db122f37c97c12bf962bac" title=" " alt="" coords="383,29,586,55"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="335,40,370,42,365,42,335,45"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="448,28,441,21,445,11,460,5,485,3,512,5,527,15,521,14,510,10,485,8,461,10,449,15,446,20,453,30"/>
+</map>

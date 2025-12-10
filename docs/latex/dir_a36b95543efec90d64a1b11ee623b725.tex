@@ -1,0 +1,70 @@
+\doxysection{PSET/\+Engine Directory Reference}
+\hypertarget{dir_a36b95543efec90d64a1b11ee623b725}{}\label{dir_a36b95543efec90d64a1b11ee623b725}\index{PSET/Engine Directory Reference@{PSET/Engine Directory Reference}}
+Directory dependency graph for Engine\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=238pt]{dir_a36b95543efec90d64a1b11ee623b725_dep}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Directories}
+\begin{DoxyCompactItemize}
+\item 
+directory \mbox{\hyperlink{dir_d426a1bf7290610fca092dd1a0daca84}{source}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\hypertarget{dir_a36b95543efec90d64a1b11ee623b725_autotoc_md38}{}\doxysubsection{\texorpdfstring{Game/\+Engine Publicity}{Game/\+Engine Publicity}}\label{dir_a36b95543efec90d64a1b11ee623b725_autotoc_md38}
+{\bfseries{Project Website}}\+: \href{https://thomasjchung.github.io/PogoStuckFinalProject/}{\texttt{LINK}}\hypertarget{dir_a36b95543efec90d64a1b11ee623b725_autotoc_md39}{}\doxysubsection{\texorpdfstring{Compilation Instructions}{Compilation Instructions}}\label{dir_a36b95543efec90d64a1b11ee623b725_autotoc_md39}
+Please run {\ttfamily dub} within the {\ttfamily PSET/\+Engine/source} folder.\hypertarget{dir_a36b95543efec90d64a1b11ee623b725_autotoc_md40}{}\doxysubsection{\texorpdfstring{Project Hieararchy}{Project Hieararchy}}\label{dir_a36b95543efec90d64a1b11ee623b725_autotoc_md40}
+In the future, other engineers may take a look at your project, so I would recommend to keep it organized given the following requirements below. Forming some good organization habits now will help us later on when our project grows as well. These are the required files you should have\hypertarget{dir_a36b95543efec90d64a1b11ee623b725_autotoc_md41}{}\doxysubsubsection{\texorpdfstring{./\+Engine Directory Organization}{./\+Engine Directory Organization}}\label{dir_a36b95543efec90d64a1b11ee623b725_autotoc_md41}
+
+\begin{DoxyItemize}
+\item Game
+\begin{DoxyItemize}
+\item The folder where your game specific code goes demonstrating your engine (or perhaps if you have multiple games to showcase, one folder per game).
+\end{DoxyItemize}
+\item Docs
+\begin{DoxyItemize}
+\item Source Code Documentation
+\end{DoxyItemize}
+\item Assets
+\begin{DoxyItemize}
+\item Art assets (With the Sub directories music, sound, images, and anything else)
+\end{DoxyItemize}
+\item \textquotesingle{}source\textquotesingle{} or \textquotesingle{}src\textquotesingle{}
+\begin{DoxyItemize}
+\item source code(.d files) The make file or any build scripts that automate the building of your project should reside here.
+\end{DoxyItemize}
+\item include
+\begin{DoxyItemize}
+\item header files(.di files if needed, or any C header files if you used importC)
+\end{DoxyItemize}
+\item lib
+\begin{DoxyItemize}
+\item libraries (.so, .dll, .a, .dylib files). Note this is a good place to put SDL if you are doing a static build
+\end{DoxyItemize}
+\item bin
+\begin{DoxyItemize}
+\item This is the directory where your built executable(.exe for windows, .app for Mac, or a.\+out for Linux) and any additional generated files are put after each build.
+\end{DoxyItemize}
+\item Engine\+Build (Optional)
+\begin{DoxyItemize}
+\item You may optionally put a .zip to you final deliverable. One should be able to copy and paste this directory, and only this directory onto another machine and be able to run the game. This is optional because for this course we will be building your projects from source. However, in the game industry it is useful to always have a build of a game ready for testers, thus a game project hieararchy would likely have this directory in a repo or other storage medium.
+\end{DoxyItemize}
+\item Third\+Party
+\begin{DoxyItemize}
+\item Code that you have not written if any.
+\end{DoxyItemize}
+\end{DoxyItemize}
+
+{\bfseries{Note\+: For the final project you may add additional directories if you like, for example for your game which demonstrates your engine works.}}
+
+{\bfseries{Additional Notes\+:}}
+
+
+\begin{DoxyEnumerate}
+\item src and include should only contain "{}.\+d"{} or "{}.\+di"{} files. Why? It makes it very fast to do a backup of your game project as one example. Secondly, binary files that are generated often clutter up directories. I should not see any binaries in your repository, you may use a \textquotesingle{}.gitignore\textquotesingle{} file to help prevent this automatically. 
+\end{DoxyEnumerate}

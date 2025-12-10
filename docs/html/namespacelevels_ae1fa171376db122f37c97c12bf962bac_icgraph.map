@@ -1,0 +1,15 @@
+<map id="levels::makeEmptyLevelLayout" name="levels::makeEmptyLevelLayout">
+<area shape="rect" id="Node000001" title=" " alt="" coords="602,59,806,84"/>
+<area shape="poly" id="edge3_Node000001_Node000001" title=" " alt="" coords="744,44,731,40,704,37,679,39,666,44,663,49,670,59,665,57,657,50,662,40,678,34,704,32,733,35,749,44"/>
+<area shape="rect" id="Node000002" href="$namespacelevels.html#a24310c610339eb332d699020c1318a5e" title=" " alt="" coords="383,29,554,55"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="584,57,555,56,555,50,589,57"/>
+<area shape="rect" id="Node000003" href="$classlevels_1_1_level_catalog.html#ae66e757cb184766157069ae5fa30cacc" title=" " alt="" coords="399,79,538,120"/>
+<area shape="poly" id="edge4_Node000001_Node000003" title=" " alt="" coords="590,85,539,94,538,89,584,86"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="503,14,492,10,469,8,447,10,436,15,433,20,439,30,434,28,428,21,432,11,446,5,469,3,494,5,508,15"/>
+<area shape="rect" id="Node000004" href="$classlevels_1_1_level_catalog.html#a53035b3177f664a325b58cccc91cf33a" title=" " alt="" coords="193,46,335,86"/>
+<area shape="poly" id="edge5_Node000003_Node000004" title=" " alt="" coords="381,86,336,80,336,75,386,86"/>
+<area shape="rect" id="Node000005" href="$classlevels_1_1_level_catalog.html#ada556837f9f176c250cfacc2f7ca83c2" title=" " alt="" coords="194,111,334,152"/>
+<area shape="poly" id="edge6_Node000003_Node000005" title=" " alt="" coords="387,112,334,123,334,118,381,113"/>
+<area shape="rect" id="Node000006" href="$classlevels_1_1_level_catalog.html#a21f7c92c70b6800f93c56473764c4931" title=" " alt="" coords="5,111,145,152"/>
+<area shape="poly" id="edge7_Node000005_Node000006" title=" " alt="" coords="176,132,145,134,145,129,181,131"/>
+</map>

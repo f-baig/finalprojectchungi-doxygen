@@ -1,0 +1,70 @@
+\chapter{Documentation }
+\hypertarget{md__p_s_e_t_201__alpha__deliverable_2documentation}{}\label{md__p_s_e_t_201__alpha__deliverable_2documentation}\index{Documentation@{Documentation}}
+\label{md__p_s_e_t_201__alpha__deliverable_2documentation_autotoc_md16}%
+\Hypertarget{md__p_s_e_t_201__alpha__deliverable_2documentation_autotoc_md16}%
+
+
+Provided below are two documentation generators (Note\+: Both ddoc and doxygen are quite similar as far as the commenting style goes). For your final deliverable, you will be asked to post this documentation on your final project website.\hypertarget{md__p_s_e_t_201__alpha__deliverable_2documentation_autotoc_md17}{}\doxysection{\texorpdfstring{Doxygen}{Doxygen}}\label{md__p_s_e_t_201__alpha__deliverable_2documentation_autotoc_md17}
+If you choose to use doxygen, here is a tutorial (Note the document style is very similar to doxygen).
+
+
+\begin{DoxyItemize}
+\item Doxygen Tutorial\+: \href{https://www.youtube.com/watch?v=tLPHQMosF9M}{\texttt{https\+://www.\+youtube.\+com/watch?v=t\+LPHQMos\+F9M}}
+\item A helpful tool to use may be\+: \href{http://www.doxygen.nl/manual/doxywizard_usage.html}{\texttt{Doxywizard}}
+\end{DoxyItemize}\hypertarget{md__p_s_e_t_201__alpha__deliverable_2documentation_autotoc_md18}{}\doxysection{\texorpdfstring{DDoc style comments}{DDoc style comments}}\label{md__p_s_e_t_201__alpha__deliverable_2documentation_autotoc_md18}
+If you choose to use DDoc here are some examples listed here\+: \href{https://dlang.org/spec/ddoc.html}{\texttt{https\+://dlang.\+org/spec/ddoc.\+html}}
+
+Comments within code are in the style of\+:
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{}
+\DoxyCodeLine{}
+\DoxyCodeLine{}
+\DoxyCodeLine{/++\ And\ this.\ +/}
+\DoxyCodeLine{}
+\DoxyCodeLine{}
+\DoxyCodeLine{}
+\DoxyCodeLine{\textcolor{comment}{/*********************************}}
+\DoxyCodeLine{\textcolor{comment}{\ \ \ The\ extra\ *'s\ immediately\ following\ the\ /**\ are\ not}}
+\DoxyCodeLine{\textcolor{comment}{\ \ \ part\ of\ the\ documentation\ comment.}}
+\DoxyCodeLine{\textcolor{comment}{\ */}}
+\DoxyCodeLine{}
+\DoxyCodeLine{/++}
+\DoxyCodeLine{\ \ \ This\ is\ a\ brief\ documentation\ comment.}
+\DoxyCodeLine{\ +/}
+\DoxyCodeLine{}
+\DoxyCodeLine{/++}
+\DoxyCodeLine{\ +\ The\ leading\ +\ on\ \textcolor{keyword}{this}\ line\ is\ not\ part\ of\ the\ documentation\ comment.}
+\DoxyCodeLine{\ +/}
+\DoxyCodeLine{}
+\DoxyCodeLine{/+++++++++++++++++++++++++++++++++}
+\DoxyCodeLine{\ \ \ The\ extra\ +\textcolor{stringliteral}{'s\ immediately\ following\ the\ /\ ++\ are\ not}}
+\DoxyCodeLine{\textcolor{stringliteral}{\ \ \ part\ of\ the\ documentation\ comment.}}
+\DoxyCodeLine{\textcolor{stringliteral}{\ +/}}
+\DoxyCodeLine{\textcolor{stringliteral}{}}
+\DoxyCodeLine{\textcolor{stringliteral}{/****************\ Closing\ *'}s\ are\ not\ part\ *****************/}
+\DoxyCodeLine{}
+\DoxyCodeLine{}
+\DoxyCodeLine{\textcolor{keywordtype}{int}\ a;\ \ }
+\DoxyCodeLine{\textcolor{keywordtype}{int}\ b;}
+\DoxyCodeLine{}
+\DoxyCodeLine{\textcolor{keywordtype}{int}\ c;}
+\DoxyCodeLine{\textcolor{keywordtype}{int}\ d;}
+\DoxyCodeLine{\ \textcolor{keywordtype}{int}\ e;}
+\DoxyCodeLine{\textcolor{keywordtype}{int}\ f;\ \ }
+\DoxyCodeLine{}
+\DoxyCodeLine{\textcolor{keywordtype}{int}\ g;\ }
+\DoxyCodeLine{}
+\DoxyCodeLine{\textcolor{keyword}{class\ }C}
+\DoxyCodeLine{\{}
+\DoxyCodeLine{\ \ \ \ \textcolor{keywordtype}{int}\ x;\ }
+\DoxyCodeLine{}
+\DoxyCodeLine{\ \ \ \ \textcolor{keywordtype}{int}\ y;}
+\DoxyCodeLine{\ \ \ \ \textcolor{keywordtype}{int}\ z;\ }
+\DoxyCodeLine{\}}
+\DoxyCodeLine{}
+\DoxyCodeLine{\textcolor{keyword}{class\ }D\ \{\ \}}
+
+\end{DoxyCode}
+ 

@@ -1,0 +1,18 @@
+<map id="scenes::gameplayScene::GameplayScene::drawGrid" name="scenes::gameplayScene::GameplayScene::drawGrid">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,148,191,189"/>
+<area shape="rect" id="Node000002" href="$classscenes_1_1gameplay_scene_1_1_gameplay_scene.html#aefef1247fcec1f1ec5f95519ce60a8c7" title=" " alt="" coords="239,66,469,106"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="162,146,276,110,272,114,164,150"/>
+<area shape="rect" id="Node000004" href="$namespaceui_1_1widgets.html#abeb4f7d510ee0e86ed2ffd25d6ce809a" title=" " alt="" coords="787,105,943,131"/>
+<area shape="poly" id="edge10_Node000001_Node000004" title=" " alt="" coords="191,160,772,122,772,127,191,165"/>
+<area shape="rect" id="Node000005" href="$classscenes_1_1gameplay_scene_1_1_gameplay_scene.html#ab515834b1eeac38fadb3d9d6c4a889c1" title=" " alt="" coords="517,180,739,221"/>
+<area shape="poly" id="edge7_Node000001_Node000005" title=" " alt="" coords="191,172,502,191,500,196,191,177"/>
+<area shape="rect" id="Node000006" href="$classscenes_1_1gameplay_scene_1_1_gameplay_scene.html#a56af1d01467285d68a39a6e34637c762" title=" " alt="" coords="257,231,450,272"/>
+<area shape="poly" id="edge9_Node000001_Node000006" title=" " alt="" coords="164,187,276,225,271,227,163,192"/>
+<area shape="rect" id="Node000003" href="$namespaceui_1_1widgets.html#aa2ef483f9bfbb26090c20f91a4d3ae98" title=" " alt="" coords="549,29,707,55"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="469,65,536,56,531,58,470,70"/>
+<area shape="poly" id="edge6_Node000002_Node000004" title=" " alt="" coords="469,91,775,111,770,113,469,96"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="588,28,581,21,586,11,602,5,628,3,657,5,673,15,668,15,656,11,628,8,603,10,589,15,587,20,594,30"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="678,53,740,72,816,100,811,100,739,77,678,58"/>
+<area shape="poly" id="edge5_Node000004_Node000004" title=" " alt="" coords="825,104,818,97,823,87,839,81,865,79,894,81,910,91,905,90,892,87,865,84,840,86,826,91,823,96,830,106"/>
+<area shape="poly" id="edge8_Node000005_Node000004" title=" " alt="" coords="688,177,738,160,809,137,814,136,740,165,689,183"/>
+</map>

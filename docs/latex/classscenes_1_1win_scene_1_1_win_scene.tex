@@ -1,0 +1,307 @@
+\doxysection{scenes\+::win\+Scene\+::Win\+Scene Class Reference}
+\hypertarget{classscenes_1_1win_scene_1_1_win_scene}{}\label{classscenes_1_1win_scene_1_1_win_scene}\index{scenes::winScene::WinScene@{scenes::winScene::WinScene}}
+
+
+Win screen shown when player reaches the exit door.  
+
+
+
+
+Inheritance diagram for scenes\+::win\+Scene\+::Win\+Scene\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=227pt]{classscenes_1_1win_scene_1_1_win_scene__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for scenes\+::win\+Scene\+::Win\+Scene\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=326pt]{classscenes_1_1win_scene_1_1_win_scene__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classscenes_1_1win_scene_1_1_win_scene_acc15c461497196155654c22e5bd6cc2f}{this}} (Scene\+Host host)
+\item 
+override void \mbox{\hyperlink{classscenes_1_1win_scene_1_1_win_scene_a40af3da166c7b9ed1876f937beb4b54e}{on\+Enter}} ()
+\item 
+override void \mbox{\hyperlink{classscenes_1_1win_scene_1_1_win_scene_a403a49a332ed44d1cb9bb6ae24e24417}{update}} (float delta\+Time)
+\item 
+override void \mbox{\hyperlink{classscenes_1_1win_scene_1_1_win_scene_a68c7c0e7a98745b9148c2ba2b0d95090}{render}} (SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}renderer)
+\item 
+override bool \mbox{\hyperlink{classscenes_1_1win_scene_1_1_win_scene_a61f011d846f251b25410efbae2dc8e1f}{handle\+Event}} (ref SDL\+\_\+\+Event event)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classscenes_1_1win_scene_1_1_win_scene_a323a9555693a557c716a012059372df7}{rebuild\+Layout}} ()
+\item 
+void \mbox{\hyperlink{classscenes_1_1win_scene_1_1_win_scene_aeae5d7a9d15bfe2040bf2c512d3db295}{draw\+Backdrop}} (SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}renderer)
+\item 
+void \mbox{\hyperlink{classscenes_1_1win_scene_1_1_win_scene_afeecd6f9aa94a898f27ebdfa80d3faf6}{draw\+Panel}} (SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}renderer)
+\item 
+void \mbox{\hyperlink{classscenes_1_1win_scene_1_1_win_scene_a693c5b3a17686882e8f31319685fb9c4}{update\+Hover}} (float x, float y)
+\item 
+int \mbox{\hyperlink{classscenes_1_1win_scene_1_1_win_scene_a28958ead044a2699a05c8979c85d8a99}{button\+Index\+At}} (float x, float y)
+\item 
+void \mbox{\hyperlink{classscenes_1_1win_scene_1_1_win_scene_abc1854771e4902a13fb9c58115032c3e}{trigger}} (\mbox{\hyperlink{namespacescenes_1_1win_scene_a242665a2a769a3043df36b621a024d5b}{Win\+Action}} action)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{structscenes_1_1win_scene_1_1_win_button}{Win\+Button}}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classscenes_1_1win_scene_1_1_win_scene_afec840e11eb7450acacb78b7817ff1e6}{buttons}}
+\item 
+SDL\+\_\+\+FRect \mbox{\hyperlink{classscenes_1_1win_scene_1_1_win_scene_a18bdfbd96f7000a3ee2d5e8145e2347b}{panel\+Rect}}
+\item 
+int \mbox{\hyperlink{classscenes_1_1win_scene_1_1_win_scene_a6d1f091333e788c143c222f00ce99c28}{pressed\+Index}} = -\/1
+\item 
+int \mbox{\hyperlink{classscenes_1_1win_scene_1_1_win_scene_ad320eb57622e069e8845680a4ed47eb4}{hovered\+Index}} = -\/1
+\item 
+int \mbox{\hyperlink{classscenes_1_1win_scene_1_1_win_scene_a3c1c454c6e406cd9de92fe28dc782782}{cached\+Width}}
+\item 
+int \mbox{\hyperlink{classscenes_1_1win_scene_1_1_win_scene_a472ae7c04632010b06feba4b7dd16a43}{cached\+Height}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Win screen shown when player reaches the exit door. 
+
+\label{doc-constructors}
+\Hypertarget{classscenes_1_1win_scene_1_1_win_scene_doc-constructors}
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classscenes_1_1win_scene_1_1_win_scene_acc15c461497196155654c22e5bd6cc2f}\index{scenes::winScene::WinScene@{scenes::winScene::WinScene}!this@{this}}
+\index{this@{this}!scenes::winScene::WinScene@{scenes::winScene::WinScene}}
+\doxysubsubsection{\texorpdfstring{this()}{this()}}
+{\footnotesize\ttfamily \label{classscenes_1_1win_scene_1_1_win_scene_acc15c461497196155654c22e5bd6cc2f} 
+scenes\+::win\+Scene\+::\+Win\+Scene\+::this (\begin{DoxyParamCaption}\item[{Scene\+Host}]{host}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\label{doc-func-members}
+\Hypertarget{classscenes_1_1win_scene_1_1_win_scene_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classscenes_1_1win_scene_1_1_win_scene_a28958ead044a2699a05c8979c85d8a99}\index{scenes::winScene::WinScene@{scenes::winScene::WinScene}!buttonIndexAt@{buttonIndexAt}}
+\index{buttonIndexAt@{buttonIndexAt}!scenes::winScene::WinScene@{scenes::winScene::WinScene}}
+\doxysubsubsection{\texorpdfstring{buttonIndexAt()}{buttonIndexAt()}}
+{\footnotesize\ttfamily \label{classscenes_1_1win_scene_1_1_win_scene_a28958ead044a2699a05c8979c85d8a99} 
+int scenes\+::win\+Scene\+::\+Win\+Scene\+::button\+Index\+At (\begin{DoxyParamCaption}\item[{float}]{x}{, }\item[{float}]{y}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1win_scene_1_1_win_scene_a28958ead044a2699a05c8979c85d8a99_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1win_scene_1_1_win_scene_a28958ead044a2699a05c8979c85d8a99_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classscenes_1_1win_scene_1_1_win_scene_aeae5d7a9d15bfe2040bf2c512d3db295}\index{scenes::winScene::WinScene@{scenes::winScene::WinScene}!drawBackdrop@{drawBackdrop}}
+\index{drawBackdrop@{drawBackdrop}!scenes::winScene::WinScene@{scenes::winScene::WinScene}}
+\doxysubsubsection{\texorpdfstring{drawBackdrop()}{drawBackdrop()}}
+{\footnotesize\ttfamily \label{classscenes_1_1win_scene_1_1_win_scene_aeae5d7a9d15bfe2040bf2c512d3db295} 
+void scenes\+::win\+Scene\+::\+Win\+Scene\+::draw\+Backdrop (\begin{DoxyParamCaption}\item[{SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}}]{renderer}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1win_scene_1_1_win_scene_aeae5d7a9d15bfe2040bf2c512d3db295_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1win_scene_1_1_win_scene_aeae5d7a9d15bfe2040bf2c512d3db295_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classscenes_1_1win_scene_1_1_win_scene_afeecd6f9aa94a898f27ebdfa80d3faf6}\index{scenes::winScene::WinScene@{scenes::winScene::WinScene}!drawPanel@{drawPanel}}
+\index{drawPanel@{drawPanel}!scenes::winScene::WinScene@{scenes::winScene::WinScene}}
+\doxysubsubsection{\texorpdfstring{drawPanel()}{drawPanel()}}
+{\footnotesize\ttfamily \label{classscenes_1_1win_scene_1_1_win_scene_afeecd6f9aa94a898f27ebdfa80d3faf6} 
+void scenes\+::win\+Scene\+::\+Win\+Scene\+::draw\+Panel (\begin{DoxyParamCaption}\item[{SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}}]{renderer}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1win_scene_1_1_win_scene_afeecd6f9aa94a898f27ebdfa80d3faf6_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1win_scene_1_1_win_scene_afeecd6f9aa94a898f27ebdfa80d3faf6_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classscenes_1_1win_scene_1_1_win_scene_a61f011d846f251b25410efbae2dc8e1f}\index{scenes::winScene::WinScene@{scenes::winScene::WinScene}!handleEvent@{handleEvent}}
+\index{handleEvent@{handleEvent}!scenes::winScene::WinScene@{scenes::winScene::WinScene}}
+\doxysubsubsection{\texorpdfstring{handleEvent()}{handleEvent()}}
+{\footnotesize\ttfamily \label{classscenes_1_1win_scene_1_1_win_scene_a61f011d846f251b25410efbae2dc8e1f} 
+override bool scenes\+::win\+Scene\+::\+Win\+Scene\+::handle\+Event (\begin{DoxyParamCaption}\item[{ref SDL\+\_\+\+Event}]{event}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1win_scene_1_1_win_scene_a61f011d846f251b25410efbae2dc8e1f_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classscenes_1_1win_scene_1_1_win_scene_a40af3da166c7b9ed1876f937beb4b54e}\index{scenes::winScene::WinScene@{scenes::winScene::WinScene}!onEnter@{onEnter}}
+\index{onEnter@{onEnter}!scenes::winScene::WinScene@{scenes::winScene::WinScene}}
+\doxysubsubsection{\texorpdfstring{onEnter()}{onEnter()}}
+{\footnotesize\ttfamily \label{classscenes_1_1win_scene_1_1_win_scene_a40af3da166c7b9ed1876f937beb4b54e} 
+override void scenes\+::win\+Scene\+::\+Win\+Scene\+::on\+Enter (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1win_scene_1_1_win_scene_a40af3da166c7b9ed1876f937beb4b54e_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classscenes_1_1win_scene_1_1_win_scene_a323a9555693a557c716a012059372df7}\index{scenes::winScene::WinScene@{scenes::winScene::WinScene}!rebuildLayout@{rebuildLayout}}
+\index{rebuildLayout@{rebuildLayout}!scenes::winScene::WinScene@{scenes::winScene::WinScene}}
+\doxysubsubsection{\texorpdfstring{rebuildLayout()}{rebuildLayout()}}
+{\footnotesize\ttfamily \label{classscenes_1_1win_scene_1_1_win_scene_a323a9555693a557c716a012059372df7} 
+void scenes\+::win\+Scene\+::\+Win\+Scene\+::rebuild\+Layout (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1win_scene_1_1_win_scene_a323a9555693a557c716a012059372df7_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classscenes_1_1win_scene_1_1_win_scene_a68c7c0e7a98745b9148c2ba2b0d95090}\index{scenes::winScene::WinScene@{scenes::winScene::WinScene}!render@{render}}
+\index{render@{render}!scenes::winScene::WinScene@{scenes::winScene::WinScene}}
+\doxysubsubsection{\texorpdfstring{render()}{render()}}
+{\footnotesize\ttfamily \label{classscenes_1_1win_scene_1_1_win_scene_a68c7c0e7a98745b9148c2ba2b0d95090} 
+override void scenes\+::win\+Scene\+::\+Win\+Scene\+::render (\begin{DoxyParamCaption}\item[{SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}}]{renderer}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1win_scene_1_1_win_scene_a68c7c0e7a98745b9148c2ba2b0d95090_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classscenes_1_1win_scene_1_1_win_scene_abc1854771e4902a13fb9c58115032c3e}\index{scenes::winScene::WinScene@{scenes::winScene::WinScene}!trigger@{trigger}}
+\index{trigger@{trigger}!scenes::winScene::WinScene@{scenes::winScene::WinScene}}
+\doxysubsubsection{\texorpdfstring{trigger()}{trigger()}}
+{\footnotesize\ttfamily \label{classscenes_1_1win_scene_1_1_win_scene_abc1854771e4902a13fb9c58115032c3e} 
+void scenes\+::win\+Scene\+::\+Win\+Scene\+::trigger (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespacescenes_1_1win_scene_a242665a2a769a3043df36b621a024d5b}{Win\+Action}}}]{action}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1win_scene_1_1_win_scene_abc1854771e4902a13fb9c58115032c3e_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classscenes_1_1win_scene_1_1_win_scene_a403a49a332ed44d1cb9bb6ae24e24417}\index{scenes::winScene::WinScene@{scenes::winScene::WinScene}!update@{update}}
+\index{update@{update}!scenes::winScene::WinScene@{scenes::winScene::WinScene}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily \label{classscenes_1_1win_scene_1_1_win_scene_a403a49a332ed44d1cb9bb6ae24e24417} 
+override void scenes\+::win\+Scene\+::\+Win\+Scene\+::update (\begin{DoxyParamCaption}\item[{float}]{delta\+Time}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1win_scene_1_1_win_scene_a403a49a332ed44d1cb9bb6ae24e24417_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classscenes_1_1win_scene_1_1_win_scene_a693c5b3a17686882e8f31319685fb9c4}\index{scenes::winScene::WinScene@{scenes::winScene::WinScene}!updateHover@{updateHover}}
+\index{updateHover@{updateHover}!scenes::winScene::WinScene@{scenes::winScene::WinScene}}
+\doxysubsubsection{\texorpdfstring{updateHover()}{updateHover()}}
+{\footnotesize\ttfamily \label{classscenes_1_1win_scene_1_1_win_scene_a693c5b3a17686882e8f31319685fb9c4} 
+void scenes\+::win\+Scene\+::\+Win\+Scene\+::update\+Hover (\begin{DoxyParamCaption}\item[{float}]{x}{, }\item[{float}]{y}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1win_scene_1_1_win_scene_a693c5b3a17686882e8f31319685fb9c4_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1win_scene_1_1_win_scene_a693c5b3a17686882e8f31319685fb9c4_icgraph}
+\end{center}
+\end{figure}
+
+
+\label{doc-variable-members}
+\Hypertarget{classscenes_1_1win_scene_1_1_win_scene_doc-variable-members}
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classscenes_1_1win_scene_1_1_win_scene_afec840e11eb7450acacb78b7817ff1e6}\index{scenes::winScene::WinScene@{scenes::winScene::WinScene}!buttons@{buttons}}
+\index{buttons@{buttons}!scenes::winScene::WinScene@{scenes::winScene::WinScene}}
+\doxysubsubsection{\texorpdfstring{buttons}{buttons}}
+{\footnotesize\ttfamily \label{classscenes_1_1win_scene_1_1_win_scene_afec840e11eb7450acacb78b7817ff1e6} 
+\mbox{\hyperlink{structscenes_1_1win_scene_1_1_win_button}{Win\+Button}} \mbox{[}$\,$\mbox{]} scenes\+::win\+Scene\+::\+Win\+Scene\+::buttons\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classscenes_1_1win_scene_1_1_win_scene_a472ae7c04632010b06feba4b7dd16a43}\index{scenes::winScene::WinScene@{scenes::winScene::WinScene}!cachedHeight@{cachedHeight}}
+\index{cachedHeight@{cachedHeight}!scenes::winScene::WinScene@{scenes::winScene::WinScene}}
+\doxysubsubsection{\texorpdfstring{cachedHeight}{cachedHeight}}
+{\footnotesize\ttfamily \label{classscenes_1_1win_scene_1_1_win_scene_a472ae7c04632010b06feba4b7dd16a43} 
+int scenes\+::win\+Scene\+::\+Win\+Scene\+::cached\+Height\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classscenes_1_1win_scene_1_1_win_scene_a3c1c454c6e406cd9de92fe28dc782782}\index{scenes::winScene::WinScene@{scenes::winScene::WinScene}!cachedWidth@{cachedWidth}}
+\index{cachedWidth@{cachedWidth}!scenes::winScene::WinScene@{scenes::winScene::WinScene}}
+\doxysubsubsection{\texorpdfstring{cachedWidth}{cachedWidth}}
+{\footnotesize\ttfamily \label{classscenes_1_1win_scene_1_1_win_scene_a3c1c454c6e406cd9de92fe28dc782782} 
+int scenes\+::win\+Scene\+::\+Win\+Scene\+::cached\+Width\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classscenes_1_1win_scene_1_1_win_scene_ad320eb57622e069e8845680a4ed47eb4}\index{scenes::winScene::WinScene@{scenes::winScene::WinScene}!hoveredIndex@{hoveredIndex}}
+\index{hoveredIndex@{hoveredIndex}!scenes::winScene::WinScene@{scenes::winScene::WinScene}}
+\doxysubsubsection{\texorpdfstring{hoveredIndex}{hoveredIndex}}
+{\footnotesize\ttfamily \label{classscenes_1_1win_scene_1_1_win_scene_ad320eb57622e069e8845680a4ed47eb4} 
+int scenes\+::win\+Scene\+::\+Win\+Scene\+::hovered\+Index = -\/1\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classscenes_1_1win_scene_1_1_win_scene_a18bdfbd96f7000a3ee2d5e8145e2347b}\index{scenes::winScene::WinScene@{scenes::winScene::WinScene}!panelRect@{panelRect}}
+\index{panelRect@{panelRect}!scenes::winScene::WinScene@{scenes::winScene::WinScene}}
+\doxysubsubsection{\texorpdfstring{panelRect}{panelRect}}
+{\footnotesize\ttfamily \label{classscenes_1_1win_scene_1_1_win_scene_a18bdfbd96f7000a3ee2d5e8145e2347b} 
+SDL\+\_\+\+FRect scenes\+::win\+Scene\+::\+Win\+Scene\+::panel\+Rect\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classscenes_1_1win_scene_1_1_win_scene_a6d1f091333e788c143c222f00ce99c28}\index{scenes::winScene::WinScene@{scenes::winScene::WinScene}!pressedIndex@{pressedIndex}}
+\index{pressedIndex@{pressedIndex}!scenes::winScene::WinScene@{scenes::winScene::WinScene}}
+\doxysubsubsection{\texorpdfstring{pressedIndex}{pressedIndex}}
+{\footnotesize\ttfamily \label{classscenes_1_1win_scene_1_1_win_scene_a6d1f091333e788c143c222f00ce99c28} 
+int scenes\+::win\+Scene\+::\+Win\+Scene\+::pressed\+Index = -\/1\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+PSET/\+Engine/source/scenes/\mbox{\hyperlink{win_scene_8d}{win\+Scene.\+d}}\end{DoxyCompactItemize}

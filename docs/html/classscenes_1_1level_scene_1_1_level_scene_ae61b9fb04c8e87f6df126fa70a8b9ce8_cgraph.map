@@ -1,0 +1,8 @@
+<map id="scenes::levelScene::LevelScene::drawEditorFields" name="scenes::levelScene::LevelScene::drawEditorFields">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,22,208,62"/>
+<area shape="rect" id="Node000002" href="$classscenes_1_1level_scene_1_1_level_scene.html#ad3340df696cd311e5b1c5b6619f825ff" title=" " alt="" coords="256,22,417,62"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="208,40,243,42,237,42,208,45"/>
+<area shape="rect" id="Node000003" href="$namespaceui_1_1widgets.html#abeb4f7d510ee0e86ed2ffd25d6ce809a" title=" " alt="" coords="465,29,620,55"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="418,40,453,42,447,42,418,45"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="508,28,501,21,506,11,520,5,543,3,568,5,582,15,577,14,566,10,543,8,521,10,509,15,507,20,513,30"/>
+</map>

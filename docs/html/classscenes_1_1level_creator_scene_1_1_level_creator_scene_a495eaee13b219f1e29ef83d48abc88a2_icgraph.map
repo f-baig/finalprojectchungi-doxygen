@@ -1,0 +1,21 @@
+<map id="scenes::levelCreatorScene::LevelCreatorScene::ensureSelection" name="scenes::levelCreatorScene::LevelCreatorScene::ensureSelection">
+<area shape="rect" id="Node000001" title=" " alt="" coords="850,105,1092,146"/>
+<area shape="rect" id="Node000002" href="$classscenes_1_1level_creator_scene_1_1_level_creator_scene.html#a4a2cd0a0289374c3039020cfdca3e610" title=" " alt="" coords="581,33,802,74"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="872,101,773,77,774,72,877,101"/>
+<area shape="rect" id="Node000003" href="$classscenes_1_1level_creator_scene_1_1_level_creator_scene.html#aeb1e0a9944fe1641c9e6dd3bc0a9c168" title=" " alt="" coords="282,33,525,74"/>
+<area shape="poly" id="edge8_Node000001_Node000003" title=" " alt="" coords="932,95,874,57,839,38,802,24,760,15,716,10,629,11,547,21,478,35,476,30,546,16,629,5,717,5,760,10,803,19,841,33,877,52,937,96"/>
+<area shape="rect" id="Node000006" href="$classscenes_1_1level_creator_scene_1_1_level_creator_scene.html#a5a7a7d7b379c5b4e1bc4544fc2e2183b" title=" " alt="" coords="584,98,799,154"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="832,126,800,128,800,123,837,125"/>
+<area shape="rect" id="Node000007" href="$classscenes_1_1level_creator_scene_1_1_level_creator_scene.html#afd8f593500bc3f44390be0761fdbb3b0" title=" " alt="" coords="274,168,533,209"/>
+<area shape="poly" id="edge9_Node000001_Node000007" title=" " alt="" coords="882,150,803,168,664,183,534,189,533,184,663,178,802,163,877,151"/>
+<area shape="rect" id="Node000008" href="$classscenes_1_1level_creator_scene_1_1_level_creator_scene.html#a2457cd391241bde82f29bf2aeff5d30c" title=" " alt="" coords="595,228,788,269"/>
+<area shape="poly" id="edge11_Node000001_Node000008" title=" " alt="" coords="921,153,803,212,757,230,756,225,801,207,916,154"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="563,54,526,56,525,51,568,53"/>
+<area shape="rect" id="Node000005" href="$classscenes_1_1level_creator_scene_1_1_level_creator_scene.html#aedf8267db7612eb296d642f1eeccbcd1" title=" " alt="" coords="282,100,524,141"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="584,79,495,102,494,97,589,77"/>
+<area shape="rect" id="Node000004" href="$classscenes_1_1level_creator_scene_1_1_level_creator_scene.html#a1aa403be3469e2b58dc6595136b21e48" title=" " alt="" coords="5,100,226,141"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="295,80,207,102,205,97,300,77"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="264,121,227,123,225,118,269,119"/>
+<area shape="poly" id="edge7_Node000006_Node000005" title=" " alt="" coords="566,124,525,125,524,120,571,123"/>
+<area shape="poly" id="edge10_Node000007_Node000004" title=" " alt="" coords="297,165,204,144,204,139,302,163"/>
+</map>

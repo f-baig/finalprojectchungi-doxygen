@@ -1,0 +1,10 @@
+<map id="scenes::gameplayScene::GameplayScene::drawEmptyState" name="scenes::gameplayScene::GameplayScene::drawEmptyState">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,47,236,88"/>
+<area shape="rect" id="Node000002" href="$namespaceui_1_1widgets.html#aa2ef483f9bfbb26090c20f91a4d3ae98" title=" " alt="" coords="284,29,442,55"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="236,53,271,52,265,52,236,58"/>
+<area shape="rect" id="Node000003" href="$namespaceui_1_1widgets.html#abeb4f7d510ee0e86ed2ffd25d6ce809a" title=" " alt="" coords="490,55,645,80"/>
+<area shape="poly" id="edge5_Node000001_Node000003" title=" " alt="" coords="236,65,476,65,473,70,236,70"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="328,28,322,21,326,11,340,5,363,3,388,5,402,15,397,14,386,10,363,8,341,10,330,15,327,20,333,30"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="442,49,477,56,472,56,442,55"/>
+<area shape="poly" id="edge4_Node000003_Node000003" title=" " alt="" coords="533,53,527,46,531,36,545,30,568,28,593,31,607,40,602,39,591,36,568,33,546,35,535,40,532,45,538,55"/>
+</map>

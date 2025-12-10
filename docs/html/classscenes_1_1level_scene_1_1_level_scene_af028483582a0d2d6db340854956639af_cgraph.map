@@ -1,0 +1,10 @@
+<map id="scenes::levelScene::LevelScene::drawButtons" name="scenes::levelScene::LevelScene::drawButtons">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,47,184,88"/>
+<area shape="rect" id="Node000002" href="$namespaceui_1_1widgets.html#aa2ef483f9bfbb26090c20f91a4d3ae98" title=" " alt="" coords="232,29,390,55"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="184,54,219,53,214,54,184,60"/>
+<area shape="rect" id="Node000003" href="$namespaceui_1_1widgets.html#abeb4f7d510ee0e86ed2ffd25d6ce809a" title=" " alt="" coords="438,55,593,80"/>
+<area shape="poly" id="edge5_Node000001_Node000003" title=" " alt="" coords="184,65,423,65,422,70,184,70"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="276,28,270,21,274,11,288,5,311,3,336,5,350,15,345,14,334,10,311,8,289,10,278,15,275,20,281,30"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="390,49,425,56,420,56,390,55"/>
+<area shape="poly" id="edge4_Node000003_Node000003" title=" " alt="" coords="481,53,475,46,479,36,493,30,516,28,541,31,555,40,550,39,539,36,516,33,494,35,483,40,480,45,486,55"/>
+</map>

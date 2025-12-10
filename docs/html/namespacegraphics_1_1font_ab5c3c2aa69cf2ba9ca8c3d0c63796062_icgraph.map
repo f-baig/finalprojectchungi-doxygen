@@ -1,0 +1,13 @@
+<map id="graphics::font::lineHeight" name="graphics::font::lineHeight">
+<area shape="rect" id="Node000001" title=" " alt="" coords="792,54,959,80"/>
+<area shape="poly" id="edge6_Node000001_Node000001" title=" " alt="" coords="916,39,904,35,875,33,850,35,837,40,834,45,841,55,836,53,828,46,833,36,849,30,876,28,905,30,921,40"/>
+<area shape="rect" id="Node000002" href="$classscenes_1_1level_creator_scene_1_1_level_creator_scene.html#ab7f0cd3d8e49a981b4b6b6c9ad849a3a" title=" " alt="" coords="530,5,744,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="780,51,744,47,745,42,785,51"/>
+<area shape="rect" id="Node000005" href="$namespacegraphics_1_1font.html#a57e42c520a96688010cb3f5e86d18c6b" title=" " alt="" coords="556,94,718,120"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="783,83,718,96,718,91,778,83"/>
+<area shape="rect" id="Node000003" href="$classscenes_1_1level_creator_scene_1_1_level_creator_scene.html#af46fa924ef4da5a7a97b026594360384" title=" " alt="" coords="238,5,482,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="512,26,483,28,482,23,517,25"/>
+<area shape="rect" id="Node000004" href="$classscenes_1_1level_creator_scene_1_1_level_creator_scene.html#ad6f6839bd6d186ee559254c9942192ab" title=" " alt="" coords="5,5,190,46"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="219,26,190,28,189,23,224,25"/>
+<area shape="poly" id="edge5_Node000005_Node000005" title=" " alt="" coords="678,79,665,75,637,73,612,75,598,80,595,85,602,95,597,93,590,86,595,76,611,70,637,68,667,70,683,80"/>
+</map>

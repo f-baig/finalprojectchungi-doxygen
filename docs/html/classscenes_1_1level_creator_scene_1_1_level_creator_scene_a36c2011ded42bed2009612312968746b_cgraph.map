@@ -1,0 +1,8 @@
+<map id="scenes::levelCreatorScene::LevelCreatorScene::update" name="scenes::levelCreatorScene::LevelCreatorScene::update">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,29,193,70"/>
+<area shape="rect" id="Node000002" href="$classscenes_1_1level_creator_scene_1_1_level_creator_scene.html#ab1231de5e085719b3ea537caa7788559" title=" " alt="" coords="241,29,466,70"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="193,47,228,49,222,50,193,52"/>
+<area shape="rect" id="Node000003" href="$namespaceeditor_1_1world_editor.html#a0e1cdc4eb9d3e4d11cf3de4028761dd8" title=" " alt="" coords="514,29,640,70"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="466,47,501,50,496,50,467,52"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="535,27,533,19,540,10,555,5,577,3,601,5,617,14,612,13,600,10,577,8,556,10,543,15,538,21,540,30"/>
+</map>

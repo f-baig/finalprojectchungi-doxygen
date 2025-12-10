@@ -1,0 +1,11 @@
+<map id="scenes::gameplayScene::GameplayScene::performJump" name="scenes::gameplayScene::GameplayScene::performJump">
+<area shape="rect" id="Node000001" title=" " alt="" coords="767,39,977,79"/>
+<area shape="rect" id="Node000002" href="$classscenes_1_1gameplay_scene_1_1_gameplay_scene.html#aace8c347ba19ae7c5dcb7d554513dde8" title=" " alt="" coords="498,5,704,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="749,44,704,41,704,36,755,44"/>
+<area shape="rect" id="Node000003" href="$classscenes_1_1gameplay_scene_1_1_gameplay_scene.html#a10f0846b768a9e89e40766fb8b5b67ea" title=" " alt="" coords="483,71,719,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="755,73,720,80,720,74,749,73"/>
+<area shape="rect" id="Node000004" href="$classscenes_1_1gameplay_scene_1_1_gameplay_scene.html#a6e6195e7909a210eee6a61ccdd22e195" title=" " alt="" coords="226,71,435,111"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="465,91,436,94,436,88,470,91"/>
+<area shape="rect" id="Node000005" href="$classscenes_1_1gameplay_scene_1_1_gameplay_scene.html#a29fb2d83766e40784912a49f6491535c" title=" " alt="" coords="5,71,178,111"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="207,91,178,94,178,88,213,91"/>
+</map>

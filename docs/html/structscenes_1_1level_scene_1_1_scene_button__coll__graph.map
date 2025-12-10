@@ -1,0 +1,5 @@
+<map id="scenes::levelScene::SceneButton" name="scenes::levelScene::SceneButton">
+<area shape="rect" id="Node000001" title=" " alt="" coords="10,102,145,143"/>
+<area shape="rect" id="Node000002" href="$structui_1_1widgets_1_1_u_i_button.html" title=" " alt="" coords="5,5,150,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="80,45,80,102,75,101,75,48"/>
+</map>

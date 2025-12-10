@@ -1,0 +1,5 @@
+<map id="scenes::winScene::WinButton" name="scenes::winScene::WinButton">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,102,203,128"/>
+<area shape="rect" id="Node000002" href="$structui_1_1widgets_1_1_u_i_button.html" title=" " alt="" coords="32,5,176,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="106,45,107,102,101,101,102,48"/>
+</map>

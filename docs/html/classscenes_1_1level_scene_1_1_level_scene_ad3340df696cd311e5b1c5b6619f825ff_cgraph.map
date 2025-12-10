@@ -1,0 +1,6 @@
+<map id="scenes::levelScene::LevelScene::drawField" name="scenes::levelScene::LevelScene::drawField">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,22,167,62"/>
+<area shape="rect" id="Node000002" href="$namespaceui_1_1widgets.html#abeb4f7d510ee0e86ed2ffd25d6ce809a" title=" " alt="" coords="215,29,370,55"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="167,40,202,42,197,42,167,45"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="258,28,251,21,255,11,269,5,292,3,318,5,332,15,327,14,316,10,292,8,271,10,259,15,256,20,263,30"/>
+</map>

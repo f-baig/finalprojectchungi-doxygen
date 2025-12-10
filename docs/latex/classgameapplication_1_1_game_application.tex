@@ -1,0 +1,395 @@
+\doxysection{gameapplication\+::Game\+Application Class Reference}
+\hypertarget{classgameapplication_1_1_game_application}{}\label{classgameapplication_1_1_game_application}\index{gameapplication::GameApplication@{gameapplication::GameApplication}}
+
+
+Inheritance diagram for gameapplication\+::Game\+Application\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=247pt]{classgameapplication_1_1_game_application__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for gameapplication\+::Game\+Application\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=247pt]{classgameapplication_1_1_game_application__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classgameapplication_1_1_game_application_ae1e1b8da67bf87f1af2c9941222c3f03}{this}} ()
+\item 
+bool \mbox{\hyperlink{classgameapplication_1_1_game_application_abdb694e4217e7ba0bdbca6af8ac51dd2}{initialize}} ()
+\item 
+void \mbox{\hyperlink{classgameapplication_1_1_game_application_a7cb9291087cc7e2fdf834ab3e5f681d0}{run}} ()
+\item 
+void \mbox{\hyperlink{classgameapplication_1_1_game_application_a4b10a5d48e8afd6777149d804a425d09}{shutdown}} ()
+\item 
+override Level\+Catalog \mbox{\hyperlink{classgameapplication_1_1_game_application_ab576b0a3bede5d314dd0c6fca9e9ac62}{level\+Catalog}} ()
+\item 
+override Font\+Atlas \mbox{\hyperlink{classgameapplication_1_1_game_application_ab9a0b93c4822b8e5813b3f3bc2d02225}{font}} ()
+\item 
+override Resource\+Manager \mbox{\hyperlink{classgameapplication_1_1_game_application_aea9da0fbfeca8a41bdd591fa98d83ff5}{resources}} ()
+\item 
+override int \mbox{\hyperlink{classgameapplication_1_1_game_application_ab7eaf64d2cde4caf87f79568cdf40147}{window\+Width}} ()
+\item 
+override int \mbox{\hyperlink{classgameapplication_1_1_game_application_ace0f74b7b8f997fa1197984d8aa8eebe}{window\+Height}} ()
+\item 
+override SDL\+\_\+\+Window \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classgameapplication_1_1_game_application_a87c5221e41dc5e6be893116fb23a7700}{window\+Handle}} ()
+\item 
+override void \mbox{\hyperlink{classgameapplication_1_1_game_application_ac9f5ddd8352620e14efe04a267f7021d}{show\+Menu}} ()
+\item 
+override void \mbox{\hyperlink{classgameapplication_1_1_game_application_a2a616ebd78e10f143939ac71e5b7270e}{start\+Campaign}} ()
+\item 
+override void \mbox{\hyperlink{classgameapplication_1_1_game_application_a030baad0ceca83ff2a388f42ec4feea2}{open\+Level\+Creator}} ()
+\item 
+override void \mbox{\hyperlink{classgameapplication_1_1_game_application_a852780be45f4185b3a0ceba9c2c9472b}{edit\+Level}} (size\+\_\+t level\+Index)
+\item 
+override void \mbox{\hyperlink{classgameapplication_1_1_game_application_a4b2d11668aca1365bf916bba74e779b6}{show\+Win\+Screen}} ()
+\item 
+override void \mbox{\hyperlink{classgameapplication_1_1_game_application_a32147f059bb159cfbcfccc6b0fb2e92c}{stop}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classgameapplication_1_1_game_application_a438e3b67d8c8250a2018bcefbcda2ed0}{poll\+Events}} ()
+\item 
+void \mbox{\hyperlink{classgameapplication_1_1_game_application_a7d24ed36ac03c1eff632344dbdac1f85}{draw\+Frame}} ()
+\item 
+void \mbox{\hyperlink{classgameapplication_1_1_game_application_a8c50bc2db7c7d3e859f4b240d62c1575}{change\+Scene}} (Scene new\+Scene)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+SDL\+\_\+\+Window \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classgameapplication_1_1_game_application_a5e0bdfdb9f60200c9b78dc96a80180f8}{window}}
+\item 
+SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classgameapplication_1_1_game_application_a54a2afb2b9da896117cfab1028fb3bd7}{renderer}}
+\item 
+Scene \mbox{\hyperlink{classgameapplication_1_1_game_application_a81d7ac3ffc7d3ab3c5716e6b77b94785}{current\+Scene}}
+\item 
+Level\+Catalog \mbox{\hyperlink{classgameapplication_1_1_game_application_ae45cb010b6e68c14406164639b9eb1f2}{catalog}}
+\item 
+World\+Editor \mbox{\hyperlink{classgameapplication_1_1_game_application_ad0aae9af31b5dc9e746e019d375a934c}{world\+Editor}}
+\item 
+Font\+Atlas \mbox{\hyperlink{classgameapplication_1_1_game_application_a477082860352123b4f7bae346c3b610f}{font\+Atlas}}
+\item 
+Resource\+Manager \mbox{\hyperlink{classgameapplication_1_1_game_application_aa184466ad8b4fdbb2cbcff2cfc870576}{resource\+Manager}}
+\item 
+bool \mbox{\hyperlink{classgameapplication_1_1_game_application_af7781163dc3b877b5372e288a42db251}{ttf\+Initialized}} = false
+\item 
+bool \mbox{\hyperlink{classgameapplication_1_1_game_application_a6685c7b7fe551d03e0f4ac5e8222536e}{font\+Loaded}} = false
+\item 
+bool \mbox{\hyperlink{classgameapplication_1_1_game_application_a53bc1ab6c107d6eecef1975dfc12bb76}{running}} = false
+\item 
+int \mbox{\hyperlink{classgameapplication_1_1_game_application_a91c7c0f4d96d82d0ba0b9fd12c073eb0}{window\+Width\+Value}} = 1280
+\item 
+int \mbox{\hyperlink{classgameapplication_1_1_game_application_aad82e18d16c921804b61a7cd6d0649f2}{window\+Height\+Value}} = 720
+\end{DoxyCompactItemize}
+
+
+\label{doc-constructors}
+\Hypertarget{classgameapplication_1_1_game_application_doc-constructors}
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classgameapplication_1_1_game_application_ae1e1b8da67bf87f1af2c9941222c3f03}\index{gameapplication::GameApplication@{gameapplication::GameApplication}!this@{this}}
+\index{this@{this}!gameapplication::GameApplication@{gameapplication::GameApplication}}
+\doxysubsubsection{\texorpdfstring{this()}{this()}}
+{\footnotesize\ttfamily \label{classgameapplication_1_1_game_application_ae1e1b8da67bf87f1af2c9941222c3f03} 
+gameapplication\+::\+Game\+Application\+::this (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\label{doc-func-members}
+\Hypertarget{classgameapplication_1_1_game_application_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classgameapplication_1_1_game_application_a8c50bc2db7c7d3e859f4b240d62c1575}\index{gameapplication::GameApplication@{gameapplication::GameApplication}!changeScene@{changeScene}}
+\index{changeScene@{changeScene}!gameapplication::GameApplication@{gameapplication::GameApplication}}
+\doxysubsubsection{\texorpdfstring{changeScene()}{changeScene()}}
+{\footnotesize\ttfamily \label{classgameapplication_1_1_game_application_a8c50bc2db7c7d3e859f4b240d62c1575} 
+void gameapplication\+::\+Game\+Application\+::change\+Scene (\begin{DoxyParamCaption}\item[{Scene}]{new\+Scene}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classgameapplication_1_1_game_application_a8c50bc2db7c7d3e859f4b240d62c1575_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classgameapplication_1_1_game_application_a7d24ed36ac03c1eff632344dbdac1f85}\index{gameapplication::GameApplication@{gameapplication::GameApplication}!drawFrame@{drawFrame}}
+\index{drawFrame@{drawFrame}!gameapplication::GameApplication@{gameapplication::GameApplication}}
+\doxysubsubsection{\texorpdfstring{drawFrame()}{drawFrame()}}
+{\footnotesize\ttfamily \label{classgameapplication_1_1_game_application_a7d24ed36ac03c1eff632344dbdac1f85} 
+void gameapplication\+::\+Game\+Application\+::draw\+Frame (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classgameapplication_1_1_game_application_a7d24ed36ac03c1eff632344dbdac1f85_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classgameapplication_1_1_game_application_a852780be45f4185b3a0ceba9c2c9472b}\index{gameapplication::GameApplication@{gameapplication::GameApplication}!editLevel@{editLevel}}
+\index{editLevel@{editLevel}!gameapplication::GameApplication@{gameapplication::GameApplication}}
+\doxysubsubsection{\texorpdfstring{editLevel()}{editLevel()}}
+{\footnotesize\ttfamily \label{classgameapplication_1_1_game_application_a852780be45f4185b3a0ceba9c2c9472b} 
+override void gameapplication\+::\+Game\+Application\+::edit\+Level (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{level\+Index}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classgameapplication_1_1_game_application_a852780be45f4185b3a0ceba9c2c9472b_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classgameapplication_1_1_game_application_ab9a0b93c4822b8e5813b3f3bc2d02225}\index{gameapplication::GameApplication@{gameapplication::GameApplication}!font@{font}}
+\index{font@{font}!gameapplication::GameApplication@{gameapplication::GameApplication}}
+\doxysubsubsection{\texorpdfstring{font()}{font()}}
+{\footnotesize\ttfamily \label{classgameapplication_1_1_game_application_ab9a0b93c4822b8e5813b3f3bc2d02225} 
+override Font\+Atlas gameapplication\+::\+Game\+Application\+::font (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{classgameapplication_1_1_game_application_abdb694e4217e7ba0bdbca6af8ac51dd2}\index{gameapplication::GameApplication@{gameapplication::GameApplication}!initialize@{initialize}}
+\index{initialize@{initialize}!gameapplication::GameApplication@{gameapplication::GameApplication}}
+\doxysubsubsection{\texorpdfstring{initialize()}{initialize()}}
+{\footnotesize\ttfamily \label{classgameapplication_1_1_game_application_abdb694e4217e7ba0bdbca6af8ac51dd2} 
+bool gameapplication\+::\+Game\+Application\+::initialize (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classgameapplication_1_1_game_application_abdb694e4217e7ba0bdbca6af8ac51dd2_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classgameapplication_1_1_game_application_ab576b0a3bede5d314dd0c6fca9e9ac62}\index{gameapplication::GameApplication@{gameapplication::GameApplication}!levelCatalog@{levelCatalog}}
+\index{levelCatalog@{levelCatalog}!gameapplication::GameApplication@{gameapplication::GameApplication}}
+\doxysubsubsection{\texorpdfstring{levelCatalog()}{levelCatalog()}}
+{\footnotesize\ttfamily \label{classgameapplication_1_1_game_application_ab576b0a3bede5d314dd0c6fca9e9ac62} 
+override Level\+Catalog gameapplication\+::\+Game\+Application\+::level\+Catalog (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{classgameapplication_1_1_game_application_a030baad0ceca83ff2a388f42ec4feea2}\index{gameapplication::GameApplication@{gameapplication::GameApplication}!openLevelCreator@{openLevelCreator}}
+\index{openLevelCreator@{openLevelCreator}!gameapplication::GameApplication@{gameapplication::GameApplication}}
+\doxysubsubsection{\texorpdfstring{openLevelCreator()}{openLevelCreator()}}
+{\footnotesize\ttfamily \label{classgameapplication_1_1_game_application_a030baad0ceca83ff2a388f42ec4feea2} 
+override void gameapplication\+::\+Game\+Application\+::open\+Level\+Creator (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classgameapplication_1_1_game_application_a030baad0ceca83ff2a388f42ec4feea2_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classgameapplication_1_1_game_application_a438e3b67d8c8250a2018bcefbcda2ed0}\index{gameapplication::GameApplication@{gameapplication::GameApplication}!pollEvents@{pollEvents}}
+\index{pollEvents@{pollEvents}!gameapplication::GameApplication@{gameapplication::GameApplication}}
+\doxysubsubsection{\texorpdfstring{pollEvents()}{pollEvents()}}
+{\footnotesize\ttfamily \label{classgameapplication_1_1_game_application_a438e3b67d8c8250a2018bcefbcda2ed0} 
+void gameapplication\+::\+Game\+Application\+::poll\+Events (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classgameapplication_1_1_game_application_a438e3b67d8c8250a2018bcefbcda2ed0_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classgameapplication_1_1_game_application_aea9da0fbfeca8a41bdd591fa98d83ff5}\index{gameapplication::GameApplication@{gameapplication::GameApplication}!resources@{resources}}
+\index{resources@{resources}!gameapplication::GameApplication@{gameapplication::GameApplication}}
+\doxysubsubsection{\texorpdfstring{resources()}{resources()}}
+{\footnotesize\ttfamily \label{classgameapplication_1_1_game_application_aea9da0fbfeca8a41bdd591fa98d83ff5} 
+override Resource\+Manager gameapplication\+::\+Game\+Application\+::resources (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{classgameapplication_1_1_game_application_a7cb9291087cc7e2fdf834ab3e5f681d0}\index{gameapplication::GameApplication@{gameapplication::GameApplication}!run@{run}}
+\index{run@{run}!gameapplication::GameApplication@{gameapplication::GameApplication}}
+\doxysubsubsection{\texorpdfstring{run()}{run()}}
+{\footnotesize\ttfamily \label{classgameapplication_1_1_game_application_a7cb9291087cc7e2fdf834ab3e5f681d0} 
+void gameapplication\+::\+Game\+Application\+::run (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classgameapplication_1_1_game_application_a7cb9291087cc7e2fdf834ab3e5f681d0_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classgameapplication_1_1_game_application_ac9f5ddd8352620e14efe04a267f7021d}\index{gameapplication::GameApplication@{gameapplication::GameApplication}!showMenu@{showMenu}}
+\index{showMenu@{showMenu}!gameapplication::GameApplication@{gameapplication::GameApplication}}
+\doxysubsubsection{\texorpdfstring{showMenu()}{showMenu()}}
+{\footnotesize\ttfamily \label{classgameapplication_1_1_game_application_ac9f5ddd8352620e14efe04a267f7021d} 
+override void gameapplication\+::\+Game\+Application\+::show\+Menu (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classgameapplication_1_1_game_application_ac9f5ddd8352620e14efe04a267f7021d_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classgameapplication_1_1_game_application_ac9f5ddd8352620e14efe04a267f7021d_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classgameapplication_1_1_game_application_a4b2d11668aca1365bf916bba74e779b6}\index{gameapplication::GameApplication@{gameapplication::GameApplication}!showWinScreen@{showWinScreen}}
+\index{showWinScreen@{showWinScreen}!gameapplication::GameApplication@{gameapplication::GameApplication}}
+\doxysubsubsection{\texorpdfstring{showWinScreen()}{showWinScreen()}}
+{\footnotesize\ttfamily \label{classgameapplication_1_1_game_application_a4b2d11668aca1365bf916bba74e779b6} 
+override void gameapplication\+::\+Game\+Application\+::show\+Win\+Screen (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classgameapplication_1_1_game_application_a4b2d11668aca1365bf916bba74e779b6_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classgameapplication_1_1_game_application_a4b10a5d48e8afd6777149d804a425d09}\index{gameapplication::GameApplication@{gameapplication::GameApplication}!shutdown@{shutdown}}
+\index{shutdown@{shutdown}!gameapplication::GameApplication@{gameapplication::GameApplication}}
+\doxysubsubsection{\texorpdfstring{shutdown()}{shutdown()}}
+{\footnotesize\ttfamily \label{classgameapplication_1_1_game_application_a4b10a5d48e8afd6777149d804a425d09} 
+void gameapplication\+::\+Game\+Application\+::shutdown (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classgameapplication_1_1_game_application_a4b10a5d48e8afd6777149d804a425d09_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classgameapplication_1_1_game_application_a2a616ebd78e10f143939ac71e5b7270e}\index{gameapplication::GameApplication@{gameapplication::GameApplication}!startCampaign@{startCampaign}}
+\index{startCampaign@{startCampaign}!gameapplication::GameApplication@{gameapplication::GameApplication}}
+\doxysubsubsection{\texorpdfstring{startCampaign()}{startCampaign()}}
+{\footnotesize\ttfamily \label{classgameapplication_1_1_game_application_a2a616ebd78e10f143939ac71e5b7270e} 
+override void gameapplication\+::\+Game\+Application\+::start\+Campaign (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classgameapplication_1_1_game_application_a2a616ebd78e10f143939ac71e5b7270e_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classgameapplication_1_1_game_application_a32147f059bb159cfbcfccc6b0fb2e92c}\index{gameapplication::GameApplication@{gameapplication::GameApplication}!stop@{stop}}
+\index{stop@{stop}!gameapplication::GameApplication@{gameapplication::GameApplication}}
+\doxysubsubsection{\texorpdfstring{stop()}{stop()}}
+{\footnotesize\ttfamily \label{classgameapplication_1_1_game_application_a32147f059bb159cfbcfccc6b0fb2e92c} 
+override void gameapplication\+::\+Game\+Application\+::stop (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{classgameapplication_1_1_game_application_a87c5221e41dc5e6be893116fb23a7700}\index{gameapplication::GameApplication@{gameapplication::GameApplication}!windowHandle@{windowHandle}}
+\index{windowHandle@{windowHandle}!gameapplication::GameApplication@{gameapplication::GameApplication}}
+\doxysubsubsection{\texorpdfstring{windowHandle()}{windowHandle()}}
+{\footnotesize\ttfamily \label{classgameapplication_1_1_game_application_a87c5221e41dc5e6be893116fb23a7700} 
+override SDL\+\_\+\+Window \texorpdfstring{$\ast$}{*} gameapplication\+::\+Game\+Application\+::window\+Handle (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{classgameapplication_1_1_game_application_ace0f74b7b8f997fa1197984d8aa8eebe}\index{gameapplication::GameApplication@{gameapplication::GameApplication}!windowHeight@{windowHeight}}
+\index{windowHeight@{windowHeight}!gameapplication::GameApplication@{gameapplication::GameApplication}}
+\doxysubsubsection{\texorpdfstring{windowHeight()}{windowHeight()}}
+{\footnotesize\ttfamily \label{classgameapplication_1_1_game_application_ace0f74b7b8f997fa1197984d8aa8eebe} 
+override int gameapplication\+::\+Game\+Application\+::window\+Height (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{classgameapplication_1_1_game_application_ab7eaf64d2cde4caf87f79568cdf40147}\index{gameapplication::GameApplication@{gameapplication::GameApplication}!windowWidth@{windowWidth}}
+\index{windowWidth@{windowWidth}!gameapplication::GameApplication@{gameapplication::GameApplication}}
+\doxysubsubsection{\texorpdfstring{windowWidth()}{windowWidth()}}
+{\footnotesize\ttfamily \label{classgameapplication_1_1_game_application_ab7eaf64d2cde4caf87f79568cdf40147} 
+override int gameapplication\+::\+Game\+Application\+::window\+Width (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\label{doc-variable-members}
+\Hypertarget{classgameapplication_1_1_game_application_doc-variable-members}
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classgameapplication_1_1_game_application_ae45cb010b6e68c14406164639b9eb1f2}\index{gameapplication::GameApplication@{gameapplication::GameApplication}!catalog@{catalog}}
+\index{catalog@{catalog}!gameapplication::GameApplication@{gameapplication::GameApplication}}
+\doxysubsubsection{\texorpdfstring{catalog}{catalog}}
+{\footnotesize\ttfamily \label{classgameapplication_1_1_game_application_ae45cb010b6e68c14406164639b9eb1f2} 
+Level\+Catalog gameapplication\+::\+Game\+Application\+::catalog\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classgameapplication_1_1_game_application_a81d7ac3ffc7d3ab3c5716e6b77b94785}\index{gameapplication::GameApplication@{gameapplication::GameApplication}!currentScene@{currentScene}}
+\index{currentScene@{currentScene}!gameapplication::GameApplication@{gameapplication::GameApplication}}
+\doxysubsubsection{\texorpdfstring{currentScene}{currentScene}}
+{\footnotesize\ttfamily \label{classgameapplication_1_1_game_application_a81d7ac3ffc7d3ab3c5716e6b77b94785} 
+Scene gameapplication\+::\+Game\+Application\+::current\+Scene\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classgameapplication_1_1_game_application_a477082860352123b4f7bae346c3b610f}\index{gameapplication::GameApplication@{gameapplication::GameApplication}!fontAtlas@{fontAtlas}}
+\index{fontAtlas@{fontAtlas}!gameapplication::GameApplication@{gameapplication::GameApplication}}
+\doxysubsubsection{\texorpdfstring{fontAtlas}{fontAtlas}}
+{\footnotesize\ttfamily \label{classgameapplication_1_1_game_application_a477082860352123b4f7bae346c3b610f} 
+Font\+Atlas gameapplication\+::\+Game\+Application\+::font\+Atlas\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classgameapplication_1_1_game_application_a6685c7b7fe551d03e0f4ac5e8222536e}\index{gameapplication::GameApplication@{gameapplication::GameApplication}!fontLoaded@{fontLoaded}}
+\index{fontLoaded@{fontLoaded}!gameapplication::GameApplication@{gameapplication::GameApplication}}
+\doxysubsubsection{\texorpdfstring{fontLoaded}{fontLoaded}}
+{\footnotesize\ttfamily \label{classgameapplication_1_1_game_application_a6685c7b7fe551d03e0f4ac5e8222536e} 
+bool gameapplication\+::\+Game\+Application\+::font\+Loaded = false\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classgameapplication_1_1_game_application_a54a2afb2b9da896117cfab1028fb3bd7}\index{gameapplication::GameApplication@{gameapplication::GameApplication}!renderer@{renderer}}
+\index{renderer@{renderer}!gameapplication::GameApplication@{gameapplication::GameApplication}}
+\doxysubsubsection{\texorpdfstring{renderer}{renderer}}
+{\footnotesize\ttfamily \label{classgameapplication_1_1_game_application_a54a2afb2b9da896117cfab1028fb3bd7} 
+SDL\+\_\+\+Renderer\texorpdfstring{$\ast$}{*} gameapplication\+::\+Game\+Application\+::renderer\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classgameapplication_1_1_game_application_aa184466ad8b4fdbb2cbcff2cfc870576}\index{gameapplication::GameApplication@{gameapplication::GameApplication}!resourceManager@{resourceManager}}
+\index{resourceManager@{resourceManager}!gameapplication::GameApplication@{gameapplication::GameApplication}}
+\doxysubsubsection{\texorpdfstring{resourceManager}{resourceManager}}
+{\footnotesize\ttfamily \label{classgameapplication_1_1_game_application_aa184466ad8b4fdbb2cbcff2cfc870576} 
+Resource\+Manager gameapplication\+::\+Game\+Application\+::resource\+Manager\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classgameapplication_1_1_game_application_a53bc1ab6c107d6eecef1975dfc12bb76}\index{gameapplication::GameApplication@{gameapplication::GameApplication}!running@{running}}
+\index{running@{running}!gameapplication::GameApplication@{gameapplication::GameApplication}}
+\doxysubsubsection{\texorpdfstring{running}{running}}
+{\footnotesize\ttfamily \label{classgameapplication_1_1_game_application_a53bc1ab6c107d6eecef1975dfc12bb76} 
+bool gameapplication\+::\+Game\+Application\+::running = false\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classgameapplication_1_1_game_application_af7781163dc3b877b5372e288a42db251}\index{gameapplication::GameApplication@{gameapplication::GameApplication}!ttfInitialized@{ttfInitialized}}
+\index{ttfInitialized@{ttfInitialized}!gameapplication::GameApplication@{gameapplication::GameApplication}}
+\doxysubsubsection{\texorpdfstring{ttfInitialized}{ttfInitialized}}
+{\footnotesize\ttfamily \label{classgameapplication_1_1_game_application_af7781163dc3b877b5372e288a42db251} 
+bool gameapplication\+::\+Game\+Application\+::ttf\+Initialized = false\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classgameapplication_1_1_game_application_a5e0bdfdb9f60200c9b78dc96a80180f8}\index{gameapplication::GameApplication@{gameapplication::GameApplication}!window@{window}}
+\index{window@{window}!gameapplication::GameApplication@{gameapplication::GameApplication}}
+\doxysubsubsection{\texorpdfstring{window}{window}}
+{\footnotesize\ttfamily \label{classgameapplication_1_1_game_application_a5e0bdfdb9f60200c9b78dc96a80180f8} 
+SDL\+\_\+\+Window\texorpdfstring{$\ast$}{*} gameapplication\+::\+Game\+Application\+::window\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classgameapplication_1_1_game_application_aad82e18d16c921804b61a7cd6d0649f2}\index{gameapplication::GameApplication@{gameapplication::GameApplication}!windowHeightValue@{windowHeightValue}}
+\index{windowHeightValue@{windowHeightValue}!gameapplication::GameApplication@{gameapplication::GameApplication}}
+\doxysubsubsection{\texorpdfstring{windowHeightValue}{windowHeightValue}}
+{\footnotesize\ttfamily \label{classgameapplication_1_1_game_application_aad82e18d16c921804b61a7cd6d0649f2} 
+int gameapplication\+::\+Game\+Application\+::window\+Height\+Value = 720\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classgameapplication_1_1_game_application_a91c7c0f4d96d82d0ba0b9fd12c073eb0}\index{gameapplication::GameApplication@{gameapplication::GameApplication}!windowWidthValue@{windowWidthValue}}
+\index{windowWidthValue@{windowWidthValue}!gameapplication::GameApplication@{gameapplication::GameApplication}}
+\doxysubsubsection{\texorpdfstring{windowWidthValue}{windowWidthValue}}
+{\footnotesize\ttfamily \label{classgameapplication_1_1_game_application_a91c7c0f4d96d82d0ba0b9fd12c073eb0} 
+int gameapplication\+::\+Game\+Application\+::window\+Width\+Value = 1280\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classgameapplication_1_1_game_application_ad0aae9af31b5dc9e746e019d375a934c}\index{gameapplication::GameApplication@{gameapplication::GameApplication}!worldEditor@{worldEditor}}
+\index{worldEditor@{worldEditor}!gameapplication::GameApplication@{gameapplication::GameApplication}}
+\doxysubsubsection{\texorpdfstring{worldEditor}{worldEditor}}
+{\footnotesize\ttfamily \label{classgameapplication_1_1_game_application_ad0aae9af31b5dc9e746e019d375a934c} 
+World\+Editor gameapplication\+::\+Game\+Application\+::world\+Editor\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+PSET/\+Engine/source/\mbox{\hyperlink{gameapplication_8d}{gameapplication.\+d}}\end{DoxyCompactItemize}

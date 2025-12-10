@@ -1,0 +1,5 @@
+<map id="scenes::gameplayScene::GameplayScene::drawBackdrop" name="scenes::gameplayScene::GameplayScene::drawBackdrop">
+<area shape="rect" id="Node000001" title=" " alt="" coords="223,5,439,46"/>
+<area shape="rect" id="Node000002" href="$classscenes_1_1gameplay_scene_1_1_gameplay_scene.html#afb9bc1ca7d3007f35826882bd5144d01" title=" " alt="" coords="5,5,175,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="204,26,175,28,175,23,210,25"/>
+</map>

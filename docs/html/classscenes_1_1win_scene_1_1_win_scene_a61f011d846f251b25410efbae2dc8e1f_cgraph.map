@@ -1,0 +1,13 @@
+<map id="scenes::winScene::WinScene::handleEvent" name="scenes::winScene::WinScene::handleEvent">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,71,202,111"/>
+<area shape="rect" id="Node000002" href="$classscenes_1_1win_scene_1_1_win_scene.html#a28958ead044a2699a05c8979c85d8a99" title=" " alt="" coords="250,5,446,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="181,68,257,49,252,52,183,73"/>
+<area shape="rect" id="Node000004" href="$classscenes_1_1win_scene_1_1_win_scene.html#abc1854771e4902a13fb9c58115032c3e" title=" " alt="" coords="250,71,446,111"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="202,88,237,90,231,92,203,94"/>
+<area shape="rect" id="Node000005" href="$classscenes_1_1win_scene_1_1_win_scene.html#a693c5b3a17686882e8f31319685fb9c4" title=" " alt="" coords="250,136,446,177"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="182,109,257,131,252,132,182,115"/>
+<area shape="rect" id="Node000003" href="$namespaceui_1_1widgets.html#a3c9c138d32470734af246c6eb9be5540" title=" " alt="" coords="494,78,635,104"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="418,44,507,73,502,73,417,49"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="528,77,521,70,526,60,540,54,565,52,591,54,606,64,601,63,590,59,565,57,542,59,529,64,527,69,533,79"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="417,133,502,109,507,108,418,138"/>
+</map>

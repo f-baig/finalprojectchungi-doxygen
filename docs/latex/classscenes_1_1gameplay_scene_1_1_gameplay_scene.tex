@@ -1,0 +1,907 @@
+\doxysection{scenes\+::gameplay\+Scene\+::Gameplay\+Scene Class Reference}
+\hypertarget{classscenes_1_1gameplay_scene_1_1_gameplay_scene}{}\label{classscenes_1_1gameplay_scene_1_1_gameplay_scene}\index{scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}}
+
+
+Inheritance diagram for scenes\+::gameplay\+Scene\+::Gameplay\+Scene\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=203pt]{classscenes_1_1gameplay_scene_1_1_gameplay_scene__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for scenes\+::gameplay\+Scene\+::Gameplay\+Scene\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=250pt]{classscenes_1_1gameplay_scene_1_1_gameplay_scene__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a14bf69606d356ef4acc29798b69cfb0c}{this}} (Scene\+Host host)
+\item 
+override void \mbox{\hyperlink{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a07f19658167190142cf9a44687cfe6ff}{on\+Enter}} ()
+\item 
+override void \mbox{\hyperlink{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a29fb2d83766e40784912a49f6491535c}{update}} (float delta\+Time)
+\item 
+override void \mbox{\hyperlink{classscenes_1_1gameplay_scene_1_1_gameplay_scene_afb9bc1ca7d3007f35826882bd5144d01}{render}} (SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}renderer)
+\item 
+override bool \mbox{\hyperlink{classscenes_1_1gameplay_scene_1_1_gameplay_scene_aace8c347ba19ae7c5dcb7d554513dde8}{handle\+Event}} (ref SDL\+\_\+\+Event event)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a356211c92212ecebd69f0a5f8d7bafb9}{rebuild\+World}} ()
+\item 
+void \mbox{\hyperlink{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a9d17f51fef632a456a0c161abd5ce617}{rebuild\+Layout}} ()
+\item 
+void \mbox{\hyperlink{classscenes_1_1gameplay_scene_1_1_gameplay_scene_ac9ba00daf7d894d843e58460d7deaf83}{draw\+Backdrop}} (SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}renderer)
+\item 
+void \mbox{\hyperlink{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a7602ab3191c1d2f136bb693ac2785e04}{draw\+Grid}} (SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}renderer)
+\item 
+void \mbox{\hyperlink{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a2e60482ad4ed25687ea87c620c40fd4e}{draw\+Overlay}} (SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}renderer)
+\item 
+void \mbox{\hyperlink{classscenes_1_1gameplay_scene_1_1_gameplay_scene_aefef1247fcec1f1ec5f95519ce60a8c7}{draw\+Empty\+State}} (SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}renderer)
+\item 
+void \mbox{\hyperlink{classscenes_1_1gameplay_scene_1_1_gameplay_scene_aa8842f4cbd6f5a3df5d9460294fee57e}{update\+Button\+Hover}} (ref \mbox{\hyperlink{structui_1_1widgets_1_1_u_i_button}{UIButton}} button, float x, float y)
+\item 
+void \mbox{\hyperlink{classscenes_1_1gameplay_scene_1_1_gameplay_scene_ab515834b1eeac38fadb3d9d6c4a889c1}{draw\+Wind\+Label}} (SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}renderer, ref SDL\+\_\+\+FRect tile\+Rect, bool is\+Right)
+\item 
+void \mbox{\hyperlink{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a6e6195e7909a210eee6a61ccdd22e195}{update\+Player}} (float delta\+Time)
+\item 
+void \mbox{\hyperlink{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a10f0846b768a9e89e40766fb8b5b67ea}{update\+Player\+Step}} (float delta\+Time)
+\item 
+void \mbox{\hyperlink{classscenes_1_1gameplay_scene_1_1_gameplay_scene_aab2b78734c75a68a1f37886e264553ba}{update\+Stone\+Blocks}} (float delta\+Time)
+\item 
+void \mbox{\hyperlink{classscenes_1_1gameplay_scene_1_1_gameplay_scene_ac629dc7e92adcbaf161c051ef95c1d07}{follow\+Player\+Scroll}} ()
+\item 
+void \mbox{\hyperlink{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a55efe4f6973f2c7cd465931feaf930a3}{perform\+Jump}} ()
+\item 
+void \mbox{\hyperlink{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a829367fba29d218172ba2ec85da12f9e}{draw\+Player}} (SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}renderer)
+\item 
+bool \mbox{\hyperlink{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a56af1d01467285d68a39a6e34637c762}{is\+Solid\+Tile}} (int tile)
+\item 
+bool \mbox{\hyperlink{classscenes_1_1gameplay_scene_1_1_gameplay_scene_ae81663408174d27af72d0fa1a00296d5}{is\+Wind\+Tile}} (int tile)
+\item 
+float \mbox{\hyperlink{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a7a555afdf292fb9d2845ecdf6e23f65e}{ground\+Friction\+For\+Tile}} (int tile)
+\item 
+bool \mbox{\hyperlink{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a601dd4858dfba9beff38e0402819b0b2}{check\+If\+Standing\+On\+Disappeared\+Stone\+Block}} ()
+\item 
+bool \mbox{\hyperlink{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a809d9fca73fb18daecd9c125e36c51bf}{has\+Ground\+Below}} ()
+\item 
+void \mbox{\hyperlink{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a5c3c8c3ab1baf474ece7ddffbcbb2fa2}{apply\+Wind\+Impulse}} (int tile, float delta\+Time)
+\item 
+float \mbox{\hyperlink{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a1d1ba8fd2d63cd3edee49a155de41052}{wrap\+Angle180}} (float angle)
+\item 
+void \mbox{\hyperlink{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a2030f6e480ef32f77018f7857cb9d4bd}{resolve\+Tile\+Collisions}} (float delta\+Time)
+\item 
+void \mbox{\hyperlink{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a436dc2d68fa4f3a0d9484f6fdf714497}{change\+Scroll\+Target}} (int delta\+Rows)
+\item 
+void \mbox{\hyperlink{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a2f0aaebc21f4018e0e6f87c986cd989f}{update\+Scroll}} (float delta\+Time)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Stacked\+World \mbox{\hyperlink{classscenes_1_1gameplay_scene_1_1_gameplay_scene_afa1f2c42cc09a002dbb8bfc742baa617}{world}}
+\item 
+float \mbox{\hyperlink{classscenes_1_1gameplay_scene_1_1_gameplay_scene_aabed01e52d73d6552ae7c11d9312bfe9}{scroll\+Row\+Offset}}
+\item 
+float \mbox{\hyperlink{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a46d738de72dbb092cc0eb7703211299b}{scroll\+Target\+Row\+Offset}}
+\item 
+SDL\+\_\+\+FRect \mbox{\hyperlink{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a5ffeceb2b34426730cbfce7e9a6c96f2}{player\+Rect}}
+\item 
+float \mbox{\hyperlink{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a33973aedbf7cb1b1f41a71b7774b9598}{player\+VelX}} = 0.\+0f
+\item 
+float \mbox{\hyperlink{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a8cb44998fe82e29012b2613d9a305e3c}{player\+VelY}} = 0.\+0f
+\item 
+bool \mbox{\hyperlink{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a9299903a5fc60794debed47f2da8cda5}{player\+On\+Ground}} = true
+\item 
+bool \mbox{\hyperlink{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a4c5cc32b0bfb007cdced4a09b0c806f4}{is\+Charging}} = false
+\item 
+float \mbox{\hyperlink{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a67f1224d52bb7005b51ba3465f6f637d}{charge\+Time}} = 0.\+0f
+\item 
+enum float \mbox{\hyperlink{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a38eb38934651eb5cdeeb190ca7c0ca05}{k\+Max\+Charge\+Time}} = 2.\+0f
+\item 
+enum float \mbox{\hyperlink{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a8be7ddf3e7da088822dbcf01a94263d0}{k\+Gravity}} = 1600.\+0f
+\item 
+enum float \mbox{\hyperlink{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a99c791a426a967cf6260f727bb38b21d}{k\+Min\+Jump\+Speed}} = 600.\+0f
+\item 
+enum float \mbox{\hyperlink{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a6536a705fb72e0fbf3b3cc2f7f232c8c}{k\+Max\+Jump\+Speed}} = 1400.\+0f
+\item 
+float \mbox{\hyperlink{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a81d556af872236fc360aa7e6b2802ff9}{aim\+Angle\+Deg}} = 0.\+0f
+\item 
+float \mbox{\hyperlink{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a58268eb40171f2709f55141c3bd70dd8}{visual\+Angle\+Deg}} = 0.\+0f
+\item 
+enum float \mbox{\hyperlink{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a068e0a6db85cd014b4b3fba5f299692b}{k\+Max\+Aim\+Angle\+Deg}} = 90.\+0f
+\item 
+enum float \mbox{\hyperlink{classscenes_1_1gameplay_scene_1_1_gameplay_scene_af1a178f66551abe1b53250a9eda49045}{k\+Idle\+Rotate\+Speed\+Deg}} = 120.\+0f
+\item 
+enum float \mbox{\hyperlink{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a09d826c5316aa33765baefad1c2ed176}{k\+Rotate\+Speed\+Deg}} = 270.\+0f
+\item 
+enum float \mbox{\hyperlink{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a79134814a602b62c0f90fb1f5f167b0b}{k\+Landing\+Angle\+Tolerance\+Deg}} = 10.\+0f
+\item 
+enum float \mbox{\hyperlink{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a93fcc5bd758813eb8448927ea6221b2d}{k\+Bounce\+Angle\+Threshold\+Deg}} = 120.\+0f
+\item 
+enum float \mbox{\hyperlink{classscenes_1_1gameplay_scene_1_1_gameplay_scene_ac24f119feadb360f31111e44a74fbc7c}{k\+Auto\+Align\+Speed\+Deg}} = 360.\+0f
+\item 
+enum float \mbox{\hyperlink{classscenes_1_1gameplay_scene_1_1_gameplay_scene_aeb2a93aa782f2221a83515c1ed8dac2f}{k\+Bad\+Landing\+Bounce\+Speed}} = 500.\+0f
+\item 
+enum float \mbox{\hyperlink{classscenes_1_1gameplay_scene_1_1_gameplay_scene_ac5a3138e4248e36d3efce810ca62675c}{k\+Wind\+Push\+Per\+Second}} = 420.\+0f
+\item 
+bool \mbox{\hyperlink{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a0c92e1fafdc3939c808c8e6fa9340386}{rotate\+Left\+Held}} = false
+\item 
+bool \mbox{\hyperlink{classscenes_1_1gameplay_scene_1_1_gameplay_scene_add2e439685b11c4aec3f5df6dce91f14}{rotate\+Right\+Held}} = false
+\item 
+bool \mbox{\hyperlink{classscenes_1_1gameplay_scene_1_1_gameplay_scene_af4d090c3361ff936e61d034e6df0c4cb}{correcting\+Landing}} = false
+\item 
+int \mbox{\hyperlink{classscenes_1_1gameplay_scene_1_1_gameplay_scene_af8c16a3efac7f6dfa60f003cb0045160}{idle\+Rotate\+Direction}} = 1
+\item 
+SDL\+\_\+\+FRect \mbox{\hyperlink{classscenes_1_1gameplay_scene_1_1_gameplay_scene_ae117c40d6736403165f84f49a156be1b}{grid\+Rect}}
+\item 
+\mbox{\hyperlink{structui_1_1widgets_1_1_u_i_button}{UIButton}} \mbox{\hyperlink{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a34f34ce5751e93af4065b159ecdaf713}{menu\+Button}}
+\item 
+int \mbox{\hyperlink{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a52234b233d09dfe1a9277892fc691bde}{cached\+Width}} = -\/1
+\item 
+int \mbox{\hyperlink{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a1d9876449fe50310fc3d1881037eb1d0}{cached\+Height}} = -\/1
+\item 
+float \mbox{\hyperlink{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a7566c94209e57051d79a9c85025388c3}{tile\+Size}} = 40.\+0f
+\item 
+float \mbox{\hyperlink{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a4501f6240f2b1b43cb57f25445b05053}{prev\+PlayerX}} = 0.\+0f
+\item 
+float \mbox{\hyperlink{classscenes_1_1gameplay_scene_1_1_gameplay_scene_ae06c6a4b58f6b1edd6aa53ec46393c76}{prev\+PlayerY}} = 0.\+0f
+\item 
+float \mbox{\hyperlink{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a0fa199e6df6a4ec507c1fdc1a7d2f3e4}{ground\+Friction}} = 0.\+0f
+\item 
+float\mbox{[}ulong\mbox{]} \mbox{\hyperlink{classscenes_1_1gameplay_scene_1_1_gameplay_scene_affb97b6d034b71540517fbd40a0d048f}{stone\+Block\+Timers}}
+\item 
+enum float \mbox{\hyperlink{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a72b75b833c68851c5c13a64a477ca0ae}{k\+Stone\+Delay\+Time}} = 2.\+0f
+\item 
+enum float \mbox{\hyperlink{classscenes_1_1gameplay_scene_1_1_gameplay_scene_aca80b55e14cbe2bf6e03591c677e1672}{k\+Stone\+Shake\+Time}} = 1.\+0f
+\item 
+enum float \mbox{\hyperlink{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a54173f49890a3888f7e941a372ca2d25}{k\+Stone\+Respawn\+Time}} = 3.\+0f
+\end{DoxyCompactItemize}
+
+
+\label{doc-constructors}
+\Hypertarget{classscenes_1_1gameplay_scene_1_1_gameplay_scene_doc-constructors}
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a14bf69606d356ef4acc29798b69cfb0c}\index{scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}!this@{this}}
+\index{this@{this}!scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}}
+\doxysubsubsection{\texorpdfstring{this()}{this()}}
+{\footnotesize\ttfamily \label{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a14bf69606d356ef4acc29798b69cfb0c} 
+scenes\+::gameplay\+Scene\+::\+Gameplay\+Scene\+::this (\begin{DoxyParamCaption}\item[{Scene\+Host}]{host}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\label{doc-func-members}
+\Hypertarget{classscenes_1_1gameplay_scene_1_1_gameplay_scene_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a5c3c8c3ab1baf474ece7ddffbcbb2fa2}\index{scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}!applyWindImpulse@{applyWindImpulse}}
+\index{applyWindImpulse@{applyWindImpulse}!scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}}
+\doxysubsubsection{\texorpdfstring{applyWindImpulse()}{applyWindImpulse()}}
+{\footnotesize\ttfamily \label{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a5c3c8c3ab1baf474ece7ddffbcbb2fa2} 
+void scenes\+::gameplay\+Scene\+::\+Gameplay\+Scene\+::apply\+Wind\+Impulse (\begin{DoxyParamCaption}\item[{int}]{tile}{, }\item[{float}]{delta\+Time}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a5c3c8c3ab1baf474ece7ddffbcbb2fa2_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a436dc2d68fa4f3a0d9484f6fdf714497}\index{scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}!changeScrollTarget@{changeScrollTarget}}
+\index{changeScrollTarget@{changeScrollTarget}!scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}}
+\doxysubsubsection{\texorpdfstring{changeScrollTarget()}{changeScrollTarget()}}
+{\footnotesize\ttfamily \label{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a436dc2d68fa4f3a0d9484f6fdf714497} 
+void scenes\+::gameplay\+Scene\+::\+Gameplay\+Scene\+::change\+Scroll\+Target (\begin{DoxyParamCaption}\item[{int}]{delta\+Rows}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a436dc2d68fa4f3a0d9484f6fdf714497_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a601dd4858dfba9beff38e0402819b0b2}\index{scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}!checkIfStandingOnDisappearedStoneBlock@{checkIfStandingOnDisappearedStoneBlock}}
+\index{checkIfStandingOnDisappearedStoneBlock@{checkIfStandingOnDisappearedStoneBlock}!scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}}
+\doxysubsubsection{\texorpdfstring{checkIfStandingOnDisappearedStoneBlock()}{checkIfStandingOnDisappearedStoneBlock()}}
+{\footnotesize\ttfamily \label{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a601dd4858dfba9beff38e0402819b0b2} 
+bool scenes\+::gameplay\+Scene\+::\+Gameplay\+Scene\+::check\+If\+Standing\+On\+Disappeared\+Stone\+Block (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a601dd4858dfba9beff38e0402819b0b2_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classscenes_1_1gameplay_scene_1_1_gameplay_scene_ac9ba00daf7d894d843e58460d7deaf83}\index{scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}!drawBackdrop@{drawBackdrop}}
+\index{drawBackdrop@{drawBackdrop}!scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}}
+\doxysubsubsection{\texorpdfstring{drawBackdrop()}{drawBackdrop()}}
+{\footnotesize\ttfamily \label{classscenes_1_1gameplay_scene_1_1_gameplay_scene_ac9ba00daf7d894d843e58460d7deaf83} 
+void scenes\+::gameplay\+Scene\+::\+Gameplay\+Scene\+::draw\+Backdrop (\begin{DoxyParamCaption}\item[{SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}}]{renderer}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1gameplay_scene_1_1_gameplay_scene_ac9ba00daf7d894d843e58460d7deaf83_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1gameplay_scene_1_1_gameplay_scene_ac9ba00daf7d894d843e58460d7deaf83_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classscenes_1_1gameplay_scene_1_1_gameplay_scene_aefef1247fcec1f1ec5f95519ce60a8c7}\index{scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}!drawEmptyState@{drawEmptyState}}
+\index{drawEmptyState@{drawEmptyState}!scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}}
+\doxysubsubsection{\texorpdfstring{drawEmptyState()}{drawEmptyState()}}
+{\footnotesize\ttfamily \label{classscenes_1_1gameplay_scene_1_1_gameplay_scene_aefef1247fcec1f1ec5f95519ce60a8c7} 
+void scenes\+::gameplay\+Scene\+::\+Gameplay\+Scene\+::draw\+Empty\+State (\begin{DoxyParamCaption}\item[{SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}}]{renderer}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1gameplay_scene_1_1_gameplay_scene_aefef1247fcec1f1ec5f95519ce60a8c7_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1gameplay_scene_1_1_gameplay_scene_aefef1247fcec1f1ec5f95519ce60a8c7_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a7602ab3191c1d2f136bb693ac2785e04}\index{scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}!drawGrid@{drawGrid}}
+\index{drawGrid@{drawGrid}!scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}}
+\doxysubsubsection{\texorpdfstring{drawGrid()}{drawGrid()}}
+{\footnotesize\ttfamily \label{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a7602ab3191c1d2f136bb693ac2785e04} 
+void scenes\+::gameplay\+Scene\+::\+Gameplay\+Scene\+::draw\+Grid (\begin{DoxyParamCaption}\item[{SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}}]{renderer}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a7602ab3191c1d2f136bb693ac2785e04_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a7602ab3191c1d2f136bb693ac2785e04_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a2e60482ad4ed25687ea87c620c40fd4e}\index{scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}!drawOverlay@{drawOverlay}}
+\index{drawOverlay@{drawOverlay}!scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}}
+\doxysubsubsection{\texorpdfstring{drawOverlay()}{drawOverlay()}}
+{\footnotesize\ttfamily \label{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a2e60482ad4ed25687ea87c620c40fd4e} 
+void scenes\+::gameplay\+Scene\+::\+Gameplay\+Scene\+::draw\+Overlay (\begin{DoxyParamCaption}\item[{SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}}]{renderer}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a2e60482ad4ed25687ea87c620c40fd4e_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a2e60482ad4ed25687ea87c620c40fd4e_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a829367fba29d218172ba2ec85da12f9e}\index{scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}!drawPlayer@{drawPlayer}}
+\index{drawPlayer@{drawPlayer}!scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}}
+\doxysubsubsection{\texorpdfstring{drawPlayer()}{drawPlayer()}}
+{\footnotesize\ttfamily \label{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a829367fba29d218172ba2ec85da12f9e} 
+void scenes\+::gameplay\+Scene\+::\+Gameplay\+Scene\+::draw\+Player (\begin{DoxyParamCaption}\item[{SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}}]{renderer}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a829367fba29d218172ba2ec85da12f9e_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a829367fba29d218172ba2ec85da12f9e_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classscenes_1_1gameplay_scene_1_1_gameplay_scene_ab515834b1eeac38fadb3d9d6c4a889c1}\index{scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}!drawWindLabel@{drawWindLabel}}
+\index{drawWindLabel@{drawWindLabel}!scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}}
+\doxysubsubsection{\texorpdfstring{drawWindLabel()}{drawWindLabel()}}
+{\footnotesize\ttfamily \label{classscenes_1_1gameplay_scene_1_1_gameplay_scene_ab515834b1eeac38fadb3d9d6c4a889c1} 
+void scenes\+::gameplay\+Scene\+::\+Gameplay\+Scene\+::draw\+Wind\+Label (\begin{DoxyParamCaption}\item[{SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}}]{renderer}{, }\item[{ref SDL\+\_\+\+FRect}]{tile\+Rect}{, }\item[{bool}]{is\+Right}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1gameplay_scene_1_1_gameplay_scene_ab515834b1eeac38fadb3d9d6c4a889c1_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1gameplay_scene_1_1_gameplay_scene_ab515834b1eeac38fadb3d9d6c4a889c1_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classscenes_1_1gameplay_scene_1_1_gameplay_scene_ac629dc7e92adcbaf161c051ef95c1d07}\index{scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}!followPlayerScroll@{followPlayerScroll}}
+\index{followPlayerScroll@{followPlayerScroll}!scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}}
+\doxysubsubsection{\texorpdfstring{followPlayerScroll()}{followPlayerScroll()}}
+{\footnotesize\ttfamily \label{classscenes_1_1gameplay_scene_1_1_gameplay_scene_ac629dc7e92adcbaf161c051ef95c1d07} 
+void scenes\+::gameplay\+Scene\+::\+Gameplay\+Scene\+::follow\+Player\+Scroll (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1gameplay_scene_1_1_gameplay_scene_ac629dc7e92adcbaf161c051ef95c1d07_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a7a555afdf292fb9d2845ecdf6e23f65e}\index{scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}!groundFrictionForTile@{groundFrictionForTile}}
+\index{groundFrictionForTile@{groundFrictionForTile}!scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}}
+\doxysubsubsection{\texorpdfstring{groundFrictionForTile()}{groundFrictionForTile()}}
+{\footnotesize\ttfamily \label{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a7a555afdf292fb9d2845ecdf6e23f65e} 
+float scenes\+::gameplay\+Scene\+::\+Gameplay\+Scene\+::ground\+Friction\+For\+Tile (\begin{DoxyParamCaption}\item[{int}]{tile}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a7a555afdf292fb9d2845ecdf6e23f65e_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classscenes_1_1gameplay_scene_1_1_gameplay_scene_aace8c347ba19ae7c5dcb7d554513dde8}\index{scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}!handleEvent@{handleEvent}}
+\index{handleEvent@{handleEvent}!scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}}
+\doxysubsubsection{\texorpdfstring{handleEvent()}{handleEvent()}}
+{\footnotesize\ttfamily \label{classscenes_1_1gameplay_scene_1_1_gameplay_scene_aace8c347ba19ae7c5dcb7d554513dde8} 
+override bool scenes\+::gameplay\+Scene\+::\+Gameplay\+Scene\+::handle\+Event (\begin{DoxyParamCaption}\item[{ref SDL\+\_\+\+Event}]{event}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1gameplay_scene_1_1_gameplay_scene_aace8c347ba19ae7c5dcb7d554513dde8_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a809d9fca73fb18daecd9c125e36c51bf}\index{scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}!hasGroundBelow@{hasGroundBelow}}
+\index{hasGroundBelow@{hasGroundBelow}!scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}}
+\doxysubsubsection{\texorpdfstring{hasGroundBelow()}{hasGroundBelow()}}
+{\footnotesize\ttfamily \label{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a809d9fca73fb18daecd9c125e36c51bf} 
+bool scenes\+::gameplay\+Scene\+::\+Gameplay\+Scene\+::has\+Ground\+Below (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a809d9fca73fb18daecd9c125e36c51bf_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a809d9fca73fb18daecd9c125e36c51bf_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a56af1d01467285d68a39a6e34637c762}\index{scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}!isSolidTile@{isSolidTile}}
+\index{isSolidTile@{isSolidTile}!scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}}
+\doxysubsubsection{\texorpdfstring{isSolidTile()}{isSolidTile()}}
+{\footnotesize\ttfamily \label{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a56af1d01467285d68a39a6e34637c762} 
+bool scenes\+::gameplay\+Scene\+::\+Gameplay\+Scene\+::is\+Solid\+Tile (\begin{DoxyParamCaption}\item[{int}]{tile}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a56af1d01467285d68a39a6e34637c762_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classscenes_1_1gameplay_scene_1_1_gameplay_scene_ae81663408174d27af72d0fa1a00296d5}\index{scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}!isWindTile@{isWindTile}}
+\index{isWindTile@{isWindTile}!scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}}
+\doxysubsubsection{\texorpdfstring{isWindTile()}{isWindTile()}}
+{\footnotesize\ttfamily \label{classscenes_1_1gameplay_scene_1_1_gameplay_scene_ae81663408174d27af72d0fa1a00296d5} 
+bool scenes\+::gameplay\+Scene\+::\+Gameplay\+Scene\+::is\+Wind\+Tile (\begin{DoxyParamCaption}\item[{int}]{tile}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1gameplay_scene_1_1_gameplay_scene_ae81663408174d27af72d0fa1a00296d5_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a07f19658167190142cf9a44687cfe6ff}\index{scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}!onEnter@{onEnter}}
+\index{onEnter@{onEnter}!scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}}
+\doxysubsubsection{\texorpdfstring{onEnter()}{onEnter()}}
+{\footnotesize\ttfamily \label{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a07f19658167190142cf9a44687cfe6ff} 
+override void scenes\+::gameplay\+Scene\+::\+Gameplay\+Scene\+::on\+Enter (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a07f19658167190142cf9a44687cfe6ff_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a55efe4f6973f2c7cd465931feaf930a3}\index{scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}!performJump@{performJump}}
+\index{performJump@{performJump}!scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}}
+\doxysubsubsection{\texorpdfstring{performJump()}{performJump()}}
+{\footnotesize\ttfamily \label{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a55efe4f6973f2c7cd465931feaf930a3} 
+void scenes\+::gameplay\+Scene\+::\+Gameplay\+Scene\+::perform\+Jump (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a55efe4f6973f2c7cd465931feaf930a3_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a9d17f51fef632a456a0c161abd5ce617}\index{scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}!rebuildLayout@{rebuildLayout}}
+\index{rebuildLayout@{rebuildLayout}!scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}}
+\doxysubsubsection{\texorpdfstring{rebuildLayout()}{rebuildLayout()}}
+{\footnotesize\ttfamily \label{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a9d17f51fef632a456a0c161abd5ce617} 
+void scenes\+::gameplay\+Scene\+::\+Gameplay\+Scene\+::rebuild\+Layout (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a9d17f51fef632a456a0c161abd5ce617_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a356211c92212ecebd69f0a5f8d7bafb9}\index{scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}!rebuildWorld@{rebuildWorld}}
+\index{rebuildWorld@{rebuildWorld}!scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}}
+\doxysubsubsection{\texorpdfstring{rebuildWorld()}{rebuildWorld()}}
+{\footnotesize\ttfamily \label{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a356211c92212ecebd69f0a5f8d7bafb9} 
+void scenes\+::gameplay\+Scene\+::\+Gameplay\+Scene\+::rebuild\+World (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a356211c92212ecebd69f0a5f8d7bafb9_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classscenes_1_1gameplay_scene_1_1_gameplay_scene_afb9bc1ca7d3007f35826882bd5144d01}\index{scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}!render@{render}}
+\index{render@{render}!scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}}
+\doxysubsubsection{\texorpdfstring{render()}{render()}}
+{\footnotesize\ttfamily \label{classscenes_1_1gameplay_scene_1_1_gameplay_scene_afb9bc1ca7d3007f35826882bd5144d01} 
+override void scenes\+::gameplay\+Scene\+::\+Gameplay\+Scene\+::render (\begin{DoxyParamCaption}\item[{SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}}]{renderer}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1gameplay_scene_1_1_gameplay_scene_afb9bc1ca7d3007f35826882bd5144d01_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a2030f6e480ef32f77018f7857cb9d4bd}\index{scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}!resolveTileCollisions@{resolveTileCollisions}}
+\index{resolveTileCollisions@{resolveTileCollisions}!scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}}
+\doxysubsubsection{\texorpdfstring{resolveTileCollisions()}{resolveTileCollisions()}}
+{\footnotesize\ttfamily \label{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a2030f6e480ef32f77018f7857cb9d4bd} 
+void scenes\+::gameplay\+Scene\+::\+Gameplay\+Scene\+::resolve\+Tile\+Collisions (\begin{DoxyParamCaption}\item[{float}]{delta\+Time}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a2030f6e480ef32f77018f7857cb9d4bd_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a2030f6e480ef32f77018f7857cb9d4bd_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a29fb2d83766e40784912a49f6491535c}\index{scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}!update@{update}}
+\index{update@{update}!scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily \label{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a29fb2d83766e40784912a49f6491535c} 
+override void scenes\+::gameplay\+Scene\+::\+Gameplay\+Scene\+::update (\begin{DoxyParamCaption}\item[{float}]{delta\+Time}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a29fb2d83766e40784912a49f6491535c_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classscenes_1_1gameplay_scene_1_1_gameplay_scene_aa8842f4cbd6f5a3df5d9460294fee57e}\index{scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}!updateButtonHover@{updateButtonHover}}
+\index{updateButtonHover@{updateButtonHover}!scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}}
+\doxysubsubsection{\texorpdfstring{updateButtonHover()}{updateButtonHover()}}
+{\footnotesize\ttfamily \label{classscenes_1_1gameplay_scene_1_1_gameplay_scene_aa8842f4cbd6f5a3df5d9460294fee57e} 
+void scenes\+::gameplay\+Scene\+::\+Gameplay\+Scene\+::update\+Button\+Hover (\begin{DoxyParamCaption}\item[{ref \mbox{\hyperlink{structui_1_1widgets_1_1_u_i_button}{UIButton}}}]{button}{, }\item[{float}]{x}{, }\item[{float}]{y}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1gameplay_scene_1_1_gameplay_scene_aa8842f4cbd6f5a3df5d9460294fee57e_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1gameplay_scene_1_1_gameplay_scene_aa8842f4cbd6f5a3df5d9460294fee57e_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a6e6195e7909a210eee6a61ccdd22e195}\index{scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}!updatePlayer@{updatePlayer}}
+\index{updatePlayer@{updatePlayer}!scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}}
+\doxysubsubsection{\texorpdfstring{updatePlayer()}{updatePlayer()}}
+{\footnotesize\ttfamily \label{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a6e6195e7909a210eee6a61ccdd22e195} 
+void scenes\+::gameplay\+Scene\+::\+Gameplay\+Scene\+::update\+Player (\begin{DoxyParamCaption}\item[{float}]{delta\+Time}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a6e6195e7909a210eee6a61ccdd22e195_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a6e6195e7909a210eee6a61ccdd22e195_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a10f0846b768a9e89e40766fb8b5b67ea}\index{scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}!updatePlayerStep@{updatePlayerStep}}
+\index{updatePlayerStep@{updatePlayerStep}!scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}}
+\doxysubsubsection{\texorpdfstring{updatePlayerStep()}{updatePlayerStep()}}
+{\footnotesize\ttfamily \label{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a10f0846b768a9e89e40766fb8b5b67ea} 
+void scenes\+::gameplay\+Scene\+::\+Gameplay\+Scene\+::update\+Player\+Step (\begin{DoxyParamCaption}\item[{float}]{delta\+Time}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a10f0846b768a9e89e40766fb8b5b67ea_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a10f0846b768a9e89e40766fb8b5b67ea_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a2f0aaebc21f4018e0e6f87c986cd989f}\index{scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}!updateScroll@{updateScroll}}
+\index{updateScroll@{updateScroll}!scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}}
+\doxysubsubsection{\texorpdfstring{updateScroll()}{updateScroll()}}
+{\footnotesize\ttfamily \label{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a2f0aaebc21f4018e0e6f87c986cd989f} 
+void scenes\+::gameplay\+Scene\+::\+Gameplay\+Scene\+::update\+Scroll (\begin{DoxyParamCaption}\item[{float}]{delta\+Time}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a2f0aaebc21f4018e0e6f87c986cd989f_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classscenes_1_1gameplay_scene_1_1_gameplay_scene_aab2b78734c75a68a1f37886e264553ba}\index{scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}!updateStoneBlocks@{updateStoneBlocks}}
+\index{updateStoneBlocks@{updateStoneBlocks}!scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}}
+\doxysubsubsection{\texorpdfstring{updateStoneBlocks()}{updateStoneBlocks()}}
+{\footnotesize\ttfamily \label{classscenes_1_1gameplay_scene_1_1_gameplay_scene_aab2b78734c75a68a1f37886e264553ba} 
+void scenes\+::gameplay\+Scene\+::\+Gameplay\+Scene\+::update\+Stone\+Blocks (\begin{DoxyParamCaption}\item[{float}]{delta\+Time}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1gameplay_scene_1_1_gameplay_scene_aab2b78734c75a68a1f37886e264553ba_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a1d1ba8fd2d63cd3edee49a155de41052}\index{scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}!wrapAngle180@{wrapAngle180}}
+\index{wrapAngle180@{wrapAngle180}!scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}}
+\doxysubsubsection{\texorpdfstring{wrapAngle180()}{wrapAngle180()}}
+{\footnotesize\ttfamily \label{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a1d1ba8fd2d63cd3edee49a155de41052} 
+float scenes\+::gameplay\+Scene\+::\+Gameplay\+Scene\+::wrap\+Angle180 (\begin{DoxyParamCaption}\item[{float}]{angle}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a1d1ba8fd2d63cd3edee49a155de41052_icgraph}
+\end{center}
+\end{figure}
+
+
+\label{doc-variable-members}
+\Hypertarget{classscenes_1_1gameplay_scene_1_1_gameplay_scene_doc-variable-members}
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a81d556af872236fc360aa7e6b2802ff9}\index{scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}!aimAngleDeg@{aimAngleDeg}}
+\index{aimAngleDeg@{aimAngleDeg}!scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}}
+\doxysubsubsection{\texorpdfstring{aimAngleDeg}{aimAngleDeg}}
+{\footnotesize\ttfamily \label{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a81d556af872236fc360aa7e6b2802ff9} 
+float scenes\+::gameplay\+Scene\+::\+Gameplay\+Scene\+::aim\+Angle\+Deg = 0.\+0f\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a1d9876449fe50310fc3d1881037eb1d0}\index{scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}!cachedHeight@{cachedHeight}}
+\index{cachedHeight@{cachedHeight}!scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}}
+\doxysubsubsection{\texorpdfstring{cachedHeight}{cachedHeight}}
+{\footnotesize\ttfamily \label{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a1d9876449fe50310fc3d1881037eb1d0} 
+int scenes\+::gameplay\+Scene\+::\+Gameplay\+Scene\+::cached\+Height = -\/1\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a52234b233d09dfe1a9277892fc691bde}\index{scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}!cachedWidth@{cachedWidth}}
+\index{cachedWidth@{cachedWidth}!scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}}
+\doxysubsubsection{\texorpdfstring{cachedWidth}{cachedWidth}}
+{\footnotesize\ttfamily \label{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a52234b233d09dfe1a9277892fc691bde} 
+int scenes\+::gameplay\+Scene\+::\+Gameplay\+Scene\+::cached\+Width = -\/1\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a67f1224d52bb7005b51ba3465f6f637d}\index{scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}!chargeTime@{chargeTime}}
+\index{chargeTime@{chargeTime}!scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}}
+\doxysubsubsection{\texorpdfstring{chargeTime}{chargeTime}}
+{\footnotesize\ttfamily \label{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a67f1224d52bb7005b51ba3465f6f637d} 
+float scenes\+::gameplay\+Scene\+::\+Gameplay\+Scene\+::charge\+Time = 0.\+0f\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classscenes_1_1gameplay_scene_1_1_gameplay_scene_af4d090c3361ff936e61d034e6df0c4cb}\index{scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}!correctingLanding@{correctingLanding}}
+\index{correctingLanding@{correctingLanding}!scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}}
+\doxysubsubsection{\texorpdfstring{correctingLanding}{correctingLanding}}
+{\footnotesize\ttfamily \label{classscenes_1_1gameplay_scene_1_1_gameplay_scene_af4d090c3361ff936e61d034e6df0c4cb} 
+bool scenes\+::gameplay\+Scene\+::\+Gameplay\+Scene\+::correcting\+Landing = false\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classscenes_1_1gameplay_scene_1_1_gameplay_scene_ae117c40d6736403165f84f49a156be1b}\index{scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}!gridRect@{gridRect}}
+\index{gridRect@{gridRect}!scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}}
+\doxysubsubsection{\texorpdfstring{gridRect}{gridRect}}
+{\footnotesize\ttfamily \label{classscenes_1_1gameplay_scene_1_1_gameplay_scene_ae117c40d6736403165f84f49a156be1b} 
+SDL\+\_\+\+FRect scenes\+::gameplay\+Scene\+::\+Gameplay\+Scene\+::grid\+Rect\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a0fa199e6df6a4ec507c1fdc1a7d2f3e4}\index{scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}!groundFriction@{groundFriction}}
+\index{groundFriction@{groundFriction}!scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}}
+\doxysubsubsection{\texorpdfstring{groundFriction}{groundFriction}}
+{\footnotesize\ttfamily \label{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a0fa199e6df6a4ec507c1fdc1a7d2f3e4} 
+float scenes\+::gameplay\+Scene\+::\+Gameplay\+Scene\+::ground\+Friction = 0.\+0f\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classscenes_1_1gameplay_scene_1_1_gameplay_scene_af8c16a3efac7f6dfa60f003cb0045160}\index{scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}!idleRotateDirection@{idleRotateDirection}}
+\index{idleRotateDirection@{idleRotateDirection}!scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}}
+\doxysubsubsection{\texorpdfstring{idleRotateDirection}{idleRotateDirection}}
+{\footnotesize\ttfamily \label{classscenes_1_1gameplay_scene_1_1_gameplay_scene_af8c16a3efac7f6dfa60f003cb0045160} 
+int scenes\+::gameplay\+Scene\+::\+Gameplay\+Scene\+::idle\+Rotate\+Direction = 1\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a4c5cc32b0bfb007cdced4a09b0c806f4}\index{scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}!isCharging@{isCharging}}
+\index{isCharging@{isCharging}!scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}}
+\doxysubsubsection{\texorpdfstring{isCharging}{isCharging}}
+{\footnotesize\ttfamily \label{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a4c5cc32b0bfb007cdced4a09b0c806f4} 
+bool scenes\+::gameplay\+Scene\+::\+Gameplay\+Scene\+::is\+Charging = false\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classscenes_1_1gameplay_scene_1_1_gameplay_scene_ac24f119feadb360f31111e44a74fbc7c}\index{scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}!kAutoAlignSpeedDeg@{kAutoAlignSpeedDeg}}
+\index{kAutoAlignSpeedDeg@{kAutoAlignSpeedDeg}!scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}}
+\doxysubsubsection{\texorpdfstring{kAutoAlignSpeedDeg}{kAutoAlignSpeedDeg}}
+{\footnotesize\ttfamily \label{classscenes_1_1gameplay_scene_1_1_gameplay_scene_ac24f119feadb360f31111e44a74fbc7c} 
+enum float scenes\+::gameplay\+Scene\+::\+Gameplay\+Scene\+::k\+Auto\+Align\+Speed\+Deg = 360.\+0f\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classscenes_1_1gameplay_scene_1_1_gameplay_scene_aeb2a93aa782f2221a83515c1ed8dac2f}\index{scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}!kBadLandingBounceSpeed@{kBadLandingBounceSpeed}}
+\index{kBadLandingBounceSpeed@{kBadLandingBounceSpeed}!scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}}
+\doxysubsubsection{\texorpdfstring{kBadLandingBounceSpeed}{kBadLandingBounceSpeed}}
+{\footnotesize\ttfamily \label{classscenes_1_1gameplay_scene_1_1_gameplay_scene_aeb2a93aa782f2221a83515c1ed8dac2f} 
+enum float scenes\+::gameplay\+Scene\+::\+Gameplay\+Scene\+::k\+Bad\+Landing\+Bounce\+Speed = 500.\+0f\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a93fcc5bd758813eb8448927ea6221b2d}\index{scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}!kBounceAngleThresholdDeg@{kBounceAngleThresholdDeg}}
+\index{kBounceAngleThresholdDeg@{kBounceAngleThresholdDeg}!scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}}
+\doxysubsubsection{\texorpdfstring{kBounceAngleThresholdDeg}{kBounceAngleThresholdDeg}}
+{\footnotesize\ttfamily \label{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a93fcc5bd758813eb8448927ea6221b2d} 
+enum float scenes\+::gameplay\+Scene\+::\+Gameplay\+Scene\+::k\+Bounce\+Angle\+Threshold\+Deg = 120.\+0f\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a8be7ddf3e7da088822dbcf01a94263d0}\index{scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}!kGravity@{kGravity}}
+\index{kGravity@{kGravity}!scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}}
+\doxysubsubsection{\texorpdfstring{kGravity}{kGravity}}
+{\footnotesize\ttfamily \label{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a8be7ddf3e7da088822dbcf01a94263d0} 
+enum float scenes\+::gameplay\+Scene\+::\+Gameplay\+Scene\+::k\+Gravity = 1600.\+0f\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classscenes_1_1gameplay_scene_1_1_gameplay_scene_af1a178f66551abe1b53250a9eda49045}\index{scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}!kIdleRotateSpeedDeg@{kIdleRotateSpeedDeg}}
+\index{kIdleRotateSpeedDeg@{kIdleRotateSpeedDeg}!scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}}
+\doxysubsubsection{\texorpdfstring{kIdleRotateSpeedDeg}{kIdleRotateSpeedDeg}}
+{\footnotesize\ttfamily \label{classscenes_1_1gameplay_scene_1_1_gameplay_scene_af1a178f66551abe1b53250a9eda49045} 
+enum float scenes\+::gameplay\+Scene\+::\+Gameplay\+Scene\+::k\+Idle\+Rotate\+Speed\+Deg = 120.\+0f\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a79134814a602b62c0f90fb1f5f167b0b}\index{scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}!kLandingAngleToleranceDeg@{kLandingAngleToleranceDeg}}
+\index{kLandingAngleToleranceDeg@{kLandingAngleToleranceDeg}!scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}}
+\doxysubsubsection{\texorpdfstring{kLandingAngleToleranceDeg}{kLandingAngleToleranceDeg}}
+{\footnotesize\ttfamily \label{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a79134814a602b62c0f90fb1f5f167b0b} 
+enum float scenes\+::gameplay\+Scene\+::\+Gameplay\+Scene\+::k\+Landing\+Angle\+Tolerance\+Deg = 10.\+0f\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a068e0a6db85cd014b4b3fba5f299692b}\index{scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}!kMaxAimAngleDeg@{kMaxAimAngleDeg}}
+\index{kMaxAimAngleDeg@{kMaxAimAngleDeg}!scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}}
+\doxysubsubsection{\texorpdfstring{kMaxAimAngleDeg}{kMaxAimAngleDeg}}
+{\footnotesize\ttfamily \label{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a068e0a6db85cd014b4b3fba5f299692b} 
+enum float scenes\+::gameplay\+Scene\+::\+Gameplay\+Scene\+::k\+Max\+Aim\+Angle\+Deg = 90.\+0f\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a38eb38934651eb5cdeeb190ca7c0ca05}\index{scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}!kMaxChargeTime@{kMaxChargeTime}}
+\index{kMaxChargeTime@{kMaxChargeTime}!scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}}
+\doxysubsubsection{\texorpdfstring{kMaxChargeTime}{kMaxChargeTime}}
+{\footnotesize\ttfamily \label{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a38eb38934651eb5cdeeb190ca7c0ca05} 
+enum float scenes\+::gameplay\+Scene\+::\+Gameplay\+Scene\+::k\+Max\+Charge\+Time = 2.\+0f\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a6536a705fb72e0fbf3b3cc2f7f232c8c}\index{scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}!kMaxJumpSpeed@{kMaxJumpSpeed}}
+\index{kMaxJumpSpeed@{kMaxJumpSpeed}!scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}}
+\doxysubsubsection{\texorpdfstring{kMaxJumpSpeed}{kMaxJumpSpeed}}
+{\footnotesize\ttfamily \label{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a6536a705fb72e0fbf3b3cc2f7f232c8c} 
+enum float scenes\+::gameplay\+Scene\+::\+Gameplay\+Scene\+::k\+Max\+Jump\+Speed = 1400.\+0f\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a99c791a426a967cf6260f727bb38b21d}\index{scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}!kMinJumpSpeed@{kMinJumpSpeed}}
+\index{kMinJumpSpeed@{kMinJumpSpeed}!scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}}
+\doxysubsubsection{\texorpdfstring{kMinJumpSpeed}{kMinJumpSpeed}}
+{\footnotesize\ttfamily \label{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a99c791a426a967cf6260f727bb38b21d} 
+enum float scenes\+::gameplay\+Scene\+::\+Gameplay\+Scene\+::k\+Min\+Jump\+Speed = 600.\+0f\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a09d826c5316aa33765baefad1c2ed176}\index{scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}!kRotateSpeedDeg@{kRotateSpeedDeg}}
+\index{kRotateSpeedDeg@{kRotateSpeedDeg}!scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}}
+\doxysubsubsection{\texorpdfstring{kRotateSpeedDeg}{kRotateSpeedDeg}}
+{\footnotesize\ttfamily \label{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a09d826c5316aa33765baefad1c2ed176} 
+enum float scenes\+::gameplay\+Scene\+::\+Gameplay\+Scene\+::k\+Rotate\+Speed\+Deg = 270.\+0f\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a72b75b833c68851c5c13a64a477ca0ae}\index{scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}!kStoneDelayTime@{kStoneDelayTime}}
+\index{kStoneDelayTime@{kStoneDelayTime}!scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}}
+\doxysubsubsection{\texorpdfstring{kStoneDelayTime}{kStoneDelayTime}}
+{\footnotesize\ttfamily \label{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a72b75b833c68851c5c13a64a477ca0ae} 
+enum float scenes\+::gameplay\+Scene\+::\+Gameplay\+Scene\+::k\+Stone\+Delay\+Time = 2.\+0f\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a54173f49890a3888f7e941a372ca2d25}\index{scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}!kStoneRespawnTime@{kStoneRespawnTime}}
+\index{kStoneRespawnTime@{kStoneRespawnTime}!scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}}
+\doxysubsubsection{\texorpdfstring{kStoneRespawnTime}{kStoneRespawnTime}}
+{\footnotesize\ttfamily \label{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a54173f49890a3888f7e941a372ca2d25} 
+enum float scenes\+::gameplay\+Scene\+::\+Gameplay\+Scene\+::k\+Stone\+Respawn\+Time = 3.\+0f\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classscenes_1_1gameplay_scene_1_1_gameplay_scene_aca80b55e14cbe2bf6e03591c677e1672}\index{scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}!kStoneShakeTime@{kStoneShakeTime}}
+\index{kStoneShakeTime@{kStoneShakeTime}!scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}}
+\doxysubsubsection{\texorpdfstring{kStoneShakeTime}{kStoneShakeTime}}
+{\footnotesize\ttfamily \label{classscenes_1_1gameplay_scene_1_1_gameplay_scene_aca80b55e14cbe2bf6e03591c677e1672} 
+enum float scenes\+::gameplay\+Scene\+::\+Gameplay\+Scene\+::k\+Stone\+Shake\+Time = 1.\+0f\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classscenes_1_1gameplay_scene_1_1_gameplay_scene_ac5a3138e4248e36d3efce810ca62675c}\index{scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}!kWindPushPerSecond@{kWindPushPerSecond}}
+\index{kWindPushPerSecond@{kWindPushPerSecond}!scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}}
+\doxysubsubsection{\texorpdfstring{kWindPushPerSecond}{kWindPushPerSecond}}
+{\footnotesize\ttfamily \label{classscenes_1_1gameplay_scene_1_1_gameplay_scene_ac5a3138e4248e36d3efce810ca62675c} 
+enum float scenes\+::gameplay\+Scene\+::\+Gameplay\+Scene\+::k\+Wind\+Push\+Per\+Second = 420.\+0f\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a34f34ce5751e93af4065b159ecdaf713}\index{scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}!menuButton@{menuButton}}
+\index{menuButton@{menuButton}!scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}}
+\doxysubsubsection{\texorpdfstring{menuButton}{menuButton}}
+{\footnotesize\ttfamily \label{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a34f34ce5751e93af4065b159ecdaf713} 
+\mbox{\hyperlink{structui_1_1widgets_1_1_u_i_button}{UIButton}} scenes\+::gameplay\+Scene\+::\+Gameplay\+Scene\+::menu\+Button\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a9299903a5fc60794debed47f2da8cda5}\index{scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}!playerOnGround@{playerOnGround}}
+\index{playerOnGround@{playerOnGround}!scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}}
+\doxysubsubsection{\texorpdfstring{playerOnGround}{playerOnGround}}
+{\footnotesize\ttfamily \label{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a9299903a5fc60794debed47f2da8cda5} 
+bool scenes\+::gameplay\+Scene\+::\+Gameplay\+Scene\+::player\+On\+Ground = true\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a5ffeceb2b34426730cbfce7e9a6c96f2}\index{scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}!playerRect@{playerRect}}
+\index{playerRect@{playerRect}!scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}}
+\doxysubsubsection{\texorpdfstring{playerRect}{playerRect}}
+{\footnotesize\ttfamily \label{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a5ffeceb2b34426730cbfce7e9a6c96f2} 
+SDL\+\_\+\+FRect scenes\+::gameplay\+Scene\+::\+Gameplay\+Scene\+::player\+Rect\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a33973aedbf7cb1b1f41a71b7774b9598}\index{scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}!playerVelX@{playerVelX}}
+\index{playerVelX@{playerVelX}!scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}}
+\doxysubsubsection{\texorpdfstring{playerVelX}{playerVelX}}
+{\footnotesize\ttfamily \label{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a33973aedbf7cb1b1f41a71b7774b9598} 
+float scenes\+::gameplay\+Scene\+::\+Gameplay\+Scene\+::player\+VelX = 0.\+0f\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a8cb44998fe82e29012b2613d9a305e3c}\index{scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}!playerVelY@{playerVelY}}
+\index{playerVelY@{playerVelY}!scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}}
+\doxysubsubsection{\texorpdfstring{playerVelY}{playerVelY}}
+{\footnotesize\ttfamily \label{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a8cb44998fe82e29012b2613d9a305e3c} 
+float scenes\+::gameplay\+Scene\+::\+Gameplay\+Scene\+::player\+VelY = 0.\+0f\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a4501f6240f2b1b43cb57f25445b05053}\index{scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}!prevPlayerX@{prevPlayerX}}
+\index{prevPlayerX@{prevPlayerX}!scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}}
+\doxysubsubsection{\texorpdfstring{prevPlayerX}{prevPlayerX}}
+{\footnotesize\ttfamily \label{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a4501f6240f2b1b43cb57f25445b05053} 
+float scenes\+::gameplay\+Scene\+::\+Gameplay\+Scene\+::prev\+PlayerX = 0.\+0f\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classscenes_1_1gameplay_scene_1_1_gameplay_scene_ae06c6a4b58f6b1edd6aa53ec46393c76}\index{scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}!prevPlayerY@{prevPlayerY}}
+\index{prevPlayerY@{prevPlayerY}!scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}}
+\doxysubsubsection{\texorpdfstring{prevPlayerY}{prevPlayerY}}
+{\footnotesize\ttfamily \label{classscenes_1_1gameplay_scene_1_1_gameplay_scene_ae06c6a4b58f6b1edd6aa53ec46393c76} 
+float scenes\+::gameplay\+Scene\+::\+Gameplay\+Scene\+::prev\+PlayerY = 0.\+0f\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a0c92e1fafdc3939c808c8e6fa9340386}\index{scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}!rotateLeftHeld@{rotateLeftHeld}}
+\index{rotateLeftHeld@{rotateLeftHeld}!scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}}
+\doxysubsubsection{\texorpdfstring{rotateLeftHeld}{rotateLeftHeld}}
+{\footnotesize\ttfamily \label{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a0c92e1fafdc3939c808c8e6fa9340386} 
+bool scenes\+::gameplay\+Scene\+::\+Gameplay\+Scene\+::rotate\+Left\+Held = false\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classscenes_1_1gameplay_scene_1_1_gameplay_scene_add2e439685b11c4aec3f5df6dce91f14}\index{scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}!rotateRightHeld@{rotateRightHeld}}
+\index{rotateRightHeld@{rotateRightHeld}!scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}}
+\doxysubsubsection{\texorpdfstring{rotateRightHeld}{rotateRightHeld}}
+{\footnotesize\ttfamily \label{classscenes_1_1gameplay_scene_1_1_gameplay_scene_add2e439685b11c4aec3f5df6dce91f14} 
+bool scenes\+::gameplay\+Scene\+::\+Gameplay\+Scene\+::rotate\+Right\+Held = false\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classscenes_1_1gameplay_scene_1_1_gameplay_scene_aabed01e52d73d6552ae7c11d9312bfe9}\index{scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}!scrollRowOffset@{scrollRowOffset}}
+\index{scrollRowOffset@{scrollRowOffset}!scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}}
+\doxysubsubsection{\texorpdfstring{scrollRowOffset}{scrollRowOffset}}
+{\footnotesize\ttfamily \label{classscenes_1_1gameplay_scene_1_1_gameplay_scene_aabed01e52d73d6552ae7c11d9312bfe9} 
+float scenes\+::gameplay\+Scene\+::\+Gameplay\+Scene\+::scroll\+Row\+Offset\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a46d738de72dbb092cc0eb7703211299b}\index{scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}!scrollTargetRowOffset@{scrollTargetRowOffset}}
+\index{scrollTargetRowOffset@{scrollTargetRowOffset}!scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}}
+\doxysubsubsection{\texorpdfstring{scrollTargetRowOffset}{scrollTargetRowOffset}}
+{\footnotesize\ttfamily \label{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a46d738de72dbb092cc0eb7703211299b} 
+float scenes\+::gameplay\+Scene\+::\+Gameplay\+Scene\+::scroll\+Target\+Row\+Offset\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classscenes_1_1gameplay_scene_1_1_gameplay_scene_affb97b6d034b71540517fbd40a0d048f}\index{scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}!stoneBlockTimers@{stoneBlockTimers}}
+\index{stoneBlockTimers@{stoneBlockTimers}!scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}}
+\doxysubsubsection{\texorpdfstring{stoneBlockTimers}{stoneBlockTimers}}
+{\footnotesize\ttfamily \label{classscenes_1_1gameplay_scene_1_1_gameplay_scene_affb97b6d034b71540517fbd40a0d048f} 
+float \mbox{[}ulong\mbox{]} scenes\+::gameplay\+Scene\+::\+Gameplay\+Scene\+::stone\+Block\+Timers\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a7566c94209e57051d79a9c85025388c3}\index{scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}!tileSize@{tileSize}}
+\index{tileSize@{tileSize}!scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}}
+\doxysubsubsection{\texorpdfstring{tileSize}{tileSize}}
+{\footnotesize\ttfamily \label{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a7566c94209e57051d79a9c85025388c3} 
+float scenes\+::gameplay\+Scene\+::\+Gameplay\+Scene\+::tile\+Size = 40.\+0f\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a58268eb40171f2709f55141c3bd70dd8}\index{scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}!visualAngleDeg@{visualAngleDeg}}
+\index{visualAngleDeg@{visualAngleDeg}!scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}}
+\doxysubsubsection{\texorpdfstring{visualAngleDeg}{visualAngleDeg}}
+{\footnotesize\ttfamily \label{classscenes_1_1gameplay_scene_1_1_gameplay_scene_a58268eb40171f2709f55141c3bd70dd8} 
+float scenes\+::gameplay\+Scene\+::\+Gameplay\+Scene\+::visual\+Angle\+Deg = 0.\+0f\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classscenes_1_1gameplay_scene_1_1_gameplay_scene_afa1f2c42cc09a002dbb8bfc742baa617}\index{scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}!world@{world}}
+\index{world@{world}!scenes::gameplayScene::GameplayScene@{scenes::gameplayScene::GameplayScene}}
+\doxysubsubsection{\texorpdfstring{world}{world}}
+{\footnotesize\ttfamily \label{classscenes_1_1gameplay_scene_1_1_gameplay_scene_afa1f2c42cc09a002dbb8bfc742baa617} 
+Stacked\+World scenes\+::gameplay\+Scene\+::\+Gameplay\+Scene\+::world\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+PSET/\+Engine/source/scenes/\mbox{\hyperlink{gameplay_scene_8d}{gameplay\+Scene.\+d}}\end{DoxyCompactItemize}

@@ -1,0 +1,5 @@
+<map id="scenes::winScene::WinScene::drawPanel" name="scenes::winScene::WinScene::drawPanel">
+<area shape="rect" id="Node000001" title=" " alt="" coords="250,5,446,46"/>
+<area shape="rect" id="Node000002" href="$classscenes_1_1win_scene_1_1_win_scene.html#a68c7c0e7a98745b9148c2ba2b0d95090" title=" " alt="" coords="5,5,202,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="232,26,202,28,202,23,237,26"/>
+</map>

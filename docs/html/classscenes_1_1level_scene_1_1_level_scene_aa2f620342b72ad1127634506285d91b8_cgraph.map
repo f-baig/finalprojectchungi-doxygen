@@ -1,0 +1,8 @@
+<map id="scenes::levelScene::LevelScene::handleMouseDown" name="scenes::levelScene::LevelScene::handleMouseDown">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,51,222,92"/>
+<area shape="rect" id="Node000002" href="$namespaceui_1_1widgets.html#a3c9c138d32470734af246c6eb9be5540" title=" " alt="" coords="298,29,439,55"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="222,56,285,51,279,53,223,62"/>
+<area shape="rect" id="Node000003" href="$classscenes_1_1level_scene_1_1_level_scene.html#ae532df3bc1aad58e27b4135a7ca341d1" title=" " alt="" coords="270,79,467,120"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="222,81,257,87,252,87,222,86"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="326,28,318,21,323,11,340,5,368,3,400,5,417,15,412,15,399,11,368,8,341,10,326,15,323,20,331,30"/>
+</map>

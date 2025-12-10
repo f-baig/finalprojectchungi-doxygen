@@ -1,0 +1,42 @@
+\doxysection{PSET/\+Engine/source/app.d File Reference}
+\hypertarget{app_8d}{}\label{app_8d}\index{PSET/Engine/source/app.d@{PSET/Engine/source/app.d}}
+{\ttfamily import bindbc.\+loader.\+sharedlib;}\newline
+{\ttfamily import bindbc.\+sdl;}\newline
+{\ttfamily import Load\+Msg.\+success;}\newline
+Include dependency graph for app.\+d\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{app_8d__incl}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+namespace \mbox{\hyperlink{namespaceapp}{app}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{namespaceapp_a4f142cd83010970fca4b37503261e6c4}{app\+::scope}} (exit) unload\+SDL()
+\item 
+\mbox{\hyperlink{namespaceapp_a0a5767d87e3b72bb3bb1ab3c420ededa}{app\+::if}} (\mbox{\hyperlink{namespaceapp_a55249cc0441092b9e60d16c9c124d2da}{ttf\+Result}}==Load\+Msg.\+success)
+\item 
+\mbox{\hyperlink{namespaceapp_a325a0dc9c3c04d42860c367a601e4a73}{app\+::if}} (SDL\+\_\+\+Init(SDL\+\_\+\+INIT\+\_\+\+VIDEO\texorpdfstring{$\vert$}{|}SDL\+\_\+\+INIT\+\_\+\+EVENTS)$<$ 0)
+\item 
+\mbox{\hyperlink{namespaceapp_a17881b9e1abacf6c95d90d48e80b3421}{app\+::if}} (!app.\+initialize())
+\item 
+app. \mbox{\hyperlink{namespaceapp_a7cee5409c587a4d9af8dd03643e26eca}{app\+::run}} ()
+\item 
+app. \mbox{\hyperlink{namespaceapp_a3787570a27842d87b7f8c8e7dd710dfb}{app\+::shutdown}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{namespaceapp_a045a8e54f46637947268e2e6c71cf1bf}{app\+::ttf\+Loaded}} = false
+\item 
+auto \mbox{\hyperlink{namespaceapp_a55249cc0441092b9e60d16c9c124d2da}{app\+::ttf\+Result}} = load\+SDLTTF()
+\item 
+auto \mbox{\hyperlink{namespaceapp_ac846c21414f0dc4a694a4d3c4e8ebd60}{app\+::app}} = new Game\+Application()
+\end{DoxyCompactItemize}

@@ -1,0 +1,10 @@
+<map id="scenes::menuScene::MenuScene" name="scenes::menuScene::MenuScene">
+<area shape="rect" id="Node000001" title="Landing menu that lets players jump into the campaign or the level creator." alt="" coords="38,214,186,254"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,110,64,135"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="53,146,101,212,95,214,50,150"/>
+<area shape="rect" id="Node000003" href="$structscenes_1_1menu_scene_1_1_menu_button.html" title=" " alt="" coords="203,102,351,143"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="237,151,142,216,140,211,232,152"/>
+<area shape="rect" id="Node000004" href="$structui_1_1widgets_1_1_u_i_button.html" title=" " alt="" coords="61,5,205,31"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="131,44,126,102,116,214,111,212,121,102,129,48"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="163,38,252,101,247,103,162,43"/>
+</map>

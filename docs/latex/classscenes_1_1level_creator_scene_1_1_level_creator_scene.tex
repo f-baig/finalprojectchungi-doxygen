@@ -1,0 +1,1179 @@
+\doxysection{scenes\+::level\+Creator\+Scene\+::Level\+Creator\+Scene Class Reference}
+\hypertarget{classscenes_1_1level_creator_scene_1_1_level_creator_scene}{}\label{classscenes_1_1level_creator_scene_1_1_level_creator_scene}\index{scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}}
+
+
+Inheritance diagram for scenes\+::level\+Creator\+Scene\+::Level\+Creator\+Scene\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=214pt]{classscenes_1_1level_creator_scene_1_1_level_creator_scene__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for scenes\+::level\+Creator\+Scene\+::Level\+Creator\+Scene\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1level_creator_scene_1_1_level_creator_scene__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classscenes_1_1level_creator_scene_1_1_level_creator_scene_abf8cb7a8d5688a31819d9e51e9a69153}{this}} (Scene\+Host host, World\+Editor \mbox{\hyperlink{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a0632b6fc269702659971eeb60b42003a}{editor}})
+\item 
+override void \mbox{\hyperlink{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a2457cd391241bde82f29bf2aeff5d30c}{on\+Enter}} ()
+\item 
+override void \mbox{\hyperlink{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a36c2011ded42bed2009612312968746b}{update}} (float delta\+Time)
+\item 
+override void \mbox{\hyperlink{classscenes_1_1level_creator_scene_1_1_level_creator_scene_ad6f6839bd6d186ee559254c9942192ab}{render}} (SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}renderer)
+\item 
+override bool \mbox{\hyperlink{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a1aa403be3469e2b58dc6595136b21e48}{handle\+Event}} (ref SDL\+\_\+\+Event event)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a255ca999e14a98d060c2d35307c82ea3}{prepare\+Palette}} ()
+\item 
+void \mbox{\hyperlink{classscenes_1_1level_creator_scene_1_1_level_creator_scene_ac8041c063b32f08835e05416c5d40a04}{draw\+List\+View}} (SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}renderer)
+\item 
+void \mbox{\hyperlink{classscenes_1_1level_creator_scene_1_1_level_creator_scene_af46fa924ef4da5a7a97b026594360384}{draw\+Layout\+View}} (SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}renderer)
+\item 
+void \mbox{\hyperlink{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a495eaee13b219f1e29ef83d48abc88a2}{ensure\+Selection}} ()
+\item 
+void \mbox{\hyperlink{classscenes_1_1level_creator_scene_1_1_level_creator_scene_ab1231de5e085719b3ea537caa7788559}{rebuild\+Layout}} ()
+\item 
+void \mbox{\hyperlink{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a84be721557e15d2382aff0e7e0de139a}{draw\+Backdrop}} (SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}renderer)
+\item 
+void \mbox{\hyperlink{classscenes_1_1level_creator_scene_1_1_level_creator_scene_aaf98da4246fa14dd739713a13d6acae3}{draw\+Panel}} (SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}renderer)
+\item 
+void \mbox{\hyperlink{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a207b986b4ed7b63b9642636119889a0c}{draw\+Header}} (SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}renderer)
+\item 
+void \mbox{\hyperlink{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a5ffe15000984087c8a4fb8a6e2c42b20}{draw\+Palette}} (SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}renderer)
+\item 
+void \mbox{\hyperlink{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a6f421044ab77ebdc2ae8f6a9e10b74d0}{draw\+Grid}} (SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}renderer)
+\item 
+void \mbox{\hyperlink{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a1c2d72f527cd1927eeb5fe0eeb1b5ad5}{draw\+Neighbor\+Edges}} (SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}renderer)
+\item 
+void \mbox{\hyperlink{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a08e7809549d8258d638bfbcb86ac1fca}{draw\+Edge\+Row}} (SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}renderer, Level level, int row\+Index, SDL\+\_\+\+FRect rect, string label)
+\item 
+void \mbox{\hyperlink{classscenes_1_1level_creator_scene_1_1_level_creator_scene_ab7f0cd3d8e49a981b4b6b6c9ad849a3a}{draw\+Status}} (SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}renderer)
+\item 
+string \mbox{\hyperlink{classscenes_1_1level_creator_scene_1_1_level_creator_scene_aadb0d04a39fff15fa7c16cdf7584f4ef}{get\+Tile\+Description}} (int tile\+Index)
+\item 
+string\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a3b9c814285057b4b29916a741beaa688}{wrap\+Text}} (string text, float max\+Width, float scale)
+\item 
+void \mbox{\hyperlink{classscenes_1_1level_creator_scene_1_1_level_creator_scene_acb032b9efe4bf7965d3ed67a98c281ca}{draw\+List\+Header}} (SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}renderer)
+\item 
+void \mbox{\hyperlink{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a01a2b9beba2db02f14af1faff261b519}{draw\+Level\+List}} (SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}renderer)
+\item 
+void \mbox{\hyperlink{classscenes_1_1level_creator_scene_1_1_level_creator_scene_ac76d742f458b49d0eb2fb86886b4ac16}{draw\+List\+Buttons}} (SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}renderer)
+\item 
+void \mbox{\hyperlink{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a9f5e72b9b69ac4873572129d01c534f7}{draw\+List\+Status}} (SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}renderer)
+\item 
+void \mbox{\hyperlink{classscenes_1_1level_creator_scene_1_1_level_creator_scene_ab72ca1725763fdfeee2adbf5197d6530}{draw\+Buttons}} (SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}renderer)
+\item 
+void \mbox{\hyperlink{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a925035cb090ca6f143f7fbd57b59e117}{handle\+Motion}} (float x, float y)
+\item 
+void \mbox{\hyperlink{classscenes_1_1level_creator_scene_1_1_level_creator_scene_afd8f593500bc3f44390be0761fdbb3b0}{handle\+Mouse\+Down}} (float x, float y, ubyte button)
+\item 
+void \mbox{\hyperlink{classscenes_1_1level_creator_scene_1_1_level_creator_scene_aedf8267db7612eb296d642f1eeccbcd1}{handle\+Mouse\+Up}} (float x, float y, ubyte button)
+\item 
+void \mbox{\hyperlink{classscenes_1_1level_creator_scene_1_1_level_creator_scene_aeb1e0a9944fe1641c9e6dd3bc0a9c168}{handle\+Key\+Down}} (SDL\+\_\+\+Keycode key)
+\item 
+void \mbox{\hyperlink{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a4a2cd0a0289374c3039020cfdca3e610}{change\+Level}} (int delta)
+\item 
+bool \mbox{\hyperlink{classscenes_1_1level_creator_scene_1_1_level_creator_scene_aa16efbec42eb155f4ffc3e69d021548d}{select\+Palette\+Color}} (float x, float y)
+\item 
+void \mbox{\hyperlink{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a5b1f553be8b73d3efef37e923daca804}{update\+Grid\+Hover}} (float x, float y)
+\item 
+bool \mbox{\hyperlink{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a0546073f4fff3ab9e509838468a7ef73}{grid\+Contains}} (float x, float y)
+\item 
+void \mbox{\hyperlink{classscenes_1_1level_creator_scene_1_1_level_creator_scene_aca53f81f99490fc7ed04cbfa0019b4cf}{update\+Button\+Hover}} (ref \mbox{\hyperlink{structui_1_1widgets_1_1_u_i_button}{UIButton}} button, float x, float y)
+\item 
+void \mbox{\hyperlink{classscenes_1_1level_creator_scene_1_1_level_creator_scene_ae4f00c7af182b7abc195a01ce5c0ff13}{update\+List\+Hover}} (float x, float y)
+\item 
+void \mbox{\hyperlink{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a53c82534e222847a010c7e12099d6c1e}{update\+Palette\+Hover}} (float x, float y)
+\item 
+int \mbox{\hyperlink{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a53b6421747615eeb1f8fecad18b7c901}{level\+Index\+At}} (float x, float y)
+\item 
+bool \mbox{\hyperlink{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a00e6e20ba1fb69d588be6fb68a2e85db}{paint\+At}} (float x, float y, ubyte button)
+\item 
+int\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classscenes_1_1level_creator_scene_1_1_level_creator_scene_ae5698cb7e9e95ba381d6319aa06345bf}{current\+Layout}} ()
+\item 
+void \mbox{\hyperlink{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a5a7a7d7b379c5b4e1bc4544fc2e2183b}{create\+Level\+And\+Edit}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+World\+Editor \mbox{\hyperlink{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a0632b6fc269702659971eeb60b42003a}{editor}}
+\item 
+SDL\+\_\+\+FRect \mbox{\hyperlink{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a94c334c5a228c63c355e80fa26ca3e18}{panel\+Rect}}
+\item 
+SDL\+\_\+\+FRect \mbox{\hyperlink{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a2cc84c58236e09b99405808ecdb0cb05}{palette\+Rect}}
+\item 
+SDL\+\_\+\+FRect \mbox{\hyperlink{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a11eb72ff499d7b5329769c63dffffcbc}{grid\+Rect}}
+\item 
+SDL\+\_\+\+FRect \mbox{\hyperlink{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a6655616271461da4db28830096b95992}{upper\+Edge\+Rect}}
+\item 
+SDL\+\_\+\+FRect \mbox{\hyperlink{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a3b892c4c67611c3e8dcc719e043cc79c}{lower\+Edge\+Rect}}
+\item 
+\mbox{\hyperlink{structui_1_1widgets_1_1_u_i_button}{UIButton}} \mbox{\hyperlink{classscenes_1_1level_creator_scene_1_1_level_creator_scene_ac5fabe0a548ee667ece1ec874e539fe5}{menu\+Button}}
+\item 
+\mbox{\hyperlink{structui_1_1widgets_1_1_u_i_button}{UIButton}} \mbox{\hyperlink{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a704201f5ab37648956955829dc4b021e}{prev\+Button}}
+\item 
+\mbox{\hyperlink{structui_1_1widgets_1_1_u_i_button}{UIButton}} \mbox{\hyperlink{classscenes_1_1level_creator_scene_1_1_level_creator_scene_abde0c354b932d5dfda6dbd980392eca9}{next\+Button}}
+\item 
+\mbox{\hyperlink{structui_1_1widgets_1_1_u_i_button}{UIButton}} \mbox{\hyperlink{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a48099ed8d01f0608e8e0ec1c1c2b1993}{back\+Button}}
+\item 
+\mbox{\hyperlink{structui_1_1widgets_1_1_u_i_button}{UIButton}} \mbox{\hyperlink{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a2c5e3836f43544d09a1607fed39b90fb}{create\+Button}}
+\item 
+int \mbox{\hyperlink{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a44f56c99af78bc4ad8261ed6c1403003}{cached\+Width}}
+\item 
+int \mbox{\hyperlink{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a9fca171690b9df225e28adb39edf01e8}{cached\+Height}}
+\item 
+int \mbox{\hyperlink{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a7a3158f934b2855cf96a8620f6823af4}{selected\+Level\+Index}} = 0
+\item 
+int \mbox{\hyperlink{classscenes_1_1level_creator_scene_1_1_level_creator_scene_ae8a3f25ff91472b153a1a8c61e34805c}{selected\+Tile}} = 0
+\item 
+int \mbox{\hyperlink{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a4633ecc3b8634d08c35c56eb619ef9ea}{hover\+Col}} = -\/1
+\item 
+int \mbox{\hyperlink{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a01fc45bef9b932dc8f0fab8bf400c5fa}{hover\+Row}} = -\/1
+\item 
+int \mbox{\hyperlink{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a98a9c434f3237872e26d17358ad7b1ae}{hover\+Palette\+Index}} = -\/1
+\item 
+bool \mbox{\hyperlink{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a1f9ed8dd0fc8538555d3f41aabdd5b6f}{painting}} = false
+\item 
+ubyte \mbox{\hyperlink{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a27fb17c32b07aa0ef1bc2f64ecac6e5b}{painting\+Button}} = 0
+\item 
+float \mbox{\hyperlink{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a2ce457b4a7dfa680668fa0fe4afb759d}{palette\+Tile\+Size}} = 52.\+0f
+\item 
+float \mbox{\hyperlink{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a814fd1834426f8168471ca133033e252}{palette\+Spacing}} = 10.\+0f
+\item 
+float \mbox{\hyperlink{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a421fec7e753ac216d587fb6ab4a5a710}{grid\+Tile\+Size}}
+\item 
+SDL\+\_\+\+Color\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classscenes_1_1level_creator_scene_1_1_level_creator_scene_af73fcfbfb6d7fdf27d861b0ede85c6e0}{tile\+Palette}}
+\item 
+\mbox{\hyperlink{structscenes_1_1level_creator_scene_1_1_level_row}{Level\+Row}}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a3e22f78c8d3c3714b20930bdbb0a9a41}{level\+Rows}}
+\item 
+float \mbox{\hyperlink{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a7c25045679137a14180a4d0a31edc438}{listX}}
+\item 
+float \mbox{\hyperlink{classscenes_1_1level_creator_scene_1_1_level_creator_scene_afa04f5cde10aad7c2b01fd48f3911466}{listY}}
+\item 
+float \mbox{\hyperlink{classscenes_1_1level_creator_scene_1_1_level_creator_scene_ab8e05186bf21f2d9b51080ddcfe1ff2a}{list\+Width}}
+\item 
+float \mbox{\hyperlink{classscenes_1_1level_creator_scene_1_1_level_creator_scene_af7049a0ff29f0cb5a1c1a3ec10443ae1}{button\+Height}} = 90.\+0f
+\item 
+float \mbox{\hyperlink{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a512e53dc2a66616be1a6b74350148179}{button\+Spacing}} = 18.\+0f
+\item 
+\mbox{\hyperlink{namespacescenes_1_1level_creator_scene_af9252e05554a79bc8a68bac90cba122e}{Creator\+View}} \mbox{\hyperlink{classscenes_1_1level_creator_scene_1_1_level_creator_scene_af0fdf8157163868b3807d7eb16f351e9}{active\+View}} = \mbox{\hyperlink{namespacescenes_1_1level_creator_scene_af9252e05554a79bc8a68bac90cba122ea67fd35170e9d86da31bd531b65e93119}{Creator\+View.\+list}}
+\end{DoxyCompactItemize}
+
+
+\label{doc-constructors}
+\Hypertarget{classscenes_1_1level_creator_scene_1_1_level_creator_scene_doc-constructors}
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classscenes_1_1level_creator_scene_1_1_level_creator_scene_abf8cb7a8d5688a31819d9e51e9a69153}\index{scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}!this@{this}}
+\index{this@{this}!scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}}
+\doxysubsubsection{\texorpdfstring{this()}{this()}}
+{\footnotesize\ttfamily \label{classscenes_1_1level_creator_scene_1_1_level_creator_scene_abf8cb7a8d5688a31819d9e51e9a69153} 
+scenes\+::level\+Creator\+Scene\+::\+Level\+Creator\+Scene\+::this (\begin{DoxyParamCaption}\item[{Scene\+Host}]{host}{, }\item[{World\+Editor}]{editor}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1level_creator_scene_1_1_level_creator_scene_abf8cb7a8d5688a31819d9e51e9a69153_cgraph}
+\end{center}
+\end{figure}
+
+
+\label{doc-func-members}
+\Hypertarget{classscenes_1_1level_creator_scene_1_1_level_creator_scene_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a4a2cd0a0289374c3039020cfdca3e610}\index{scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}!changeLevel@{changeLevel}}
+\index{changeLevel@{changeLevel}!scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}}
+\doxysubsubsection{\texorpdfstring{changeLevel()}{changeLevel()}}
+{\footnotesize\ttfamily \label{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a4a2cd0a0289374c3039020cfdca3e610} 
+void scenes\+::level\+Creator\+Scene\+::\+Level\+Creator\+Scene\+::change\+Level (\begin{DoxyParamCaption}\item[{int}]{delta}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a4a2cd0a0289374c3039020cfdca3e610_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a4a2cd0a0289374c3039020cfdca3e610_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a5a7a7d7b379c5b4e1bc4544fc2e2183b}\index{scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}!createLevelAndEdit@{createLevelAndEdit}}
+\index{createLevelAndEdit@{createLevelAndEdit}!scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}}
+\doxysubsubsection{\texorpdfstring{createLevelAndEdit()}{createLevelAndEdit()}}
+{\footnotesize\ttfamily \label{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a5a7a7d7b379c5b4e1bc4544fc2e2183b} 
+void scenes\+::level\+Creator\+Scene\+::\+Level\+Creator\+Scene\+::create\+Level\+And\+Edit (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a5a7a7d7b379c5b4e1bc4544fc2e2183b_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a5a7a7d7b379c5b4e1bc4544fc2e2183b_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classscenes_1_1level_creator_scene_1_1_level_creator_scene_ae5698cb7e9e95ba381d6319aa06345bf}\index{scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}!currentLayout@{currentLayout}}
+\index{currentLayout@{currentLayout}!scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}}
+\doxysubsubsection{\texorpdfstring{currentLayout()}{currentLayout()}}
+{\footnotesize\ttfamily \label{classscenes_1_1level_creator_scene_1_1_level_creator_scene_ae5698cb7e9e95ba381d6319aa06345bf} 
+int\mbox{[}$\,$\mbox{]} scenes\+::level\+Creator\+Scene\+::\+Level\+Creator\+Scene\+::current\+Layout (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1level_creator_scene_1_1_level_creator_scene_ae5698cb7e9e95ba381d6319aa06345bf_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a84be721557e15d2382aff0e7e0de139a}\index{scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}!drawBackdrop@{drawBackdrop}}
+\index{drawBackdrop@{drawBackdrop}!scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}}
+\doxysubsubsection{\texorpdfstring{drawBackdrop()}{drawBackdrop()}}
+{\footnotesize\ttfamily \label{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a84be721557e15d2382aff0e7e0de139a} 
+void scenes\+::level\+Creator\+Scene\+::\+Level\+Creator\+Scene\+::draw\+Backdrop (\begin{DoxyParamCaption}\item[{SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}}]{renderer}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a84be721557e15d2382aff0e7e0de139a_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a84be721557e15d2382aff0e7e0de139a_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classscenes_1_1level_creator_scene_1_1_level_creator_scene_ab72ca1725763fdfeee2adbf5197d6530}\index{scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}!drawButtons@{drawButtons}}
+\index{drawButtons@{drawButtons}!scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}}
+\doxysubsubsection{\texorpdfstring{drawButtons()}{drawButtons()}}
+{\footnotesize\ttfamily \label{classscenes_1_1level_creator_scene_1_1_level_creator_scene_ab72ca1725763fdfeee2adbf5197d6530} 
+void scenes\+::level\+Creator\+Scene\+::\+Level\+Creator\+Scene\+::draw\+Buttons (\begin{DoxyParamCaption}\item[{SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}}]{renderer}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1level_creator_scene_1_1_level_creator_scene_ab72ca1725763fdfeee2adbf5197d6530_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1level_creator_scene_1_1_level_creator_scene_ab72ca1725763fdfeee2adbf5197d6530_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a08e7809549d8258d638bfbcb86ac1fca}\index{scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}!drawEdgeRow@{drawEdgeRow}}
+\index{drawEdgeRow@{drawEdgeRow}!scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}}
+\doxysubsubsection{\texorpdfstring{drawEdgeRow()}{drawEdgeRow()}}
+{\footnotesize\ttfamily \label{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a08e7809549d8258d638bfbcb86ac1fca} 
+void scenes\+::level\+Creator\+Scene\+::\+Level\+Creator\+Scene\+::draw\+Edge\+Row (\begin{DoxyParamCaption}\item[{SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}}]{renderer}{, }\item[{Level}]{level}{, }\item[{int}]{row\+Index}{, }\item[{SDL\+\_\+\+FRect}]{rect}{, }\item[{string}]{label}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a08e7809549d8258d638bfbcb86ac1fca_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a08e7809549d8258d638bfbcb86ac1fca_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a6f421044ab77ebdc2ae8f6a9e10b74d0}\index{scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}!drawGrid@{drawGrid}}
+\index{drawGrid@{drawGrid}!scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}}
+\doxysubsubsection{\texorpdfstring{drawGrid()}{drawGrid()}}
+{\footnotesize\ttfamily \label{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a6f421044ab77ebdc2ae8f6a9e10b74d0} 
+void scenes\+::level\+Creator\+Scene\+::\+Level\+Creator\+Scene\+::draw\+Grid (\begin{DoxyParamCaption}\item[{SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}}]{renderer}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a6f421044ab77ebdc2ae8f6a9e10b74d0_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a6f421044ab77ebdc2ae8f6a9e10b74d0_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a207b986b4ed7b63b9642636119889a0c}\index{scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}!drawHeader@{drawHeader}}
+\index{drawHeader@{drawHeader}!scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}}
+\doxysubsubsection{\texorpdfstring{drawHeader()}{drawHeader()}}
+{\footnotesize\ttfamily \label{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a207b986b4ed7b63b9642636119889a0c} 
+void scenes\+::level\+Creator\+Scene\+::\+Level\+Creator\+Scene\+::draw\+Header (\begin{DoxyParamCaption}\item[{SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}}]{renderer}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a207b986b4ed7b63b9642636119889a0c_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a207b986b4ed7b63b9642636119889a0c_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classscenes_1_1level_creator_scene_1_1_level_creator_scene_af46fa924ef4da5a7a97b026594360384}\index{scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}!drawLayoutView@{drawLayoutView}}
+\index{drawLayoutView@{drawLayoutView}!scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}}
+\doxysubsubsection{\texorpdfstring{drawLayoutView()}{drawLayoutView()}}
+{\footnotesize\ttfamily \label{classscenes_1_1level_creator_scene_1_1_level_creator_scene_af46fa924ef4da5a7a97b026594360384} 
+void scenes\+::level\+Creator\+Scene\+::\+Level\+Creator\+Scene\+::draw\+Layout\+View (\begin{DoxyParamCaption}\item[{SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}}]{renderer}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1level_creator_scene_1_1_level_creator_scene_af46fa924ef4da5a7a97b026594360384_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1level_creator_scene_1_1_level_creator_scene_af46fa924ef4da5a7a97b026594360384_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a01a2b9beba2db02f14af1faff261b519}\index{scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}!drawLevelList@{drawLevelList}}
+\index{drawLevelList@{drawLevelList}!scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}}
+\doxysubsubsection{\texorpdfstring{drawLevelList()}{drawLevelList()}}
+{\footnotesize\ttfamily \label{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a01a2b9beba2db02f14af1faff261b519} 
+void scenes\+::level\+Creator\+Scene\+::\+Level\+Creator\+Scene\+::draw\+Level\+List (\begin{DoxyParamCaption}\item[{SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}}]{renderer}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a01a2b9beba2db02f14af1faff261b519_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a01a2b9beba2db02f14af1faff261b519_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classscenes_1_1level_creator_scene_1_1_level_creator_scene_ac76d742f458b49d0eb2fb86886b4ac16}\index{scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}!drawListButtons@{drawListButtons}}
+\index{drawListButtons@{drawListButtons}!scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}}
+\doxysubsubsection{\texorpdfstring{drawListButtons()}{drawListButtons()}}
+{\footnotesize\ttfamily \label{classscenes_1_1level_creator_scene_1_1_level_creator_scene_ac76d742f458b49d0eb2fb86886b4ac16} 
+void scenes\+::level\+Creator\+Scene\+::\+Level\+Creator\+Scene\+::draw\+List\+Buttons (\begin{DoxyParamCaption}\item[{SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}}]{renderer}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1level_creator_scene_1_1_level_creator_scene_ac76d742f458b49d0eb2fb86886b4ac16_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1level_creator_scene_1_1_level_creator_scene_ac76d742f458b49d0eb2fb86886b4ac16_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classscenes_1_1level_creator_scene_1_1_level_creator_scene_acb032b9efe4bf7965d3ed67a98c281ca}\index{scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}!drawListHeader@{drawListHeader}}
+\index{drawListHeader@{drawListHeader}!scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}}
+\doxysubsubsection{\texorpdfstring{drawListHeader()}{drawListHeader()}}
+{\footnotesize\ttfamily \label{classscenes_1_1level_creator_scene_1_1_level_creator_scene_acb032b9efe4bf7965d3ed67a98c281ca} 
+void scenes\+::level\+Creator\+Scene\+::\+Level\+Creator\+Scene\+::draw\+List\+Header (\begin{DoxyParamCaption}\item[{SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}}]{renderer}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1level_creator_scene_1_1_level_creator_scene_acb032b9efe4bf7965d3ed67a98c281ca_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1level_creator_scene_1_1_level_creator_scene_acb032b9efe4bf7965d3ed67a98c281ca_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a9f5e72b9b69ac4873572129d01c534f7}\index{scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}!drawListStatus@{drawListStatus}}
+\index{drawListStatus@{drawListStatus}!scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}}
+\doxysubsubsection{\texorpdfstring{drawListStatus()}{drawListStatus()}}
+{\footnotesize\ttfamily \label{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a9f5e72b9b69ac4873572129d01c534f7} 
+void scenes\+::level\+Creator\+Scene\+::\+Level\+Creator\+Scene\+::draw\+List\+Status (\begin{DoxyParamCaption}\item[{SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}}]{renderer}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a9f5e72b9b69ac4873572129d01c534f7_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a9f5e72b9b69ac4873572129d01c534f7_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classscenes_1_1level_creator_scene_1_1_level_creator_scene_ac8041c063b32f08835e05416c5d40a04}\index{scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}!drawListView@{drawListView}}
+\index{drawListView@{drawListView}!scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}}
+\doxysubsubsection{\texorpdfstring{drawListView()}{drawListView()}}
+{\footnotesize\ttfamily \label{classscenes_1_1level_creator_scene_1_1_level_creator_scene_ac8041c063b32f08835e05416c5d40a04} 
+void scenes\+::level\+Creator\+Scene\+::\+Level\+Creator\+Scene\+::draw\+List\+View (\begin{DoxyParamCaption}\item[{SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}}]{renderer}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1level_creator_scene_1_1_level_creator_scene_ac8041c063b32f08835e05416c5d40a04_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1level_creator_scene_1_1_level_creator_scene_ac8041c063b32f08835e05416c5d40a04_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a1c2d72f527cd1927eeb5fe0eeb1b5ad5}\index{scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}!drawNeighborEdges@{drawNeighborEdges}}
+\index{drawNeighborEdges@{drawNeighborEdges}!scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}}
+\doxysubsubsection{\texorpdfstring{drawNeighborEdges()}{drawNeighborEdges()}}
+{\footnotesize\ttfamily \label{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a1c2d72f527cd1927eeb5fe0eeb1b5ad5} 
+void scenes\+::level\+Creator\+Scene\+::\+Level\+Creator\+Scene\+::draw\+Neighbor\+Edges (\begin{DoxyParamCaption}\item[{SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}}]{renderer}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a1c2d72f527cd1927eeb5fe0eeb1b5ad5_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a1c2d72f527cd1927eeb5fe0eeb1b5ad5_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a5ffe15000984087c8a4fb8a6e2c42b20}\index{scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}!drawPalette@{drawPalette}}
+\index{drawPalette@{drawPalette}!scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}}
+\doxysubsubsection{\texorpdfstring{drawPalette()}{drawPalette()}}
+{\footnotesize\ttfamily \label{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a5ffe15000984087c8a4fb8a6e2c42b20} 
+void scenes\+::level\+Creator\+Scene\+::\+Level\+Creator\+Scene\+::draw\+Palette (\begin{DoxyParamCaption}\item[{SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}}]{renderer}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a5ffe15000984087c8a4fb8a6e2c42b20_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a5ffe15000984087c8a4fb8a6e2c42b20_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classscenes_1_1level_creator_scene_1_1_level_creator_scene_aaf98da4246fa14dd739713a13d6acae3}\index{scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}!drawPanel@{drawPanel}}
+\index{drawPanel@{drawPanel}!scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}}
+\doxysubsubsection{\texorpdfstring{drawPanel()}{drawPanel()}}
+{\footnotesize\ttfamily \label{classscenes_1_1level_creator_scene_1_1_level_creator_scene_aaf98da4246fa14dd739713a13d6acae3} 
+void scenes\+::level\+Creator\+Scene\+::\+Level\+Creator\+Scene\+::draw\+Panel (\begin{DoxyParamCaption}\item[{SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}}]{renderer}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1level_creator_scene_1_1_level_creator_scene_aaf98da4246fa14dd739713a13d6acae3_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1level_creator_scene_1_1_level_creator_scene_aaf98da4246fa14dd739713a13d6acae3_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classscenes_1_1level_creator_scene_1_1_level_creator_scene_ab7f0cd3d8e49a981b4b6b6c9ad849a3a}\index{scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}!drawStatus@{drawStatus}}
+\index{drawStatus@{drawStatus}!scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}}
+\doxysubsubsection{\texorpdfstring{drawStatus()}{drawStatus()}}
+{\footnotesize\ttfamily \label{classscenes_1_1level_creator_scene_1_1_level_creator_scene_ab7f0cd3d8e49a981b4b6b6c9ad849a3a} 
+void scenes\+::level\+Creator\+Scene\+::\+Level\+Creator\+Scene\+::draw\+Status (\begin{DoxyParamCaption}\item[{SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}}]{renderer}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1level_creator_scene_1_1_level_creator_scene_ab7f0cd3d8e49a981b4b6b6c9ad849a3a_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1level_creator_scene_1_1_level_creator_scene_ab7f0cd3d8e49a981b4b6b6c9ad849a3a_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a495eaee13b219f1e29ef83d48abc88a2}\index{scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}!ensureSelection@{ensureSelection}}
+\index{ensureSelection@{ensureSelection}!scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}}
+\doxysubsubsection{\texorpdfstring{ensureSelection()}{ensureSelection()}}
+{\footnotesize\ttfamily \label{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a495eaee13b219f1e29ef83d48abc88a2} 
+void scenes\+::level\+Creator\+Scene\+::\+Level\+Creator\+Scene\+::ensure\+Selection (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a495eaee13b219f1e29ef83d48abc88a2_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classscenes_1_1level_creator_scene_1_1_level_creator_scene_aadb0d04a39fff15fa7c16cdf7584f4ef}\index{scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}!getTileDescription@{getTileDescription}}
+\index{getTileDescription@{getTileDescription}!scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}}
+\doxysubsubsection{\texorpdfstring{getTileDescription()}{getTileDescription()}}
+{\footnotesize\ttfamily \label{classscenes_1_1level_creator_scene_1_1_level_creator_scene_aadb0d04a39fff15fa7c16cdf7584f4ef} 
+string scenes\+::level\+Creator\+Scene\+::\+Level\+Creator\+Scene\+::get\+Tile\+Description (\begin{DoxyParamCaption}\item[{int}]{tile\+Index}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1level_creator_scene_1_1_level_creator_scene_aadb0d04a39fff15fa7c16cdf7584f4ef_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a0546073f4fff3ab9e509838468a7ef73}\index{scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}!gridContains@{gridContains}}
+\index{gridContains@{gridContains}!scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}}
+\doxysubsubsection{\texorpdfstring{gridContains()}{gridContains()}}
+{\footnotesize\ttfamily \label{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a0546073f4fff3ab9e509838468a7ef73} 
+bool scenes\+::level\+Creator\+Scene\+::\+Level\+Creator\+Scene\+::grid\+Contains (\begin{DoxyParamCaption}\item[{float}]{x}{, }\item[{float}]{y}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a0546073f4fff3ab9e509838468a7ef73_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a1aa403be3469e2b58dc6595136b21e48}\index{scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}!handleEvent@{handleEvent}}
+\index{handleEvent@{handleEvent}!scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}}
+\doxysubsubsection{\texorpdfstring{handleEvent()}{handleEvent()}}
+{\footnotesize\ttfamily \label{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a1aa403be3469e2b58dc6595136b21e48} 
+override bool scenes\+::level\+Creator\+Scene\+::\+Level\+Creator\+Scene\+::handle\+Event (\begin{DoxyParamCaption}\item[{ref SDL\+\_\+\+Event}]{event}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a1aa403be3469e2b58dc6595136b21e48_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classscenes_1_1level_creator_scene_1_1_level_creator_scene_aeb1e0a9944fe1641c9e6dd3bc0a9c168}\index{scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}!handleKeyDown@{handleKeyDown}}
+\index{handleKeyDown@{handleKeyDown}!scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}}
+\doxysubsubsection{\texorpdfstring{handleKeyDown()}{handleKeyDown()}}
+{\footnotesize\ttfamily \label{classscenes_1_1level_creator_scene_1_1_level_creator_scene_aeb1e0a9944fe1641c9e6dd3bc0a9c168} 
+void scenes\+::level\+Creator\+Scene\+::\+Level\+Creator\+Scene\+::handle\+Key\+Down (\begin{DoxyParamCaption}\item[{SDL\+\_\+\+Keycode}]{key}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1level_creator_scene_1_1_level_creator_scene_aeb1e0a9944fe1641c9e6dd3bc0a9c168_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1level_creator_scene_1_1_level_creator_scene_aeb1e0a9944fe1641c9e6dd3bc0a9c168_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a925035cb090ca6f143f7fbd57b59e117}\index{scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}!handleMotion@{handleMotion}}
+\index{handleMotion@{handleMotion}!scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}}
+\doxysubsubsection{\texorpdfstring{handleMotion()}{handleMotion()}}
+{\footnotesize\ttfamily \label{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a925035cb090ca6f143f7fbd57b59e117} 
+void scenes\+::level\+Creator\+Scene\+::\+Level\+Creator\+Scene\+::handle\+Motion (\begin{DoxyParamCaption}\item[{float}]{x}{, }\item[{float}]{y}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a925035cb090ca6f143f7fbd57b59e117_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a925035cb090ca6f143f7fbd57b59e117_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classscenes_1_1level_creator_scene_1_1_level_creator_scene_afd8f593500bc3f44390be0761fdbb3b0}\index{scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}!handleMouseDown@{handleMouseDown}}
+\index{handleMouseDown@{handleMouseDown}!scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}}
+\doxysubsubsection{\texorpdfstring{handleMouseDown()}{handleMouseDown()}}
+{\footnotesize\ttfamily \label{classscenes_1_1level_creator_scene_1_1_level_creator_scene_afd8f593500bc3f44390be0761fdbb3b0} 
+void scenes\+::level\+Creator\+Scene\+::\+Level\+Creator\+Scene\+::handle\+Mouse\+Down (\begin{DoxyParamCaption}\item[{float}]{x}{, }\item[{float}]{y}{, }\item[{ubyte}]{button}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1level_creator_scene_1_1_level_creator_scene_afd8f593500bc3f44390be0761fdbb3b0_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1level_creator_scene_1_1_level_creator_scene_afd8f593500bc3f44390be0761fdbb3b0_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classscenes_1_1level_creator_scene_1_1_level_creator_scene_aedf8267db7612eb296d642f1eeccbcd1}\index{scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}!handleMouseUp@{handleMouseUp}}
+\index{handleMouseUp@{handleMouseUp}!scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}}
+\doxysubsubsection{\texorpdfstring{handleMouseUp()}{handleMouseUp()}}
+{\footnotesize\ttfamily \label{classscenes_1_1level_creator_scene_1_1_level_creator_scene_aedf8267db7612eb296d642f1eeccbcd1} 
+void scenes\+::level\+Creator\+Scene\+::\+Level\+Creator\+Scene\+::handle\+Mouse\+Up (\begin{DoxyParamCaption}\item[{float}]{x}{, }\item[{float}]{y}{, }\item[{ubyte}]{button}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1level_creator_scene_1_1_level_creator_scene_aedf8267db7612eb296d642f1eeccbcd1_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1level_creator_scene_1_1_level_creator_scene_aedf8267db7612eb296d642f1eeccbcd1_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a53b6421747615eeb1f8fecad18b7c901}\index{scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}!levelIndexAt@{levelIndexAt}}
+\index{levelIndexAt@{levelIndexAt}!scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}}
+\doxysubsubsection{\texorpdfstring{levelIndexAt()}{levelIndexAt()}}
+{\footnotesize\ttfamily \label{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a53b6421747615eeb1f8fecad18b7c901} 
+int scenes\+::level\+Creator\+Scene\+::\+Level\+Creator\+Scene\+::level\+Index\+At (\begin{DoxyParamCaption}\item[{float}]{x}{, }\item[{float}]{y}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a53b6421747615eeb1f8fecad18b7c901_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a53b6421747615eeb1f8fecad18b7c901_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a2457cd391241bde82f29bf2aeff5d30c}\index{scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}!onEnter@{onEnter}}
+\index{onEnter@{onEnter}!scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}}
+\doxysubsubsection{\texorpdfstring{onEnter()}{onEnter()}}
+{\footnotesize\ttfamily \label{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a2457cd391241bde82f29bf2aeff5d30c} 
+override void scenes\+::level\+Creator\+Scene\+::\+Level\+Creator\+Scene\+::on\+Enter (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a2457cd391241bde82f29bf2aeff5d30c_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a00e6e20ba1fb69d588be6fb68a2e85db}\index{scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}!paintAt@{paintAt}}
+\index{paintAt@{paintAt}!scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}}
+\doxysubsubsection{\texorpdfstring{paintAt()}{paintAt()}}
+{\footnotesize\ttfamily \label{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a00e6e20ba1fb69d588be6fb68a2e85db} 
+bool scenes\+::level\+Creator\+Scene\+::\+Level\+Creator\+Scene\+::paint\+At (\begin{DoxyParamCaption}\item[{float}]{x}{, }\item[{float}]{y}{, }\item[{ubyte}]{button}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a00e6e20ba1fb69d588be6fb68a2e85db_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a00e6e20ba1fb69d588be6fb68a2e85db_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a255ca999e14a98d060c2d35307c82ea3}\index{scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}!preparePalette@{preparePalette}}
+\index{preparePalette@{preparePalette}!scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}}
+\doxysubsubsection{\texorpdfstring{preparePalette()}{preparePalette()}}
+{\footnotesize\ttfamily \label{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a255ca999e14a98d060c2d35307c82ea3} 
+void scenes\+::level\+Creator\+Scene\+::\+Level\+Creator\+Scene\+::prepare\+Palette (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a255ca999e14a98d060c2d35307c82ea3_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a255ca999e14a98d060c2d35307c82ea3_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classscenes_1_1level_creator_scene_1_1_level_creator_scene_ab1231de5e085719b3ea537caa7788559}\index{scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}!rebuildLayout@{rebuildLayout}}
+\index{rebuildLayout@{rebuildLayout}!scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}}
+\doxysubsubsection{\texorpdfstring{rebuildLayout()}{rebuildLayout()}}
+{\footnotesize\ttfamily \label{classscenes_1_1level_creator_scene_1_1_level_creator_scene_ab1231de5e085719b3ea537caa7788559} 
+void scenes\+::level\+Creator\+Scene\+::\+Level\+Creator\+Scene\+::rebuild\+Layout (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1level_creator_scene_1_1_level_creator_scene_ab1231de5e085719b3ea537caa7788559_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1level_creator_scene_1_1_level_creator_scene_ab1231de5e085719b3ea537caa7788559_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classscenes_1_1level_creator_scene_1_1_level_creator_scene_ad6f6839bd6d186ee559254c9942192ab}\index{scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}!render@{render}}
+\index{render@{render}!scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}}
+\doxysubsubsection{\texorpdfstring{render()}{render()}}
+{\footnotesize\ttfamily \label{classscenes_1_1level_creator_scene_1_1_level_creator_scene_ad6f6839bd6d186ee559254c9942192ab} 
+override void scenes\+::level\+Creator\+Scene\+::\+Level\+Creator\+Scene\+::render (\begin{DoxyParamCaption}\item[{SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}}]{renderer}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1level_creator_scene_1_1_level_creator_scene_ad6f6839bd6d186ee559254c9942192ab_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classscenes_1_1level_creator_scene_1_1_level_creator_scene_aa16efbec42eb155f4ffc3e69d021548d}\index{scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}!selectPaletteColor@{selectPaletteColor}}
+\index{selectPaletteColor@{selectPaletteColor}!scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}}
+\doxysubsubsection{\texorpdfstring{selectPaletteColor()}{selectPaletteColor()}}
+{\footnotesize\ttfamily \label{classscenes_1_1level_creator_scene_1_1_level_creator_scene_aa16efbec42eb155f4ffc3e69d021548d} 
+bool scenes\+::level\+Creator\+Scene\+::\+Level\+Creator\+Scene\+::select\+Palette\+Color (\begin{DoxyParamCaption}\item[{float}]{x}{, }\item[{float}]{y}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1level_creator_scene_1_1_level_creator_scene_aa16efbec42eb155f4ffc3e69d021548d_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1level_creator_scene_1_1_level_creator_scene_aa16efbec42eb155f4ffc3e69d021548d_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a36c2011ded42bed2009612312968746b}\index{scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}!update@{update}}
+\index{update@{update}!scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily \label{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a36c2011ded42bed2009612312968746b} 
+override void scenes\+::level\+Creator\+Scene\+::\+Level\+Creator\+Scene\+::update (\begin{DoxyParamCaption}\item[{float}]{delta\+Time}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a36c2011ded42bed2009612312968746b_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classscenes_1_1level_creator_scene_1_1_level_creator_scene_aca53f81f99490fc7ed04cbfa0019b4cf}\index{scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}!updateButtonHover@{updateButtonHover}}
+\index{updateButtonHover@{updateButtonHover}!scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}}
+\doxysubsubsection{\texorpdfstring{updateButtonHover()}{updateButtonHover()}}
+{\footnotesize\ttfamily \label{classscenes_1_1level_creator_scene_1_1_level_creator_scene_aca53f81f99490fc7ed04cbfa0019b4cf} 
+void scenes\+::level\+Creator\+Scene\+::\+Level\+Creator\+Scene\+::update\+Button\+Hover (\begin{DoxyParamCaption}\item[{ref \mbox{\hyperlink{structui_1_1widgets_1_1_u_i_button}{UIButton}}}]{button}{, }\item[{float}]{x}{, }\item[{float}]{y}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1level_creator_scene_1_1_level_creator_scene_aca53f81f99490fc7ed04cbfa0019b4cf_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1level_creator_scene_1_1_level_creator_scene_aca53f81f99490fc7ed04cbfa0019b4cf_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a5b1f553be8b73d3efef37e923daca804}\index{scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}!updateGridHover@{updateGridHover}}
+\index{updateGridHover@{updateGridHover}!scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}}
+\doxysubsubsection{\texorpdfstring{updateGridHover()}{updateGridHover()}}
+{\footnotesize\ttfamily \label{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a5b1f553be8b73d3efef37e923daca804} 
+void scenes\+::level\+Creator\+Scene\+::\+Level\+Creator\+Scene\+::update\+Grid\+Hover (\begin{DoxyParamCaption}\item[{float}]{x}{, }\item[{float}]{y}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a5b1f553be8b73d3efef37e923daca804_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a5b1f553be8b73d3efef37e923daca804_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classscenes_1_1level_creator_scene_1_1_level_creator_scene_ae4f00c7af182b7abc195a01ce5c0ff13}\index{scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}!updateListHover@{updateListHover}}
+\index{updateListHover@{updateListHover}!scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}}
+\doxysubsubsection{\texorpdfstring{updateListHover()}{updateListHover()}}
+{\footnotesize\ttfamily \label{classscenes_1_1level_creator_scene_1_1_level_creator_scene_ae4f00c7af182b7abc195a01ce5c0ff13} 
+void scenes\+::level\+Creator\+Scene\+::\+Level\+Creator\+Scene\+::update\+List\+Hover (\begin{DoxyParamCaption}\item[{float}]{x}{, }\item[{float}]{y}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1level_creator_scene_1_1_level_creator_scene_ae4f00c7af182b7abc195a01ce5c0ff13_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1level_creator_scene_1_1_level_creator_scene_ae4f00c7af182b7abc195a01ce5c0ff13_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a53c82534e222847a010c7e12099d6c1e}\index{scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}!updatePaletteHover@{updatePaletteHover}}
+\index{updatePaletteHover@{updatePaletteHover}!scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}}
+\doxysubsubsection{\texorpdfstring{updatePaletteHover()}{updatePaletteHover()}}
+{\footnotesize\ttfamily \label{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a53c82534e222847a010c7e12099d6c1e} 
+void scenes\+::level\+Creator\+Scene\+::\+Level\+Creator\+Scene\+::update\+Palette\+Hover (\begin{DoxyParamCaption}\item[{float}]{x}{, }\item[{float}]{y}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a53c82534e222847a010c7e12099d6c1e_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a53c82534e222847a010c7e12099d6c1e_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a3b9c814285057b4b29916a741beaa688}\index{scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}!wrapText@{wrapText}}
+\index{wrapText@{wrapText}!scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}}
+\doxysubsubsection{\texorpdfstring{wrapText()}{wrapText()}}
+{\footnotesize\ttfamily \label{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a3b9c814285057b4b29916a741beaa688} 
+string\mbox{[}$\,$\mbox{]} scenes\+::level\+Creator\+Scene\+::\+Level\+Creator\+Scene\+::wrap\+Text (\begin{DoxyParamCaption}\item[{string}]{text}{, }\item[{float}]{max\+Width}{, }\item[{float}]{scale}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a3b9c814285057b4b29916a741beaa688_icgraph}
+\end{center}
+\end{figure}
+
+
+\label{doc-variable-members}
+\Hypertarget{classscenes_1_1level_creator_scene_1_1_level_creator_scene_doc-variable-members}
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classscenes_1_1level_creator_scene_1_1_level_creator_scene_af0fdf8157163868b3807d7eb16f351e9}\index{scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}!activeView@{activeView}}
+\index{activeView@{activeView}!scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}}
+\doxysubsubsection{\texorpdfstring{activeView}{activeView}}
+{\footnotesize\ttfamily \label{classscenes_1_1level_creator_scene_1_1_level_creator_scene_af0fdf8157163868b3807d7eb16f351e9} 
+\mbox{\hyperlink{namespacescenes_1_1level_creator_scene_af9252e05554a79bc8a68bac90cba122e}{Creator\+View}} scenes\+::level\+Creator\+Scene\+::\+Level\+Creator\+Scene\+::active\+View = \mbox{\hyperlink{namespacescenes_1_1level_creator_scene_af9252e05554a79bc8a68bac90cba122ea67fd35170e9d86da31bd531b65e93119}{Creator\+View.\+list}}\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a48099ed8d01f0608e8e0ec1c1c2b1993}\index{scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}!backButton@{backButton}}
+\index{backButton@{backButton}!scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}}
+\doxysubsubsection{\texorpdfstring{backButton}{backButton}}
+{\footnotesize\ttfamily \label{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a48099ed8d01f0608e8e0ec1c1c2b1993} 
+\mbox{\hyperlink{structui_1_1widgets_1_1_u_i_button}{UIButton}} scenes\+::level\+Creator\+Scene\+::\+Level\+Creator\+Scene\+::back\+Button\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classscenes_1_1level_creator_scene_1_1_level_creator_scene_af7049a0ff29f0cb5a1c1a3ec10443ae1}\index{scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}!buttonHeight@{buttonHeight}}
+\index{buttonHeight@{buttonHeight}!scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}}
+\doxysubsubsection{\texorpdfstring{buttonHeight}{buttonHeight}}
+{\footnotesize\ttfamily \label{classscenes_1_1level_creator_scene_1_1_level_creator_scene_af7049a0ff29f0cb5a1c1a3ec10443ae1} 
+float scenes\+::level\+Creator\+Scene\+::\+Level\+Creator\+Scene\+::button\+Height = 90.\+0f\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a512e53dc2a66616be1a6b74350148179}\index{scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}!buttonSpacing@{buttonSpacing}}
+\index{buttonSpacing@{buttonSpacing}!scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}}
+\doxysubsubsection{\texorpdfstring{buttonSpacing}{buttonSpacing}}
+{\footnotesize\ttfamily \label{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a512e53dc2a66616be1a6b74350148179} 
+float scenes\+::level\+Creator\+Scene\+::\+Level\+Creator\+Scene\+::button\+Spacing = 18.\+0f\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a9fca171690b9df225e28adb39edf01e8}\index{scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}!cachedHeight@{cachedHeight}}
+\index{cachedHeight@{cachedHeight}!scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}}
+\doxysubsubsection{\texorpdfstring{cachedHeight}{cachedHeight}}
+{\footnotesize\ttfamily \label{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a9fca171690b9df225e28adb39edf01e8} 
+int scenes\+::level\+Creator\+Scene\+::\+Level\+Creator\+Scene\+::cached\+Height\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a44f56c99af78bc4ad8261ed6c1403003}\index{scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}!cachedWidth@{cachedWidth}}
+\index{cachedWidth@{cachedWidth}!scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}}
+\doxysubsubsection{\texorpdfstring{cachedWidth}{cachedWidth}}
+{\footnotesize\ttfamily \label{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a44f56c99af78bc4ad8261ed6c1403003} 
+int scenes\+::level\+Creator\+Scene\+::\+Level\+Creator\+Scene\+::cached\+Width\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a2c5e3836f43544d09a1607fed39b90fb}\index{scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}!createButton@{createButton}}
+\index{createButton@{createButton}!scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}}
+\doxysubsubsection{\texorpdfstring{createButton}{createButton}}
+{\footnotesize\ttfamily \label{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a2c5e3836f43544d09a1607fed39b90fb} 
+\mbox{\hyperlink{structui_1_1widgets_1_1_u_i_button}{UIButton}} scenes\+::level\+Creator\+Scene\+::\+Level\+Creator\+Scene\+::create\+Button\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a0632b6fc269702659971eeb60b42003a}\index{scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}!editor@{editor}}
+\index{editor@{editor}!scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}}
+\doxysubsubsection{\texorpdfstring{editor}{editor}}
+{\footnotesize\ttfamily \label{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a0632b6fc269702659971eeb60b42003a} 
+World\+Editor scenes\+::level\+Creator\+Scene\+::\+Level\+Creator\+Scene\+::editor\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a11eb72ff499d7b5329769c63dffffcbc}\index{scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}!gridRect@{gridRect}}
+\index{gridRect@{gridRect}!scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}}
+\doxysubsubsection{\texorpdfstring{gridRect}{gridRect}}
+{\footnotesize\ttfamily \label{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a11eb72ff499d7b5329769c63dffffcbc} 
+SDL\+\_\+\+FRect scenes\+::level\+Creator\+Scene\+::\+Level\+Creator\+Scene\+::grid\+Rect\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a421fec7e753ac216d587fb6ab4a5a710}\index{scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}!gridTileSize@{gridTileSize}}
+\index{gridTileSize@{gridTileSize}!scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}}
+\doxysubsubsection{\texorpdfstring{gridTileSize}{gridTileSize}}
+{\footnotesize\ttfamily \label{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a421fec7e753ac216d587fb6ab4a5a710} 
+float scenes\+::level\+Creator\+Scene\+::\+Level\+Creator\+Scene\+::grid\+Tile\+Size\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a4633ecc3b8634d08c35c56eb619ef9ea}\index{scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}!hoverCol@{hoverCol}}
+\index{hoverCol@{hoverCol}!scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}}
+\doxysubsubsection{\texorpdfstring{hoverCol}{hoverCol}}
+{\footnotesize\ttfamily \label{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a4633ecc3b8634d08c35c56eb619ef9ea} 
+int scenes\+::level\+Creator\+Scene\+::\+Level\+Creator\+Scene\+::hover\+Col = -\/1\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a98a9c434f3237872e26d17358ad7b1ae}\index{scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}!hoverPaletteIndex@{hoverPaletteIndex}}
+\index{hoverPaletteIndex@{hoverPaletteIndex}!scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}}
+\doxysubsubsection{\texorpdfstring{hoverPaletteIndex}{hoverPaletteIndex}}
+{\footnotesize\ttfamily \label{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a98a9c434f3237872e26d17358ad7b1ae} 
+int scenes\+::level\+Creator\+Scene\+::\+Level\+Creator\+Scene\+::hover\+Palette\+Index = -\/1\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a01fc45bef9b932dc8f0fab8bf400c5fa}\index{scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}!hoverRow@{hoverRow}}
+\index{hoverRow@{hoverRow}!scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}}
+\doxysubsubsection{\texorpdfstring{hoverRow}{hoverRow}}
+{\footnotesize\ttfamily \label{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a01fc45bef9b932dc8f0fab8bf400c5fa} 
+int scenes\+::level\+Creator\+Scene\+::\+Level\+Creator\+Scene\+::hover\+Row = -\/1\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a3e22f78c8d3c3714b20930bdbb0a9a41}\index{scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}!levelRows@{levelRows}}
+\index{levelRows@{levelRows}!scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}}
+\doxysubsubsection{\texorpdfstring{levelRows}{levelRows}}
+{\footnotesize\ttfamily \label{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a3e22f78c8d3c3714b20930bdbb0a9a41} 
+\mbox{\hyperlink{structscenes_1_1level_creator_scene_1_1_level_row}{Level\+Row}} \mbox{[}$\,$\mbox{]} scenes\+::level\+Creator\+Scene\+::\+Level\+Creator\+Scene\+::level\+Rows\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classscenes_1_1level_creator_scene_1_1_level_creator_scene_ab8e05186bf21f2d9b51080ddcfe1ff2a}\index{scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}!listWidth@{listWidth}}
+\index{listWidth@{listWidth}!scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}}
+\doxysubsubsection{\texorpdfstring{listWidth}{listWidth}}
+{\footnotesize\ttfamily \label{classscenes_1_1level_creator_scene_1_1_level_creator_scene_ab8e05186bf21f2d9b51080ddcfe1ff2a} 
+float scenes\+::level\+Creator\+Scene\+::\+Level\+Creator\+Scene\+::list\+Width\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a7c25045679137a14180a4d0a31edc438}\index{scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}!listX@{listX}}
+\index{listX@{listX}!scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}}
+\doxysubsubsection{\texorpdfstring{listX}{listX}}
+{\footnotesize\ttfamily \label{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a7c25045679137a14180a4d0a31edc438} 
+float scenes\+::level\+Creator\+Scene\+::\+Level\+Creator\+Scene\+::listX\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classscenes_1_1level_creator_scene_1_1_level_creator_scene_afa04f5cde10aad7c2b01fd48f3911466}\index{scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}!listY@{listY}}
+\index{listY@{listY}!scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}}
+\doxysubsubsection{\texorpdfstring{listY}{listY}}
+{\footnotesize\ttfamily \label{classscenes_1_1level_creator_scene_1_1_level_creator_scene_afa04f5cde10aad7c2b01fd48f3911466} 
+float scenes\+::level\+Creator\+Scene\+::\+Level\+Creator\+Scene\+::listY\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a3b892c4c67611c3e8dcc719e043cc79c}\index{scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}!lowerEdgeRect@{lowerEdgeRect}}
+\index{lowerEdgeRect@{lowerEdgeRect}!scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}}
+\doxysubsubsection{\texorpdfstring{lowerEdgeRect}{lowerEdgeRect}}
+{\footnotesize\ttfamily \label{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a3b892c4c67611c3e8dcc719e043cc79c} 
+SDL\+\_\+\+FRect scenes\+::level\+Creator\+Scene\+::\+Level\+Creator\+Scene\+::lower\+Edge\+Rect\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classscenes_1_1level_creator_scene_1_1_level_creator_scene_ac5fabe0a548ee667ece1ec874e539fe5}\index{scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}!menuButton@{menuButton}}
+\index{menuButton@{menuButton}!scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}}
+\doxysubsubsection{\texorpdfstring{menuButton}{menuButton}}
+{\footnotesize\ttfamily \label{classscenes_1_1level_creator_scene_1_1_level_creator_scene_ac5fabe0a548ee667ece1ec874e539fe5} 
+\mbox{\hyperlink{structui_1_1widgets_1_1_u_i_button}{UIButton}} scenes\+::level\+Creator\+Scene\+::\+Level\+Creator\+Scene\+::menu\+Button\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classscenes_1_1level_creator_scene_1_1_level_creator_scene_abde0c354b932d5dfda6dbd980392eca9}\index{scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}!nextButton@{nextButton}}
+\index{nextButton@{nextButton}!scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}}
+\doxysubsubsection{\texorpdfstring{nextButton}{nextButton}}
+{\footnotesize\ttfamily \label{classscenes_1_1level_creator_scene_1_1_level_creator_scene_abde0c354b932d5dfda6dbd980392eca9} 
+\mbox{\hyperlink{structui_1_1widgets_1_1_u_i_button}{UIButton}} scenes\+::level\+Creator\+Scene\+::\+Level\+Creator\+Scene\+::next\+Button\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a1f9ed8dd0fc8538555d3f41aabdd5b6f}\index{scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}!painting@{painting}}
+\index{painting@{painting}!scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}}
+\doxysubsubsection{\texorpdfstring{painting}{painting}}
+{\footnotesize\ttfamily \label{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a1f9ed8dd0fc8538555d3f41aabdd5b6f} 
+bool scenes\+::level\+Creator\+Scene\+::\+Level\+Creator\+Scene\+::painting = false\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a27fb17c32b07aa0ef1bc2f64ecac6e5b}\index{scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}!paintingButton@{paintingButton}}
+\index{paintingButton@{paintingButton}!scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}}
+\doxysubsubsection{\texorpdfstring{paintingButton}{paintingButton}}
+{\footnotesize\ttfamily \label{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a27fb17c32b07aa0ef1bc2f64ecac6e5b} 
+ubyte scenes\+::level\+Creator\+Scene\+::\+Level\+Creator\+Scene\+::painting\+Button = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a2cc84c58236e09b99405808ecdb0cb05}\index{scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}!paletteRect@{paletteRect}}
+\index{paletteRect@{paletteRect}!scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}}
+\doxysubsubsection{\texorpdfstring{paletteRect}{paletteRect}}
+{\footnotesize\ttfamily \label{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a2cc84c58236e09b99405808ecdb0cb05} 
+SDL\+\_\+\+FRect scenes\+::level\+Creator\+Scene\+::\+Level\+Creator\+Scene\+::palette\+Rect\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a814fd1834426f8168471ca133033e252}\index{scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}!paletteSpacing@{paletteSpacing}}
+\index{paletteSpacing@{paletteSpacing}!scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}}
+\doxysubsubsection{\texorpdfstring{paletteSpacing}{paletteSpacing}}
+{\footnotesize\ttfamily \label{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a814fd1834426f8168471ca133033e252} 
+float scenes\+::level\+Creator\+Scene\+::\+Level\+Creator\+Scene\+::palette\+Spacing = 10.\+0f\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a2ce457b4a7dfa680668fa0fe4afb759d}\index{scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}!paletteTileSize@{paletteTileSize}}
+\index{paletteTileSize@{paletteTileSize}!scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}}
+\doxysubsubsection{\texorpdfstring{paletteTileSize}{paletteTileSize}}
+{\footnotesize\ttfamily \label{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a2ce457b4a7dfa680668fa0fe4afb759d} 
+float scenes\+::level\+Creator\+Scene\+::\+Level\+Creator\+Scene\+::palette\+Tile\+Size = 52.\+0f\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a94c334c5a228c63c355e80fa26ca3e18}\index{scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}!panelRect@{panelRect}}
+\index{panelRect@{panelRect}!scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}}
+\doxysubsubsection{\texorpdfstring{panelRect}{panelRect}}
+{\footnotesize\ttfamily \label{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a94c334c5a228c63c355e80fa26ca3e18} 
+SDL\+\_\+\+FRect scenes\+::level\+Creator\+Scene\+::\+Level\+Creator\+Scene\+::panel\+Rect\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a704201f5ab37648956955829dc4b021e}\index{scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}!prevButton@{prevButton}}
+\index{prevButton@{prevButton}!scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}}
+\doxysubsubsection{\texorpdfstring{prevButton}{prevButton}}
+{\footnotesize\ttfamily \label{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a704201f5ab37648956955829dc4b021e} 
+\mbox{\hyperlink{structui_1_1widgets_1_1_u_i_button}{UIButton}} scenes\+::level\+Creator\+Scene\+::\+Level\+Creator\+Scene\+::prev\+Button\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a7a3158f934b2855cf96a8620f6823af4}\index{scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}!selectedLevelIndex@{selectedLevelIndex}}
+\index{selectedLevelIndex@{selectedLevelIndex}!scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}}
+\doxysubsubsection{\texorpdfstring{selectedLevelIndex}{selectedLevelIndex}}
+{\footnotesize\ttfamily \label{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a7a3158f934b2855cf96a8620f6823af4} 
+int scenes\+::level\+Creator\+Scene\+::\+Level\+Creator\+Scene\+::selected\+Level\+Index = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classscenes_1_1level_creator_scene_1_1_level_creator_scene_ae8a3f25ff91472b153a1a8c61e34805c}\index{scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}!selectedTile@{selectedTile}}
+\index{selectedTile@{selectedTile}!scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}}
+\doxysubsubsection{\texorpdfstring{selectedTile}{selectedTile}}
+{\footnotesize\ttfamily \label{classscenes_1_1level_creator_scene_1_1_level_creator_scene_ae8a3f25ff91472b153a1a8c61e34805c} 
+int scenes\+::level\+Creator\+Scene\+::\+Level\+Creator\+Scene\+::selected\+Tile = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classscenes_1_1level_creator_scene_1_1_level_creator_scene_af73fcfbfb6d7fdf27d861b0ede85c6e0}\index{scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}!tilePalette@{tilePalette}}
+\index{tilePalette@{tilePalette}!scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}}
+\doxysubsubsection{\texorpdfstring{tilePalette}{tilePalette}}
+{\footnotesize\ttfamily \label{classscenes_1_1level_creator_scene_1_1_level_creator_scene_af73fcfbfb6d7fdf27d861b0ede85c6e0} 
+SDL\+\_\+\+Color \mbox{[}$\,$\mbox{]} scenes\+::level\+Creator\+Scene\+::\+Level\+Creator\+Scene\+::tile\+Palette\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a6655616271461da4db28830096b95992}\index{scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}!upperEdgeRect@{upperEdgeRect}}
+\index{upperEdgeRect@{upperEdgeRect}!scenes::levelCreatorScene::LevelCreatorScene@{scenes::levelCreatorScene::LevelCreatorScene}}
+\doxysubsubsection{\texorpdfstring{upperEdgeRect}{upperEdgeRect}}
+{\footnotesize\ttfamily \label{classscenes_1_1level_creator_scene_1_1_level_creator_scene_a6655616271461da4db28830096b95992} 
+SDL\+\_\+\+FRect scenes\+::level\+Creator\+Scene\+::\+Level\+Creator\+Scene\+::upper\+Edge\+Rect\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+PSET/\+Engine/source/scenes/\mbox{\hyperlink{level_creator_scene_8d}{level\+Creator\+Scene.\+d}}\end{DoxyCompactItemize}

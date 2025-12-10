@@ -1,0 +1,6 @@
+<map id="scenes::levelCreatorScene::LevelCreatorScene::rebuildLayout" name="scenes::levelCreatorScene::LevelCreatorScene::rebuildLayout">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,29,231,70"/>
+<area shape="rect" id="Node000002" href="$namespaceeditor_1_1world_editor.html#a0e1cdc4eb9d3e4d11cf3de4028761dd8" title=" " alt="" coords="279,29,405,70"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="231,47,266,50,261,50,231,52"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="300,27,297,19,304,10,319,5,342,3,366,5,382,14,377,13,365,10,342,8,321,10,308,15,303,21,304,30"/>
+</map>

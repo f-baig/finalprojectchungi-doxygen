@@ -1,0 +1,6 @@
+<map id="scenes::menuScene::MenuScene::drawBackdrop" name="scenes::menuScene::MenuScene::drawBackdrop">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,22,187,62"/>
+<area shape="rect" id="Node000002" href="$namespaceui_1_1widgets.html#abeb4f7d510ee0e86ed2ffd25d6ce809a" title=" " alt="" coords="235,29,390,55"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="187,40,222,42,217,42,187,45"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="276,28,269,21,274,11,288,5,312,3,339,5,354,15,348,14,337,10,312,8,289,10,277,15,275,20,281,30"/>
+</map>

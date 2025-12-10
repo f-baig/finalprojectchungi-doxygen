@@ -1,0 +1,16 @@
+<map id="scenes::menuScene::MenuScene::render" name="scenes::menuScene::MenuScene::render">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,100,154,141"/>
+<area shape="rect" id="Node000002" href="$classscenes_1_1menu_scene_1_1_menu_scene.html#aa766ffeb682ca4c7dd31ee796700b42f" title=" " alt="" coords="202,5,383,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="124,97,201,62,231,51,226,54,203,67,126,102"/>
+<area shape="rect" id="Node000003" href="$namespaceui_1_1widgets.html#abeb4f7d510ee0e86ed2ffd25d6ce809a" title=" " alt="" coords="431,108,586,133"/>
+<area shape="poly" id="edge9_Node000001_Node000003" title=" " alt="" coords="153,109,202,106,292,103,383,106,418,110,413,111,383,111,292,108,202,111,155,114"/>
+<area shape="rect" id="Node000004" href="$namespaceui_1_1widgets.html#aa2ef483f9bfbb26090c20f91a4d3ae98" title=" " alt="" coords="213,145,372,170"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="154,131,203,141,198,142,154,136"/>
+<area shape="rect" id="Node000005" href="$classscenes_1_1menu_scene_1_1_menu_scene.html#a68328de8fc93d69b4cf76cbab1f34f3f" title=" " alt="" coords="213,195,372,235"/>
+<area shape="poly" id="edge7_Node000001_Node000005" title=" " alt="" coords="118,139,203,181,218,189,213,189,201,185,117,144"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="342,44,384,62,466,100,461,101,382,67,342,49"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="472,106,466,99,470,89,485,83,509,81,535,84,550,93,545,93,534,89,509,86,486,88,474,93,471,98,477,108"/>
+<area shape="poly" id="edge6_Node000004_Node000003" title=" " alt="" coords="370,142,418,136,413,137,371,147"/>
+<area shape="poly" id="edge5_Node000004_Node000004" title=" " alt="" coords="256,144,250,136,254,126,269,120,292,118,318,121,333,130,328,130,317,126,292,123,270,126,258,130,255,136,262,145"/>
+<area shape="poly" id="edge8_Node000005_Node000003" title=" " alt="" coords="354,192,382,181,467,141,472,140,384,185,356,197"/>
+</map>

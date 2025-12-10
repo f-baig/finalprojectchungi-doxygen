@@ -1,0 +1,6 @@
+<map id="scenes::levelScene::LevelScene::drawBackdrop" name="scenes::levelScene::LevelScene::drawBackdrop">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,22,194,62"/>
+<area shape="rect" id="Node000002" href="$namespaceui_1_1widgets.html#abeb4f7d510ee0e86ed2ffd25d6ce809a" title=" " alt="" coords="242,29,397,55"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="194,40,229,42,223,42,194,45"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="282,28,276,21,280,11,295,5,319,3,346,5,361,15,356,14,345,10,319,8,296,10,284,15,281,20,287,30"/>
+</map>

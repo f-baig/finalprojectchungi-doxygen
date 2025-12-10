@@ -1,0 +1,6 @@
+<map id="scenes::menuScene::MenuScene::buttonIndexAt" name="scenes::menuScene::MenuScene::buttonIndexAt">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,22,185,62"/>
+<area shape="rect" id="Node000002" href="$namespaceui_1_1widgets.html#a3c9c138d32470734af246c6eb9be5540" title=" " alt="" coords="233,29,374,55"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="185,40,220,42,214,42,185,45"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="268,28,262,21,266,11,280,5,303,3,329,5,343,15,338,14,327,10,303,8,281,10,270,15,267,20,273,30"/>
+</map>

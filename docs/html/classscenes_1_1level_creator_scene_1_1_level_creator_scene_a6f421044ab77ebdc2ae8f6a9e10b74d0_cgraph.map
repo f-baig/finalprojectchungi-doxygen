@@ -1,0 +1,8 @@
+<map id="scenes::levelCreatorScene::LevelCreatorScene::drawGrid" name="scenes::levelCreatorScene::LevelCreatorScene::drawGrid">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,47,206,87"/>
+<area shape="rect" id="Node000002" href="$classscenes_1_1level_creator_scene_1_1_level_creator_scene.html#ae5698cb7e9e95ba381d6319aa06345bf" title=" " alt="" coords="254,5,481,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="206,49,241,45,236,47,207,54"/>
+<area shape="rect" id="Node000003" href="$namespaceui_1_1widgets.html#abeb4f7d510ee0e86ed2ffd25d6ce809a" title=" " alt="" coords="290,94,445,120"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="206,80,277,93,272,93,206,85"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="324,93,316,86,321,76,338,70,367,68,400,70,417,80,412,79,398,75,367,73,339,75,324,80,321,85,329,95"/>
+</map>

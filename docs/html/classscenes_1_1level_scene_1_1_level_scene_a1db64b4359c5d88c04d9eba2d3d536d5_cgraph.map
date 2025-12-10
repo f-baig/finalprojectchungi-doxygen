@@ -1,0 +1,10 @@
+<map id="scenes::levelScene::LevelScene::handleMouseUp" name="scenes::levelScene::LevelScene::handleMouseUp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,51,205,92"/>
+<area shape="rect" id="Node000002" href="$namespaceui_1_1widgets.html#a3c9c138d32470734af246c6eb9be5540" title=" " alt="" coords="253,29,394,55"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="205,55,240,53,235,54,206,61"/>
+<area shape="rect" id="Node000003" href="$classscenes_1_1level_scene_1_1_level_scene.html#a8c2bb3d90c3dbaada2baca5a01be18e6" title=" " alt="" coords="253,79,394,120"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="205,82,240,88,235,89,205,87"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="289,28,283,21,287,11,301,5,323,3,348,5,362,15,357,14,346,10,323,8,302,10,291,15,289,20,295,30"/>
+<area shape="rect" id="Node000004" href="$classscenes_1_1level_scene_1_1_level_scene.html#a350aa9cde673d405579676215d7f8715" title=" " alt="" coords="442,79,605,120"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="394,97,429,99,424,100,394,102"/>
+</map>

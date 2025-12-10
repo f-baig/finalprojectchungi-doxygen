@@ -1,0 +1,5 @@
+<map id="scenes::levelScene::LevelScene::drawBackdrop" name="scenes::levelScene::LevelScene::drawBackdrop">
+<area shape="rect" id="Node000001" title=" " alt="" coords="195,5,383,46"/>
+<area shape="rect" id="Node000002" href="$classscenes_1_1level_scene_1_1_level_scene.html#a9f909e6495ca8359f98be62fc2d3964b" title=" " alt="" coords="5,5,147,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="176,26,147,28,147,23,182,25"/>
+</map>

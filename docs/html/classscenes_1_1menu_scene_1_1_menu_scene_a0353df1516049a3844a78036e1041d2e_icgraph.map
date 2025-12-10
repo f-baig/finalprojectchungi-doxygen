@@ -1,0 +1,5 @@
+<map id="scenes::menuScene::MenuScene::trigger" name="scenes::menuScene::MenuScene::trigger">
+<area shape="rect" id="Node000001" title=" " alt="" coords="224,5,372,46"/>
+<area shape="rect" id="Node000002" href="$classscenes_1_1menu_scene_1_1_menu_scene.html#a771dc2b79def89921adc79443802ecda" title=" " alt="" coords="5,5,176,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="205,26,176,28,176,23,211,25"/>
+</map>

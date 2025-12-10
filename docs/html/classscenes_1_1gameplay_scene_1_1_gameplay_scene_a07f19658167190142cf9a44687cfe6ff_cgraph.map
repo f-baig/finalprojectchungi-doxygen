@@ -1,0 +1,7 @@
+<map id="scenes::gameplayScene::GameplayScene::onEnter" name="scenes::gameplayScene::GameplayScene::onEnter">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,39,184,79"/>
+<area shape="rect" id="Node000002" href="$classscenes_1_1gameplay_scene_1_1_gameplay_scene.html#a9d17f51fef632a456a0c161abd5ce617" title=" " alt="" coords="232,5,442,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="183,44,219,42,213,43,185,49"/>
+<area shape="rect" id="Node000003" href="$classscenes_1_1gameplay_scene_1_1_gameplay_scene.html#a356211c92212ecebd69f0a5f8d7bafb9" title=" " alt="" coords="235,71,439,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="184,68,222,75,217,76,184,73"/>
+</map>

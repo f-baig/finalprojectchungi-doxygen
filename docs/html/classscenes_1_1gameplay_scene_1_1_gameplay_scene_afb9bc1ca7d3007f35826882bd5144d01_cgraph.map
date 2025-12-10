@@ -1,0 +1,30 @@
+<map id="scenes::gameplayScene::GameplayScene::render" name="scenes::gameplayScene::GameplayScene::render">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,208,175,249"/>
+<area shape="rect" id="Node000002" href="$classscenes_1_1gameplay_scene_1_1_gameplay_scene.html#ac9ba00daf7d894d843e58460d7deaf83" title=" " alt="" coords="750,5,967,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="130,205,222,163,343,119,468,86,606,58,737,40,732,42,606,63,470,91,345,124,224,168,133,210"/>
+<area shape="rect" id="Node000004" href="$classscenes_1_1gameplay_scene_1_1_gameplay_scene.html#a7602ab3191c1d2f136bb693ac2785e04" title=" " alt="" coords="229,177,414,218"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="174,215,216,211,211,213,176,220"/>
+<area shape="rect" id="Node000009" href="$classscenes_1_1gameplay_scene_1_1_gameplay_scene.html#a2e60482ad4ed25687ea87c620c40fd4e" title=" " alt="" coords="481,300,687,341"/>
+<area shape="poly" id="edge14_Node000001_Node000009" title=" " alt="" coords="175,241,467,296,464,301,175,247"/>
+<area shape="rect" id="Node000010" href="$classscenes_1_1gameplay_scene_1_1_gameplay_scene.html#a829367fba29d218172ba2ec85da12f9e" title=" " alt="" coords="223,327,421,367"/>
+<area shape="poly" id="edge17_Node000001_Node000010" title=" " alt="" coords="123,247,170,276,224,306,252,320,246,320,221,311,168,281,122,252"/>
+<area shape="rect" id="Node000003" href="$namespaceui_1_1widgets.html#abeb4f7d510ee0e86ed2ffd25d6ce809a" title=" " alt="" coords="1018,186,1173,212"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="935,44,971,62,1004,88,1034,117,1079,174,1074,172,1030,120,1000,92,968,67,935,49"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="1056,185,1048,178,1053,168,1069,162,1095,160,1124,162,1140,172,1135,171,1123,167,1095,165,1070,167,1057,172,1054,177,1061,187"/>
+<area shape="poly" id="edge13_Node000004_Node000003" title=" " alt="" coords="346,175,399,137,433,119,468,106,554,103,722,102,970,107,1000,120,1028,137,1074,176,1068,175,1025,142,998,125,969,112,722,108,554,108,470,111,435,124,402,142,349,179"/>
+<area shape="rect" id="Node000005" href="$classscenes_1_1gameplay_scene_1_1_gameplay_scene.html#aefef1247fcec1f1ec5f95519ce60a8c7" title=" " alt="" coords="469,235,699,275"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="415,215,476,230,471,231,415,221"/>
+<area shape="rect" id="Node000007" href="$classscenes_1_1gameplay_scene_1_1_gameplay_scene.html#ab515834b1eeac38fadb3d9d6c4a889c1" title=" " alt="" coords="747,121,970,162"/>
+<area shape="poly" id="edge10_Node000004_Node000007" title=" " alt="" coords="415,192,549,184,699,170,747,165,742,166,700,175,550,190,416,197"/>
+<area shape="rect" id="Node000008" href="$classscenes_1_1gameplay_scene_1_1_gameplay_scene.html#a56af1d01467285d68a39a6e34637c762" title=" " alt="" coords="488,120,681,161"/>
+<area shape="poly" id="edge12_Node000004_Node000008" title=" " alt="" coords="414,175,476,164,471,165,416,180"/>
+<area shape="poly" id="edge9_Node000005_Node000003" title=" " alt="" coords="686,231,747,222,881,208,1005,202,1000,203,881,213,748,227,687,237"/>
+<area shape="rect" id="Node000006" href="$namespaceui_1_1widgets.html#aa2ef483f9bfbb26090c20f91a4d3ae98" title=" " alt="" coords="779,261,938,286"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="700,260,767,267,761,267,700,266"/>
+<area shape="poly" id="edge8_Node000006_Node000003" title=" " alt="" coords="901,258,1035,218,1040,216,902,263"/>
+<area shape="poly" id="edge7_Node000006_Node000006" title=" " alt="" coords="819,260,812,252,816,242,832,236,859,234,887,237,904,246,898,246,886,242,858,239,833,242,820,246,817,252,824,261"/>
+<area shape="poly" id="edge11_Node000007_Node000003" title=" " alt="" coords="945,160,1027,182,1022,182,945,165"/>
+<area shape="poly" id="edge16_Node000009_Node000003" title=" " alt="" coords="688,329,753,330,824,327,898,317,969,297,999,281,1027,262,1070,224,1075,222,1030,266,1002,286,971,301,899,322,825,333,753,336,688,334"/>
+<area shape="poly" id="edge15_Node000009_Node000006" title=" " alt="" coords="687,300,761,290,767,289,688,305"/>
+<area shape="poly" id="edge18_Node000010_Node000003" title=" " alt="" coords="410,365,526,384,596,391,670,394,746,391,823,382,898,364,968,337,1004,313,1034,284,1059,252,1077,227,1082,224,1063,255,1038,287,1007,318,971,341,899,369,824,387,746,396,670,399,595,396,526,390,410,371"/>
+</map>

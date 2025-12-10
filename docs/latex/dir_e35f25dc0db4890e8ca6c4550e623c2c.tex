@@ -1,0 +1,156 @@
+\doxysection{PSET/00\+\_\+project\+\_\+and\+\_\+planning Directory Reference}
+\hypertarget{dir_e35f25dc0db4890e8ca6c4550e623c2c}{}\label{dir_e35f25dc0db4890e8ca6c4550e623c2c}\index{PSET/00\_project\_and\_planning Directory Reference@{PSET/00\_project\_and\_planning Directory Reference}}
+Directory dependency graph for 00\+\_\+project\+\_\+and\+\_\+planning\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=236pt]{dir_e35f25dc0db4890e8ca6c4550e623c2c_dep}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Detailed Description}
+\hypertarget{dir_e35f25dc0db4890e8ca6c4550e623c2c_autotoc_md4}{}\doxysubsection{\texorpdfstring{The Final Project!}{The Final Project!}}\label{dir_e35f25dc0db4890e8ca6c4550e623c2c_autotoc_md4}
+\begin{quote}
+This is it--the final course project! \end{quote}
+\hypertarget{dir_e35f25dc0db4890e8ca6c4550e623c2c_autotoc_md5}{}\doxysubsection{\texorpdfstring{Logistics}{Logistics}}\label{dir_e35f25dc0db4890e8ca6c4550e623c2c_autotoc_md5}
+
+\begin{DoxyItemize}
+\item All of your assets, source code, and deliverables will be in the \href{../Engine}{\texttt{../\+Engine}} directory.
+\item We should be able to run your engine in a \textquotesingle{}data-\/driven manner\textquotesingle{} by feeding in assets/scripts to run a game..
+\end{DoxyItemize}\hypertarget{dir_e35f25dc0db4890e8ca6c4550e623c2c_autotoc_md6}{}\doxysubsection{\texorpdfstring{Final Project -\/ Description}{Final Project -\/ Description}}\label{dir_e35f25dc0db4890e8ca6c4550e623c2c_autotoc_md6}
+The greater gaming industry is getting positive buzz talking about your game development skills. But dynamics change rapidly in the game industry--you have decided to form a new game studio of your own. From your previous projects, your team has developed a nice codebase with your own intellectual property, and has decided to form a \textquotesingle{}game making\textquotesingle{} studio around this technology. Building an impressive piece of middleware (i.\+e. a tool or technology that is not a game) to showcase at the giant tradeshows (\href{http://east.paxsite.com/}{\texttt{PAX East}}, \href{https://www.gdconf.com/}{\texttt{GDC}}, and \href{https://en.wikipedia.org/wiki/E3}{\texttt{the former E3}}, etc.) is your next task!\hypertarget{dir_e35f25dc0db4890e8ca6c4550e623c2c_autotoc_md7}{}\doxysubsection{\texorpdfstring{Final Project}{Final Project}}\label{dir_e35f25dc0db4890e8ca6c4550e623c2c_autotoc_md7}
+\hypertarget{dir_e35f25dc0db4890e8ca6c4550e623c2c_autotoc_md8}{}\doxysubsubsection{\texorpdfstring{Game Maker}{Game Maker}}\label{dir_e35f25dc0db4890e8ca6c4550e623c2c_autotoc_md8}
+
+\begin{DoxyItemize}
+\item For this project you are going to be building a Small \textquotesingle{}Game Maker\textquotesingle{} engine for your final project!
+\item You will use your engine to make a game with at least \textquotesingle{}3\textquotesingle{} scenes.
+\item With your engine {\bfseries{you will also}} implement either a classic game that we have not previously implemented (e.\+g. pacman, super mario, etc.)) or an original game using your engine to demonstrate how to use your engine.
+\begin{DoxyItemize}
+\item Thus you will again build a data-\/driven game engine for 2D games..
+\item Your game maker will incorporate scripting (whether in D scripts, or perhaps \textquotesingle{}pyd\textquotesingle{}) to further enable anyone to use your engine
+\begin{DoxyItemize}
+\item (Note\+: you are allowed to explore other scripting languages and libraries like \href{https://www.lua.org/}{\texttt{lua}} or \href{https://www.angelcode.com/angelscript/}{\texttt{Angelscript}}).
+\end{DoxyItemize}
+\end{DoxyItemize}
+\end{DoxyItemize}\hypertarget{dir_e35f25dc0db4890e8ca6c4550e623c2c_autotoc_md9}{}\doxysubsubsection{\texorpdfstring{Project Requirements and Constraints}{Project Requirements and Constraints}}\label{dir_e35f25dc0db4890e8ca6c4550e623c2c_autotoc_md9}
+
+\begin{DoxyEnumerate}
+\item Your must build the majority of your technology from scratch.
+\begin{DoxyItemize}
+\item Any 3rd party code (e.\+g. an image library, networking library, physics library, etc.), must be {\bfseries{first}} instructor/\+ULA/\+TF approved, and then you should cite your source in the \doxysectlink{md__r_e_a_d_m_e}{./../../\+README.md}{0}.
+\end{DoxyItemize}
+\item It is expected/permissable that you reuse some code from previous problem sets.
+\item You cannot build a tech demo with Unity3D, Unreal Engine
+\begin{DoxyItemize}
+\item It is not in the spirit of the course (i.\+e. you cannot change the final project to something else), and I want to give you the opportunity to do a deep technical project as a team.
+\item After you finish this course, you will have the opportunity to take your knowledge and work on engines, mods, etc.
+\end{DoxyItemize}
+\end{DoxyEnumerate}
+
+\begin{quote}
+Note--if you have not taken computer graphics, you should not be attempting to learn 3D graphics during this duration -- I am expecting most engines will follow what we have done in this semester and be 2D or pseudo-\/2D (i.\+e. perhaps faking 3D perspective, but ultimately be using 2D graphics API). It is highly recommended (and to some extent expected) that most students will work on 2D projects leveraging their previous codebase. \end{quote}
+\hypertarget{dir_e35f25dc0db4890e8ca6c4550e623c2c_autotoc_md10}{}\doxysubsubsection{\texorpdfstring{Project High Level Requirements}{Project High Level Requirements}}\label{dir_e35f25dc0db4890e8ca6c4550e623c2c_autotoc_md10}
+There are {\bfseries{three key}} components for your project\+:
+
+
+\begin{DoxyEnumerate}
+\item A Dlang (or C++ is also allowed) based game engine.
+\begin{DoxyItemize}
+\item The game engine should do the heavy lifting and management of game objects and resources -- this is likely similar to your most recent game and editor PSETS.
+\end{DoxyItemize}
+\item A supporting tool/editor for building games that \textquotesingle{}generates\textquotesingle{}, \textquotesingle{}previews\textquotesingle{}, or somehow assists in the development of games.
+\begin{DoxyItemize}
+\item i.\+e. you need to build one tool -- for example\+:
+\begin{DoxyItemize}
+\item A GUI editor that shows your scene and game objects
+\item A GUI-\/based tile editor
+\item A GUI-\/based world editor
+\item A sprite animation tool, etc.
+\end{DoxyItemize}
+\item Again, the purpose of the \textquotesingle{}tooling\textquotesingle{} is to otherwise generates (or preview) data for your engine. Someone should be able to build or layout scenes for your game using tooling (i.\+e. your engine should not just be D code, but some tooling supporting the engine).
+\end{DoxyItemize}
+\end{DoxyEnumerate}
+\begin{DoxyEnumerate}
+\item A game built in your engine with at least 3 \textquotesingle{}scenes\textquotesingle{}
+\begin{DoxyItemize}
+\item This can be a classic or original game.
+\item It should not be however one of the projects we already built (i.\+e. no space invaders clones -- expand and do something different)
+\end{DoxyItemize}
+\end{DoxyEnumerate}\hypertarget{dir_e35f25dc0db4890e8ca6c4550e623c2c_autotoc_md11}{}\doxysubsubsection{\texorpdfstring{Project Technical Requirements}{Project Technical Requirements}}\label{dir_e35f25dc0db4890e8ca6c4550e623c2c_autotoc_md11}
+The following are the technical requirements of your game engine. There is significant freedom in how you achieve these goals, but you should otherwise be applying these techniques in your engine that we learned throughout the term.
+
+
+\begin{DoxyItemize}
+\item[\DoxyUnchecked] Implement a resource manager
+\end{DoxyItemize}
+\begin{DoxyItemize}
+\item[\DoxyUnchecked] Implement a GUI-\/based editor/environment for assisting building a game (e.\+g. A tilemap editor, 2D animation preview tool, web-\/based level generator, etc.)
+\begin{DoxyItemize}
+\item This tool need not be implemented in Dlang or C++, but should otherwise generate data that your Dlang engine can use.
+\end{DoxyItemize}
+\end{DoxyItemize}
+\begin{DoxyItemize}
+\item[\DoxyUnchecked] Your engine must be data-\/driven
+\begin{DoxyItemize}
+\item[\DoxyUnchecked] Scripts of some kind should be loaded for the gameplay logic (e.\+g. D Scripts, hot reloaded from DLang, using PyD, or perhaps something else)
+\end{DoxyItemize}
+\begin{DoxyItemize}
+\item[\DoxyUnchecked] Other configuration files (e.\+g. levels, scenes, etc.) should be loaded at run-\/time.
+\end{DoxyItemize}
+\end{DoxyItemize}
+\begin{DoxyItemize}
+\item[\DoxyUnchecked] Your engine should be component-\/based {\bfseries{or}} use some other logical pattern for organizing game objects (At a minimum you should have a gameobject class).
+\end{DoxyItemize}
+\begin{DoxyItemize}
+\item[\DoxyUnchecked] Something {\bfseries{extra}} that gives your engine a \textquotesingle{}wow\textquotesingle{} factor to show off to the TA\textquotesingle{}s and instructors. Highlight this in your video (could be engineering, could be a gameplay mechanic that you designed your engine around, the goal is that it is something non-\/trivial)
+\end{DoxyItemize}\hypertarget{dir_e35f25dc0db4890e8ca6c4550e623c2c_autotoc_md12}{}\doxysubsubsubsection{\texorpdfstring{Some notes on building a game maker}{Some notes on building a game maker}}\label{dir_e35f25dc0db4890e8ca6c4550e623c2c_autotoc_md12}
+
+\begin{DoxyEnumerate}
+\item Very likely you may need to integrate some GUI library into your engine to make it useable.
+\begin{DoxyItemize}
+\item Think about this early--even draw a picture of what you think it should look like.
+\item Think about if this GUI needs to be in a scripting language (e.\+g. Python) or in the D code.
+\begin{DoxyItemize}
+\item At the end of the day, you just need a tool that generates data.
+\end{DoxyItemize}
+\end{DoxyItemize}
+\item {\itshape Think} data-\/driven
+\begin{DoxyItemize}
+\item This means your Dlang Code handles your engine, and your scripting language (e.\+g. A script component in D, or perhaps PyD or luaD) should handle the game logic.
+\end{DoxyItemize}
+\item You should be able to utilize many of the game programming patterns discussed in the course with this system.
+\item The game you build, need not span hours, but should at least demonstrate that a game with objectives can be played and won, and new data can be loaded and handled in the engine.
+\end{DoxyEnumerate}\hypertarget{dir_e35f25dc0db4890e8ca6c4550e623c2c_autotoc_md13}{}\doxysubsubsection{\texorpdfstring{Inspiration!}{Inspiration!}}\label{dir_e35f25dc0db4890e8ca6c4550e623c2c_autotoc_md13}
+It {\bfseries{would be wise}} to spend some time looking at \doxysectlink{md__p_s_e_t_200__project__and__planning_2past}{past course projects}{0} to otherwise get an idea of what your project make look like.
+
+\begin{quote}
+Note\+: Project requirements have changed over time, but generally speaking the linked previous year projects are good examples of the spirit of what we are making this semester and projects that scored very well. \end{quote}
+\hypertarget{dir_e35f25dc0db4890e8ca6c4550e623c2c_autotoc_md14}{}\doxysubsubsection{\texorpdfstring{Gameplan}{Gameplan}}\label{dir_e35f25dc0db4890e8ca6c4550e623c2c_autotoc_md14}
+Given the above requirements, you may use this space to write some notes in with your team. I suggest coming up with a timeline with your team members below.
+
+For example\+:
+
+
+\begin{DoxyEnumerate}
+\item Week 1 -\/ Start brainstorming, gather resources, from previous assignments and start planning
+\item Week 2 -\/ Implementation of Editor and main components of engine
+\item Week 3 -\/ Continue iterating on engine, and build prototype of game.
+\item Week 4 to finish -\/ Put together website and polish off bugs
+\end{DoxyEnumerate}
+
+You may also want to discuss how you\textquotesingle{}d like to keep in touch (e.\+g. E-\/mail, discord, teams, Google Meet, etc.), and the frequency at which you will meet.\hypertarget{dir_e35f25dc0db4890e8ca6c4550e623c2c_autotoc_md15}{}\doxysubsubsubsection{\texorpdfstring{Timeline}{Timeline}}\label{dir_e35f25dc0db4890e8ca6c4550e623c2c_autotoc_md15}
+{\itshape edit if you like}
+
+
+\begin{DoxyEnumerate}
+\item {\itshape week 1 goals, and who will work on what}
+\item {\itshape week 2 goals, and who will work on what}
+\item {\itshape week 3 goals, and who will work on what}
+\item {\itshape week 4 goals, and who will work on what}
+\item {\itshape week 5 goals, and who will work on what}
+\item {\itshape week 6 goals, and who will work on what}
+\item {\itshape week 7 goals, and who will work on what}
+\item {\itshape week 8 goals, and who will work on what} 
+\end{DoxyEnumerate}

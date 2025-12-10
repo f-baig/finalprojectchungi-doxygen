@@ -1,0 +1,209 @@
+\doxysection{levels\+::Level\+Catalog Class Reference}
+\hypertarget{classlevels_1_1_level_catalog}{}\label{classlevels_1_1_level_catalog}\index{levels::LevelCatalog@{levels::LevelCatalog}}
+
+
+Collaboration diagram for levels\+::Level\+Catalog\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=185pt]{classlevels_1_1_level_catalog__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classlevels_1_1_level_catalog_a21f7c92c70b6800f93c56473764c4931}{this}} ()
+\item 
+void \mbox{\hyperlink{classlevels_1_1_level_catalog_ada556837f9f176c250cfacc2f7ca83c2}{initialize\+Defaults}} ()
+\item 
+size\+\_\+t \mbox{\hyperlink{classlevels_1_1_level_catalog_ae7cf95743ec5bbcf19b6f11cf29e4448}{length}} () const @property
+\item 
+\mbox{\hyperlink{structlevels_1_1_level}{Level}}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classlevels_1_1_level_catalog_a1e2c4c6998f5de18d1e36cf0117c506f}{snapshot}} ()
+\item 
+\mbox{\hyperlink{structlevels_1_1_level}{Level}} \mbox{\hyperlink{classlevels_1_1_level_catalog_a575d89d5a0da9ea6ea774cf449be7658}{level\+At}} (size\+\_\+t index)
+\item 
+ref \mbox{\hyperlink{structlevels_1_1_level}{Level}} \mbox{\hyperlink{classlevels_1_1_level_catalog_a902970f5a9217809f0e2ca5a80dba513}{level\+At\+Ref}} (size\+\_\+t index)
+\item 
+\mbox{\hyperlink{structlevels_1_1_level}{Level}} \mbox{\hyperlink{classlevels_1_1_level_catalog_ae9014151ceb71337254618937e4dad03}{first\+Level}} ()
+\item 
+size\+\_\+t \mbox{\hyperlink{classlevels_1_1_level_catalog_af7266f5e9bee49941a5e21bec5186a35}{first\+Level\+Index}} () const
+\item 
+\mbox{\hyperlink{structlevels_1_1_level}{Level}} \mbox{\hyperlink{classlevels_1_1_level_catalog_a53035b3177f664a325b58cccc91cf33a}{create\+Custom\+Level}} ()
+\item 
+bool \mbox{\hyperlink{classlevels_1_1_level_catalog_ab4576c39be6650315fc04bebccc064f6}{move\+Level}} (size\+\_\+t from\+Index, size\+\_\+t to\+Index)
+\item 
+bool \mbox{\hyperlink{classlevels_1_1_level_catalog_a902cbe2737ac29b0d2302536f2dd4a60}{rename\+Level}} (size\+\_\+t index, string new\+Name)
+\item 
+void \mbox{\hyperlink{classlevels_1_1_level_catalog_a2e6371e1f6e32509967e769ace7d2091}{update\+Description}} (size\+\_\+t index, string description)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{structlevels_1_1_level}{Level}} \mbox{\hyperlink{classlevels_1_1_level_catalog_ae66e757cb184766157069ae5fa30cacc}{make\+Level}} (string name, string description, bool is\+Custom)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{structlevels_1_1_level}{Level}}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classlevels_1_1_level_catalog_a65841890cdb64c811aa55904064d9b6e}{\+\_\+levels}}
+\item 
+size\+\_\+t \mbox{\hyperlink{classlevels_1_1_level_catalog_a0c34d072a12b1c461422b84a9d76b6a4}{\+\_\+custom\+Count}}
+\end{DoxyCompactItemize}
+
+
+\label{doc-constructors}
+\Hypertarget{classlevels_1_1_level_catalog_doc-constructors}
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classlevels_1_1_level_catalog_a21f7c92c70b6800f93c56473764c4931}\index{levels::LevelCatalog@{levels::LevelCatalog}!this@{this}}
+\index{this@{this}!levels::LevelCatalog@{levels::LevelCatalog}}
+\doxysubsubsection{\texorpdfstring{this()}{this()}}
+{\footnotesize\ttfamily \label{classlevels_1_1_level_catalog_a21f7c92c70b6800f93c56473764c4931} 
+levels\+::\+Level\+Catalog\+::this (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classlevels_1_1_level_catalog_a21f7c92c70b6800f93c56473764c4931_cgraph}
+\end{center}
+\end{figure}
+
+
+\label{doc-func-members}
+\Hypertarget{classlevels_1_1_level_catalog_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classlevels_1_1_level_catalog_a53035b3177f664a325b58cccc91cf33a}\index{levels::LevelCatalog@{levels::LevelCatalog}!createCustomLevel@{createCustomLevel}}
+\index{createCustomLevel@{createCustomLevel}!levels::LevelCatalog@{levels::LevelCatalog}}
+\doxysubsubsection{\texorpdfstring{createCustomLevel()}{createCustomLevel()}}
+{\footnotesize\ttfamily \label{classlevels_1_1_level_catalog_a53035b3177f664a325b58cccc91cf33a} 
+\mbox{\hyperlink{structlevels_1_1_level}{Level}} levels\+::\+Level\+Catalog\+::create\+Custom\+Level (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classlevels_1_1_level_catalog_a53035b3177f664a325b58cccc91cf33a_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classlevels_1_1_level_catalog_ae9014151ceb71337254618937e4dad03}\index{levels::LevelCatalog@{levels::LevelCatalog}!firstLevel@{firstLevel}}
+\index{firstLevel@{firstLevel}!levels::LevelCatalog@{levels::LevelCatalog}}
+\doxysubsubsection{\texorpdfstring{firstLevel()}{firstLevel()}}
+{\footnotesize\ttfamily \label{classlevels_1_1_level_catalog_ae9014151ceb71337254618937e4dad03} 
+\mbox{\hyperlink{structlevels_1_1_level}{Level}} levels\+::\+Level\+Catalog\+::first\+Level (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{classlevels_1_1_level_catalog_af7266f5e9bee49941a5e21bec5186a35}\index{levels::LevelCatalog@{levels::LevelCatalog}!firstLevelIndex@{firstLevelIndex}}
+\index{firstLevelIndex@{firstLevelIndex}!levels::LevelCatalog@{levels::LevelCatalog}}
+\doxysubsubsection{\texorpdfstring{firstLevelIndex()}{firstLevelIndex()}}
+{\footnotesize\ttfamily \label{classlevels_1_1_level_catalog_af7266f5e9bee49941a5e21bec5186a35} 
+size\+\_\+t levels\+::\+Level\+Catalog\+::first\+Level\+Index (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{classlevels_1_1_level_catalog_ada556837f9f176c250cfacc2f7ca83c2}\index{levels::LevelCatalog@{levels::LevelCatalog}!initializeDefaults@{initializeDefaults}}
+\index{initializeDefaults@{initializeDefaults}!levels::LevelCatalog@{levels::LevelCatalog}}
+\doxysubsubsection{\texorpdfstring{initializeDefaults()}{initializeDefaults()}}
+{\footnotesize\ttfamily \label{classlevels_1_1_level_catalog_ada556837f9f176c250cfacc2f7ca83c2} 
+void levels\+::\+Level\+Catalog\+::initialize\+Defaults (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classlevels_1_1_level_catalog_ada556837f9f176c250cfacc2f7ca83c2_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=325pt]{classlevels_1_1_level_catalog_ada556837f9f176c250cfacc2f7ca83c2_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classlevels_1_1_level_catalog_ae7cf95743ec5bbcf19b6f11cf29e4448}\index{levels::LevelCatalog@{levels::LevelCatalog}!length@{length}}
+\index{length@{length}!levels::LevelCatalog@{levels::LevelCatalog}}
+\doxysubsubsection{\texorpdfstring{length()}{length()}}
+{\footnotesize\ttfamily \label{classlevels_1_1_level_catalog_ae7cf95743ec5bbcf19b6f11cf29e4448} 
+size\+\_\+t levels\+::\+Level\+Catalog\+::length (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{classlevels_1_1_level_catalog_a575d89d5a0da9ea6ea774cf449be7658}\index{levels::LevelCatalog@{levels::LevelCatalog}!levelAt@{levelAt}}
+\index{levelAt@{levelAt}!levels::LevelCatalog@{levels::LevelCatalog}}
+\doxysubsubsection{\texorpdfstring{levelAt()}{levelAt()}}
+{\footnotesize\ttfamily \label{classlevels_1_1_level_catalog_a575d89d5a0da9ea6ea774cf449be7658} 
+\mbox{\hyperlink{structlevels_1_1_level}{Level}} levels\+::\+Level\+Catalog\+::level\+At (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{index}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{classlevels_1_1_level_catalog_a902970f5a9217809f0e2ca5a80dba513}\index{levels::LevelCatalog@{levels::LevelCatalog}!levelAtRef@{levelAtRef}}
+\index{levelAtRef@{levelAtRef}!levels::LevelCatalog@{levels::LevelCatalog}}
+\doxysubsubsection{\texorpdfstring{levelAtRef()}{levelAtRef()}}
+{\footnotesize\ttfamily \label{classlevels_1_1_level_catalog_a902970f5a9217809f0e2ca5a80dba513} 
+ref \mbox{\hyperlink{structlevels_1_1_level}{Level}} levels\+::\+Level\+Catalog\+::level\+At\+Ref (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{index}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{classlevels_1_1_level_catalog_ae66e757cb184766157069ae5fa30cacc}\index{levels::LevelCatalog@{levels::LevelCatalog}!makeLevel@{makeLevel}}
+\index{makeLevel@{makeLevel}!levels::LevelCatalog@{levels::LevelCatalog}}
+\doxysubsubsection{\texorpdfstring{makeLevel()}{makeLevel()}}
+{\footnotesize\ttfamily \label{classlevels_1_1_level_catalog_ae66e757cb184766157069ae5fa30cacc} 
+\mbox{\hyperlink{structlevels_1_1_level}{Level}} levels\+::\+Level\+Catalog\+::make\+Level (\begin{DoxyParamCaption}\item[{string}]{name}{, }\item[{string}]{description}{, }\item[{bool}]{is\+Custom}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classlevels_1_1_level_catalog_ae66e757cb184766157069ae5fa30cacc_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classlevels_1_1_level_catalog_ae66e757cb184766157069ae5fa30cacc_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classlevels_1_1_level_catalog_ab4576c39be6650315fc04bebccc064f6}\index{levels::LevelCatalog@{levels::LevelCatalog}!moveLevel@{moveLevel}}
+\index{moveLevel@{moveLevel}!levels::LevelCatalog@{levels::LevelCatalog}}
+\doxysubsubsection{\texorpdfstring{moveLevel()}{moveLevel()}}
+{\footnotesize\ttfamily \label{classlevels_1_1_level_catalog_ab4576c39be6650315fc04bebccc064f6} 
+bool levels\+::\+Level\+Catalog\+::move\+Level (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{from\+Index}{, }\item[{size\+\_\+t}]{to\+Index}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{classlevels_1_1_level_catalog_a902cbe2737ac29b0d2302536f2dd4a60}\index{levels::LevelCatalog@{levels::LevelCatalog}!renameLevel@{renameLevel}}
+\index{renameLevel@{renameLevel}!levels::LevelCatalog@{levels::LevelCatalog}}
+\doxysubsubsection{\texorpdfstring{renameLevel()}{renameLevel()}}
+{\footnotesize\ttfamily \label{classlevels_1_1_level_catalog_a902cbe2737ac29b0d2302536f2dd4a60} 
+bool levels\+::\+Level\+Catalog\+::rename\+Level (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{index}{, }\item[{string}]{new\+Name}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{classlevels_1_1_level_catalog_a1e2c4c6998f5de18d1e36cf0117c506f}\index{levels::LevelCatalog@{levels::LevelCatalog}!snapshot@{snapshot}}
+\index{snapshot@{snapshot}!levels::LevelCatalog@{levels::LevelCatalog}}
+\doxysubsubsection{\texorpdfstring{snapshot()}{snapshot()}}
+{\footnotesize\ttfamily \label{classlevels_1_1_level_catalog_a1e2c4c6998f5de18d1e36cf0117c506f} 
+\mbox{\hyperlink{structlevels_1_1_level}{Level}}\mbox{[}$\,$\mbox{]} levels\+::\+Level\+Catalog\+::snapshot (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{classlevels_1_1_level_catalog_a2e6371e1f6e32509967e769ace7d2091}\index{levels::LevelCatalog@{levels::LevelCatalog}!updateDescription@{updateDescription}}
+\index{updateDescription@{updateDescription}!levels::LevelCatalog@{levels::LevelCatalog}}
+\doxysubsubsection{\texorpdfstring{updateDescription()}{updateDescription()}}
+{\footnotesize\ttfamily \label{classlevels_1_1_level_catalog_a2e6371e1f6e32509967e769ace7d2091} 
+void levels\+::\+Level\+Catalog\+::update\+Description (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{index}{, }\item[{string}]{description}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\label{doc-variable-members}
+\Hypertarget{classlevels_1_1_level_catalog_doc-variable-members}
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classlevels_1_1_level_catalog_a0c34d072a12b1c461422b84a9d76b6a4}\index{levels::LevelCatalog@{levels::LevelCatalog}!\_customCount@{\_customCount}}
+\index{\_customCount@{\_customCount}!levels::LevelCatalog@{levels::LevelCatalog}}
+\doxysubsubsection{\texorpdfstring{\_customCount}{\_customCount}}
+{\footnotesize\ttfamily \label{classlevels_1_1_level_catalog_a0c34d072a12b1c461422b84a9d76b6a4} 
+size\+\_\+t levels\+::\+Level\+Catalog\+::\+\_\+custom\+Count\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classlevels_1_1_level_catalog_a65841890cdb64c811aa55904064d9b6e}\index{levels::LevelCatalog@{levels::LevelCatalog}!\_levels@{\_levels}}
+\index{\_levels@{\_levels}!levels::LevelCatalog@{levels::LevelCatalog}}
+\doxysubsubsection{\texorpdfstring{\_levels}{\_levels}}
+{\footnotesize\ttfamily \label{classlevels_1_1_level_catalog_a65841890cdb64c811aa55904064d9b6e} 
+\mbox{\hyperlink{structlevels_1_1_level}{Level}} \mbox{[}$\,$\mbox{]} levels\+::\+Level\+Catalog\+::\+\_\+levels\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+PSET/\+Engine/source/\mbox{\hyperlink{levels_8d}{levels.\+d}}\end{DoxyCompactItemize}

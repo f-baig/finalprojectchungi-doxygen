@@ -1,0 +1,8 @@
+<map id="levels::LevelCatalog::initializeDefaults" name="levels::LevelCatalog::initializeDefaults">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,22,145,62"/>
+<area shape="rect" id="Node000002" href="$classlevels_1_1_level_catalog.html#ae66e757cb184766157069ae5fa30cacc" title=" " alt="" coords="193,22,332,62"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="145,40,180,42,175,42,145,45"/>
+<area shape="rect" id="Node000003" href="$namespacelevels.html#ae1fa171376db122f37c97c12bf962bac" title=" " alt="" coords="380,29,583,55"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="332,40,367,42,362,42,332,45"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="445,28,438,21,442,11,457,5,482,3,509,5,524,15,518,14,507,10,482,8,458,10,446,15,443,20,450,30"/>
+</map>

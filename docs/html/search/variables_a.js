@@ -1,0 +1,19 @@
+var searchData=
+[
+  ['kautoalignspeeddeg_0',['kAutoAlignSpeedDeg',['../classscenes_1_1gameplay_scene_1_1_gameplay_scene.html#ac24f119feadb360f31111e44a74fbc7c',1,'scenes::gameplayScene::GameplayScene']]],
+  ['kbadlandingbouncespeed_1',['kBadLandingBounceSpeed',['../classscenes_1_1gameplay_scene_1_1_gameplay_scene.html#aeb2a93aa782f2221a83515c1ed8dac2f',1,'scenes::gameplayScene::GameplayScene']]],
+  ['kbounceanglethresholddeg_2',['kBounceAngleThresholdDeg',['../classscenes_1_1gameplay_scene_1_1_gameplay_scene.html#a93fcc5bd758813eb8448927ea6221b2d',1,'scenes::gameplayScene::GameplayScene']]],
+  ['kdefaultfontpixelsize_3',['kDefaultFontPixelSize',['../namespacegameapplication.html#a763bdeaf9d5d40164bd1cc47748ce3fc',1,'gameapplication']]],
+  ['kgravity_4',['kGravity',['../classscenes_1_1gameplay_scene_1_1_gameplay_scene.html#a8be7ddf3e7da088822dbcf01a94263d0',1,'scenes::gameplayScene::GameplayScene']]],
+  ['kidlerotatespeeddeg_5',['kIdleRotateSpeedDeg',['../classscenes_1_1gameplay_scene_1_1_gameplay_scene.html#af1a178f66551abe1b53250a9eda49045',1,'scenes::gameplayScene::GameplayScene']]],
+  ['klandingangletolerancedeg_6',['kLandingAngleToleranceDeg',['../classscenes_1_1gameplay_scene_1_1_gameplay_scene.html#a79134814a602b62c0f90fb1f5f167b0b',1,'scenes::gameplayScene::GameplayScene']]],
+  ['kmaxaimangledeg_7',['kMaxAimAngleDeg',['../classscenes_1_1gameplay_scene_1_1_gameplay_scene.html#a068e0a6db85cd014b4b3fba5f299692b',1,'scenes::gameplayScene::GameplayScene']]],
+  ['kmaxchargetime_8',['kMaxChargeTime',['../classscenes_1_1gameplay_scene_1_1_gameplay_scene.html#a38eb38934651eb5cdeeb190ca7c0ca05',1,'scenes::gameplayScene::GameplayScene']]],
+  ['kmaxjumpspeed_9',['kMaxJumpSpeed',['../classscenes_1_1gameplay_scene_1_1_gameplay_scene.html#a6536a705fb72e0fbf3b3cc2f7f232c8c',1,'scenes::gameplayScene::GameplayScene']]],
+  ['kminjumpspeed_10',['kMinJumpSpeed',['../classscenes_1_1gameplay_scene_1_1_gameplay_scene.html#a99c791a426a967cf6260f727bb38b21d',1,'scenes::gameplayScene::GameplayScene']]],
+  ['krotatespeeddeg_11',['kRotateSpeedDeg',['../classscenes_1_1gameplay_scene_1_1_gameplay_scene.html#a09d826c5316aa33765baefad1c2ed176',1,'scenes::gameplayScene::GameplayScene']]],
+  ['kstonedelaytime_12',['kStoneDelayTime',['../classscenes_1_1gameplay_scene_1_1_gameplay_scene.html#a72b75b833c68851c5c13a64a477ca0ae',1,'scenes::gameplayScene::GameplayScene']]],
+  ['kstonerespawntime_13',['kStoneRespawnTime',['../classscenes_1_1gameplay_scene_1_1_gameplay_scene.html#a54173f49890a3888f7e941a372ca2d25',1,'scenes::gameplayScene::GameplayScene']]],
+  ['kstoneshaketime_14',['kStoneShakeTime',['../classscenes_1_1gameplay_scene_1_1_gameplay_scene.html#aca80b55e14cbe2bf6e03591c677e1672',1,'scenes::gameplayScene::GameplayScene']]],
+  ['kwindpushpersecond_15',['kWindPushPerSecond',['../classscenes_1_1gameplay_scene_1_1_gameplay_scene.html#ac5a3138e4248e36d3efce810ca62675c',1,'scenes::gameplayScene::GameplayScene']]]
+];

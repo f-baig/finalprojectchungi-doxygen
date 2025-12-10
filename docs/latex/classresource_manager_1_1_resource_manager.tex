@@ -1,0 +1,145 @@
+\doxysection{resource\+Manager\+::Resource\+Manager Class Reference}
+\hypertarget{classresource_manager_1_1_resource_manager}{}\label{classresource_manager_1_1_resource_manager}\index{resourceManager::ResourceManager@{resourceManager::ResourceManager}}
+
+
+Collaboration diagram for resource\+Manager\+::Resource\+Manager\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=219pt]{classresource_manager_1_1_resource_manager__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classresource_manager_1_1_resource_manager_a3844d2654c45b56d0cb0e4209845466d}{this}} (SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}\mbox{\hyperlink{classresource_manager_1_1_resource_manager_a88460fde12948262c64b454a020d3fb7}{renderer}}=null)
+\item 
+void \mbox{\hyperlink{classresource_manager_1_1_resource_manager_aab07143fbfeb50a1c0d2ad0f320a1bc2}{set\+Renderer}} (SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}\mbox{\hyperlink{classresource_manager_1_1_resource_manager_a88460fde12948262c64b454a020d3fb7}{renderer}})
+\item 
+string \mbox{\hyperlink{classresource_manager_1_1_resource_manager_a045d7fb61c6f72424f9773fbcd93001e}{asset\+Path}} (string relative\+Path)
+\item 
+\mbox{\hyperlink{structresource_manager_1_1_texture_resource}{Texture\+Resource}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classresource_manager_1_1_resource_manager_ad1d50d493042cfefc105a6090e13a710}{texture}} (string relative\+Path)
+\item 
+void \mbox{\hyperlink{classresource_manager_1_1_resource_manager_a5eb08d9c7297d83bcbaf9b79eba6dce4}{shutdown}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{classresource_manager_1_1_resource_manager_ac379498842574228627139ba5619da9b}{locate\+Asset\+Root}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classresource_manager_1_1_resource_manager_a88460fde12948262c64b454a020d3fb7}{renderer}}
+\item 
+string \mbox{\hyperlink{classresource_manager_1_1_resource_manager_afa860e60c3a0c2f27c98adbfa88fe9af}{asset\+Root}}
+\item 
+\mbox{\hyperlink{structresource_manager_1_1_texture_resource}{Texture\+Resource}}\mbox{[}string\mbox{]} \mbox{\hyperlink{classresource_manager_1_1_resource_manager_a2105ddd022c024f492576e4cca2ca743}{textures}}
+\end{DoxyCompactItemize}
+
+
+\label{doc-constructors}
+\Hypertarget{classresource_manager_1_1_resource_manager_doc-constructors}
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classresource_manager_1_1_resource_manager_a3844d2654c45b56d0cb0e4209845466d}\index{resourceManager::ResourceManager@{resourceManager::ResourceManager}!this@{this}}
+\index{this@{this}!resourceManager::ResourceManager@{resourceManager::ResourceManager}}
+\doxysubsubsection{\texorpdfstring{this()}{this()}}
+{\footnotesize\ttfamily \label{classresource_manager_1_1_resource_manager_a3844d2654c45b56d0cb0e4209845466d} 
+resource\+Manager\+::\+Resource\+Manager\+::this (\begin{DoxyParamCaption}\item[{SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}}]{renderer}{ = {\ttfamily null}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classresource_manager_1_1_resource_manager_a3844d2654c45b56d0cb0e4209845466d_cgraph}
+\end{center}
+\end{figure}
+
+
+\label{doc-func-members}
+\Hypertarget{classresource_manager_1_1_resource_manager_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classresource_manager_1_1_resource_manager_a045d7fb61c6f72424f9773fbcd93001e}\index{resourceManager::ResourceManager@{resourceManager::ResourceManager}!assetPath@{assetPath}}
+\index{assetPath@{assetPath}!resourceManager::ResourceManager@{resourceManager::ResourceManager}}
+\doxysubsubsection{\texorpdfstring{assetPath()}{assetPath()}}
+{\footnotesize\ttfamily \label{classresource_manager_1_1_resource_manager_a045d7fb61c6f72424f9773fbcd93001e} 
+string resource\+Manager\+::\+Resource\+Manager\+::asset\+Path (\begin{DoxyParamCaption}\item[{string}]{relative\+Path}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classresource_manager_1_1_resource_manager_a045d7fb61c6f72424f9773fbcd93001e_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classresource_manager_1_1_resource_manager_ac379498842574228627139ba5619da9b}\index{resourceManager::ResourceManager@{resourceManager::ResourceManager}!locateAssetRoot@{locateAssetRoot}}
+\index{locateAssetRoot@{locateAssetRoot}!resourceManager::ResourceManager@{resourceManager::ResourceManager}}
+\doxysubsubsection{\texorpdfstring{locateAssetRoot()}{locateAssetRoot()}}
+{\footnotesize\ttfamily \label{classresource_manager_1_1_resource_manager_ac379498842574228627139ba5619da9b} 
+string resource\+Manager\+::\+Resource\+Manager\+::locate\+Asset\+Root (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classresource_manager_1_1_resource_manager_ac379498842574228627139ba5619da9b_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classresource_manager_1_1_resource_manager_aab07143fbfeb50a1c0d2ad0f320a1bc2}\index{resourceManager::ResourceManager@{resourceManager::ResourceManager}!setRenderer@{setRenderer}}
+\index{setRenderer@{setRenderer}!resourceManager::ResourceManager@{resourceManager::ResourceManager}}
+\doxysubsubsection{\texorpdfstring{setRenderer()}{setRenderer()}}
+{\footnotesize\ttfamily \label{classresource_manager_1_1_resource_manager_aab07143fbfeb50a1c0d2ad0f320a1bc2} 
+void resource\+Manager\+::\+Resource\+Manager\+::set\+Renderer (\begin{DoxyParamCaption}\item[{SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}}]{renderer}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{classresource_manager_1_1_resource_manager_a5eb08d9c7297d83bcbaf9b79eba6dce4}\index{resourceManager::ResourceManager@{resourceManager::ResourceManager}!shutdown@{shutdown}}
+\index{shutdown@{shutdown}!resourceManager::ResourceManager@{resourceManager::ResourceManager}}
+\doxysubsubsection{\texorpdfstring{shutdown()}{shutdown()}}
+{\footnotesize\ttfamily \label{classresource_manager_1_1_resource_manager_a5eb08d9c7297d83bcbaf9b79eba6dce4} 
+void resource\+Manager\+::\+Resource\+Manager\+::shutdown (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{classresource_manager_1_1_resource_manager_ad1d50d493042cfefc105a6090e13a710}\index{resourceManager::ResourceManager@{resourceManager::ResourceManager}!texture@{texture}}
+\index{texture@{texture}!resourceManager::ResourceManager@{resourceManager::ResourceManager}}
+\doxysubsubsection{\texorpdfstring{texture()}{texture()}}
+{\footnotesize\ttfamily \label{classresource_manager_1_1_resource_manager_ad1d50d493042cfefc105a6090e13a710} 
+\mbox{\hyperlink{structresource_manager_1_1_texture_resource}{Texture\+Resource}} \texorpdfstring{$\ast$}{*} resource\+Manager\+::\+Resource\+Manager\+::texture (\begin{DoxyParamCaption}\item[{string}]{relative\+Path}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classresource_manager_1_1_resource_manager_ad1d50d493042cfefc105a6090e13a710_cgraph}
+\end{center}
+\end{figure}
+
+
+\label{doc-variable-members}
+\Hypertarget{classresource_manager_1_1_resource_manager_doc-variable-members}
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classresource_manager_1_1_resource_manager_afa860e60c3a0c2f27c98adbfa88fe9af}\index{resourceManager::ResourceManager@{resourceManager::ResourceManager}!assetRoot@{assetRoot}}
+\index{assetRoot@{assetRoot}!resourceManager::ResourceManager@{resourceManager::ResourceManager}}
+\doxysubsubsection{\texorpdfstring{assetRoot}{assetRoot}}
+{\footnotesize\ttfamily \label{classresource_manager_1_1_resource_manager_afa860e60c3a0c2f27c98adbfa88fe9af} 
+string resource\+Manager\+::\+Resource\+Manager\+::asset\+Root\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classresource_manager_1_1_resource_manager_a88460fde12948262c64b454a020d3fb7}\index{resourceManager::ResourceManager@{resourceManager::ResourceManager}!renderer@{renderer}}
+\index{renderer@{renderer}!resourceManager::ResourceManager@{resourceManager::ResourceManager}}
+\doxysubsubsection{\texorpdfstring{renderer}{renderer}}
+{\footnotesize\ttfamily \label{classresource_manager_1_1_resource_manager_a88460fde12948262c64b454a020d3fb7} 
+SDL\+\_\+\+Renderer\texorpdfstring{$\ast$}{*} resource\+Manager\+::\+Resource\+Manager\+::renderer\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classresource_manager_1_1_resource_manager_a2105ddd022c024f492576e4cca2ca743}\index{resourceManager::ResourceManager@{resourceManager::ResourceManager}!textures@{textures}}
+\index{textures@{textures}!resourceManager::ResourceManager@{resourceManager::ResourceManager}}
+\doxysubsubsection{\texorpdfstring{textures}{textures}}
+{\footnotesize\ttfamily \label{classresource_manager_1_1_resource_manager_a2105ddd022c024f492576e4cca2ca743} 
+\mbox{\hyperlink{structresource_manager_1_1_texture_resource}{Texture\+Resource}} \mbox{[}string\mbox{]} resource\+Manager\+::\+Resource\+Manager\+::textures\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+PSET/\+Engine/source/\mbox{\hyperlink{resource_manager_8d}{resource\+Manager.\+d}}\end{DoxyCompactItemize}

@@ -1,0 +1,6 @@
+<map id="scenes::levelCreatorScene::LevelCreatorScene::updateButtonHover" name="scenes::levelCreatorScene::LevelCreatorScene::updateButtonHover">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,22,266,62"/>
+<area shape="rect" id="Node000002" href="$namespaceui_1_1widgets.html#a3c9c138d32470734af246c6eb9be5540" title=" " alt="" coords="314,29,455,55"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="266,40,301,42,295,42,266,45"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="343,28,335,21,340,11,357,5,384,3,415,5,432,15,427,15,414,11,384,8,358,10,344,15,340,20,348,30"/>
+</map>

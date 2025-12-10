@@ -1,0 +1,51 @@
+\doxysection{PSET/\+Engine/source Directory Reference}
+\hypertarget{dir_d426a1bf7290610fca092dd1a0daca84}{}\label{dir_d426a1bf7290610fca092dd1a0daca84}\index{PSET/Engine/source Directory Reference@{PSET/Engine/source Directory Reference}}
+Directory dependency graph for source\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dir_d426a1bf7290610fca092dd1a0daca84_dep}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Directories}
+\begin{DoxyCompactItemize}
+\item 
+directory \mbox{\hyperlink{dir_5e8808590af77ca091486cd8e9ddac10}{components}}
+\item 
+directory \mbox{\hyperlink{dir_e3bbfa4f911173bd0fa2471d8f7b067e}{editor}}
+\item 
+directory \mbox{\hyperlink{dir_d6762e06d1d334992868d3a6c0b1fbe2}{graphics}}
+\item 
+directory \mbox{\hyperlink{dir_13d5cb121e5559dc353cc27e5827bfce}{scenes}}
+\item 
+directory \mbox{\hyperlink{dir_b7e03894248524e7a727466486ef1336}{scripts}}
+\item 
+directory \mbox{\hyperlink{dir_2c0493a517715437a7a8007fb1e7132b}{ui}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Files}
+\begin{DoxyCompactItemize}
+\item 
+file \mbox{\hyperlink{app_8d}{app.\+d}}
+\item 
+file \mbox{\hyperlink{gameapplication_8d}{gameapplication.\+d}}
+\item 
+file \mbox{\hyperlink{gameobject_8d}{gameobject.\+d}}
+\item 
+file \mbox{\hyperlink{levels_8d}{levels.\+d}}
+\item 
+file \mbox{\hyperlink{resource_manager_8d}{resource\+Manager.\+d}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\hypertarget{dir_d426a1bf7290610fca092dd1a0daca84_autotoc_md42}{}\doxysubsection{\texorpdfstring{Pogostuck Engine}{Pogostuck Engine}}\label{dir_d426a1bf7290610fca092dd1a0daca84_autotoc_md42}
+Source code for the Pogostuck/\+Pogo game engine.\hypertarget{dir_d426a1bf7290610fca092dd1a0daca84_autotoc_md43}{}\doxysubsection{\texorpdfstring{Structure}{Structure}}\label{dir_d426a1bf7290610fca092dd1a0daca84_autotoc_md43}
+
+\begin{DoxyItemize}
+\item {\ttfamily components/} -\/ Component classes for game objects
+\item {\ttfamily scenes/} -\/ Scene management classes for different game states
+\item {\ttfamily scripts/} -\/ Game logic scripts for player, pogo stick, camera, etc.
+\item {\ttfamily editor/} -\/ World editor and level serialization code
+\end{DoxyItemize}\hypertarget{dir_d426a1bf7290610fca092dd1a0daca84_autotoc_md44}{}\doxysubsection{\texorpdfstring{Building / Running}{Building / Running}}\label{dir_d426a1bf7290610fca092dd1a0daca84_autotoc_md44}
+Just run \textquotesingle{}dub\textquotesingle{} from the source folder like the last PSET. Also might need to run \textquotesingle{}brew install sdl3\+\_\+ttf\textquotesingle{} (on Mac) or the system equivalent if the font isn\textquotesingle{}t showing up. Also, change the path for font in \doxylink{gameapplication_8d}{gameapplication.\+d}. We will make this agnostic at some point. 

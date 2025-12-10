@@ -1,0 +1,6 @@
+<map id="scenes::levelCreatorScene::LevelCreatorScene::drawLevelList" name="scenes::levelCreatorScene::LevelCreatorScene::drawLevelList">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,22,234,62"/>
+<area shape="rect" id="Node000002" href="$namespaceui_1_1widgets.html#abeb4f7d510ee0e86ed2ffd25d6ce809a" title=" " alt="" coords="282,29,437,55"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="234,40,269,42,264,42,234,45"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="319,28,312,21,317,11,333,5,359,3,389,5,405,15,400,15,388,11,359,8,334,10,320,15,317,20,324,30"/>
+</map>

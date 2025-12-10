@@ -1,0 +1,7 @@
+<map id="ui::widgets::drawButton" name="ui::widgets::drawButton">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,29,164,55"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="50,29,44,21,48,11,62,5,85,3,110,5,124,15,119,15,108,10,84,8,63,10,51,15,49,20,55,29"/>
+<area shape="rect" id="Node000002" href="$namespaceui_1_1widgets.html#abeb4f7d510ee0e86ed2ffd25d6ce809a" title=" " alt="" coords="212,29,367,55"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="164,40,199,42,194,42,164,45"/>
+<area shape="poly" id="edge3_Node000002_Node000002" title=" " alt="" coords="255,28,248,21,252,11,266,5,289,3,314,5,329,15,323,14,313,10,289,8,268,10,256,15,254,20,260,30"/>
+</map>

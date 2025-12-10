@@ -1,0 +1,38 @@
+\doxysection{PSET/\+Engine/source/graphics/font.d File Reference}
+\hypertarget{font_8d}{}\label{font_8d}\index{PSET/Engine/source/graphics/font.d@{PSET/Engine/source/graphics/font.d}}
+{\ttfamily import bindbc.\+sdl;}\newline
+{\ttfamily import std.\+algorithm;}\newline
+{\ttfamily import std.\+string;}\newline
+{\ttfamily import sdl.\+pixels;}\newline
+{\ttfamily import path.\+to\+Stringz;}\newline
+Include dependency graph for font.\+d\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{font_8d__incl}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+namespace \mbox{\hyperlink{namespacegraphics_1_1font}{graphics\+::font}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{namespacegraphics_1_1font_a1a9c580796013793e5dcf26bbea96985}{graphics\+::font\+::dispose}} ()
+\item 
+void \mbox{\hyperlink{namespacegraphics_1_1font_a57e42c520a96688010cb3f5e86d18c6b}{graphics\+::font\+::draw\+Text}} (SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}renderer, string text, float x, float y, SDL\+\_\+\+Color color, float scale=1.\+0f)
+\item 
+float \mbox{\hyperlink{namespacegraphics_1_1font_ab5c3c2aa69cf2ba9ca8c3d0c63796062}{graphics\+::font\+::line\+Height}} (float scale=1.\+0f)
+\item 
+float \mbox{\hyperlink{namespacegraphics_1_1font_adb131a2096d96500411eef10210464c1}{graphics\+::font\+::measure\+Width}} (string text, float scale=1.\+0f)
+\item 
+void \mbox{\hyperlink{namespacegraphics_1_1font_a9387a6408e65fdcbfead8a734ebe8a2b}{graphics\+::font\+::render\+Line}} (SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}renderer, string line, float x, float y, SDL\+\_\+\+Color color, float effective\+Scale)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+return m\+Font !is \mbox{\hyperlink{namespacegraphics_1_1font_a5a0914d1c951d5aa96064535a6530df0}{graphics\+::font\+::null}}
+\end{DoxyCompactItemize}

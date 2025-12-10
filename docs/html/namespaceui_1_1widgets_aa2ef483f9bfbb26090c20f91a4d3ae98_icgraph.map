@@ -1,0 +1,32 @@
+<map id="ui::widgets::drawButton" name="ui::widgets::drawButton">
+<area shape="rect" id="Node000001" title=" " alt="" coords="820,209,979,234"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="942,194,929,190,899,187,873,190,859,194,856,200,863,209,858,208,850,200,855,190,872,184,900,182,930,185,947,195"/>
+<area shape="rect" id="Node000002" href="$classscenes_1_1level_creator_scene_1_1_level_creator_scene.html#ab72ca1725763fdfeee2adbf5197d6530" title=" " alt="" coords="540,136,762,177"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="830,205,731,180,731,175,836,204"/>
+<area shape="rect" id="Node000005" href="$classscenes_1_1level_scene_1_1_level_scene.html#af028483582a0d2d6db340854956639af" title=" " alt="" coords="562,71,740,111"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="871,197,827,162,771,127,740,114,740,109,774,122,830,158,876,198"/>
+<area shape="rect" id="Node000007" href="$classscenes_1_1gameplay_scene_1_1_gameplay_scene.html#aefef1247fcec1f1ec5f95519ce60a8c7" title=" " alt="" coords="536,201,766,242"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="802,222,767,224,767,219,807,221"/>
+<area shape="rect" id="Node000010" href="$classscenes_1_1level_creator_scene_1_1_level_creator_scene.html#ac76d742f458b49d0eb2fb86886b4ac16" title=" " alt="" coords="530,5,772,46"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="882,194,839,128,807,92,771,61,749,49,749,44,774,57,811,88,843,125,887,196"/>
+<area shape="rect" id="Node000012" href="$classscenes_1_1gameplay_scene_1_1_gameplay_scene.html#a2e60482ad4ed25687ea87c620c40fd4e" title=" " alt="" coords="257,267,463,307"/>
+<area shape="poly" id="edge13_Node000001_Node000012" title=" " alt="" coords="841,238,773,256,610,276,464,286,463,281,610,271,772,251,836,240"/>
+<area shape="rect" id="Node000013" href="$classscenes_1_1menu_scene_1_1_menu_scene.html#af0b413e2dcdb8bedf3707d5101042162" title=" " alt="" coords="577,316,725,357"/>
+<area shape="poly" id="edge15_Node000001_Node000013" title=" " alt="" coords="869,243,824,273,773,300,726,318,725,313,771,295,822,269,864,244"/>
+<area shape="rect" id="Node000014" href="$classscenes_1_1win_scene_1_1_win_scene.html#a68c7c0e7a98745b9148c2ba2b0d95090" title=" " alt="" coords="553,381,749,422"/>
+<area shape="poly" id="edge16_Node000001_Node000014" title=" " alt="" coords="885,247,840,311,809,343,774,371,749,383,748,378,771,366,806,339,836,307,880,249"/>
+<area shape="rect" id="Node000003" href="$classscenes_1_1level_creator_scene_1_1_level_creator_scene.html#af46fa924ef4da5a7a97b026594360384" title=" " alt="" coords="238,136,482,177"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="522,157,483,159,482,154,527,156"/>
+<area shape="rect" id="Node000004" href="$classscenes_1_1level_creator_scene_1_1_level_creator_scene.html#ad6f6839bd6d186ee559254c9942192ab" title=" " alt="" coords="5,71,190,111"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="258,133,183,115,181,109,263,130"/>
+<area shape="rect" id="Node000006" href="$classscenes_1_1level_scene_1_1_level_scene.html#a9f909e6495ca8359f98be62fc2d3964b" title=" " alt="" coords="289,71,430,111"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="544,92,432,94,430,88,549,90"/>
+<area shape="rect" id="Node000008" href="$classscenes_1_1gameplay_scene_1_1_gameplay_scene.html#a7602ab3191c1d2f136bb693ac2785e04" title=" " alt="" coords="267,201,452,242"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="518,222,454,224,453,219,523,221"/>
+<area shape="rect" id="Node000009" href="$classscenes_1_1gameplay_scene_1_1_gameplay_scene.html#afb9bc1ca7d3007f35826882bd5144d01" title=" " alt="" coords="13,233,182,274"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="249,236,184,246,182,241,254,233"/>
+<area shape="rect" id="Node000011" href="$classscenes_1_1level_creator_scene_1_1_level_creator_scene.html#ac8041c063b32f08835e05416c5d40a04" title=" " alt="" coords="247,5,473,46"/>
+<area shape="poly" id="edge11_Node000010_Node000011" title=" " alt="" coords="512,27,474,28,473,23,517,25"/>
+<area shape="poly" id="edge12_Node000011_Node000004" title=" " alt="" coords="259,52,183,72,181,68,263,48"/>
+<area shape="poly" id="edge14_Node000012_Node000009" title=" " alt="" coords="239,273,183,267,182,262,244,271"/>
+</map>

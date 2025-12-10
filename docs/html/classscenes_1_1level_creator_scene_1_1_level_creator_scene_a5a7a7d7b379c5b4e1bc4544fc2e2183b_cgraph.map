@@ -1,0 +1,10 @@
+<map id="scenes::levelCreatorScene::LevelCreatorScene::createLevelAndEdit" name="scenes::levelCreatorScene::LevelCreatorScene::createLevelAndEdit">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,221,87"/>
+<area shape="rect" id="Node000002" href="$classscenes_1_1level_creator_scene_1_1_level_creator_scene.html#a495eaee13b219f1e29ef83d48abc88a2" title=" " alt="" coords="269,5,510,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="221,43,256,41,251,43,222,49"/>
+<area shape="rect" id="Node000003" href="$classscenes_1_1level_creator_scene_1_1_level_creator_scene.html#ab1231de5e085719b3ea537caa7788559" title=" " alt="" coords="277,71,502,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="221,69,264,76,259,76,221,74"/>
+<area shape="rect" id="Node000004" href="$namespaceeditor_1_1world_editor.html#a0e1cdc4eb9d3e4d11cf3de4028761dd8" title=" " alt="" coords="558,71,684,111"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="503,88,545,91,540,91,503,94"/>
+<area shape="poly" id="edge4_Node000004_Node000004" title=" " alt="" coords="578,68,575,61,583,52,598,46,621,44,646,46,663,55,657,55,645,52,621,49,599,51,586,56,581,62,582,72"/>
+</map>

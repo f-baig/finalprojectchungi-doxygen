@@ -1,0 +1,38 @@
+\doxysection{PSET/\+Engine/source/scenes/scene.d File Reference}
+\hypertarget{scene_8d}{}\label{scene_8d}\index{PSET/Engine/source/scenes/scene.d@{PSET/Engine/source/scenes/scene.d}}
+{\ttfamily import bindbc.\+sdl;}\newline
+{\ttfamily import graphics.\+font;}\newline
+{\ttfamily import this.\+host;}\newline
+Include dependency graph for scene.\+d\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=302pt]{scene_8d__incl}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+namespace \mbox{\hyperlink{namespacescenes_1_1scene}{scenes\+::scene}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{namespacescenes_1_1scene_a2c283d0cf9dd0cf21923ca3b71fdd2e4}{scenes\+::scene\+::on\+Enter}} ()
+\item 
+void \mbox{\hyperlink{namespacescenes_1_1scene_a67a39d35fdc50035a7171d08e44b10f2}{scenes\+::scene\+::on\+Exit}} ()
+\item 
+void \mbox{\hyperlink{namespacescenes_1_1scene_af7f188d8638ad876559cca743407e62f}{scenes\+::scene\+::update}} (float delta\+Time)
+\item 
+abstract void \mbox{\hyperlink{namespacescenes_1_1scene_ae8eaf2e42942a6fb1bb723c1d826a09d}{scenes\+::scene\+::render}} (SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}renderer)
+\item 
+abstract bool \mbox{\hyperlink{namespacescenes_1_1scene_a36e6ba1147afa124650c61d830b8368c}{scenes\+::scene\+::handle\+Event}} (ref SDL\+\_\+\+Event event)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+this. \mbox{\hyperlink{namespacescenes_1_1scene_a3bbc5cebdaf7fe374aa0d487ef345c07}{scenes\+::scene\+::font\+Atlas}} = host.\+font()
+\item 
+this. \mbox{\hyperlink{namespacescenes_1_1scene_a96c1156be5dc541b97cebd45fa77ce08}{scenes\+::scene\+::resource\+Manager}} = host.\+resources()
+\end{DoxyCompactItemize}
